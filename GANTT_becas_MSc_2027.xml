@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>GANTT Becas MSc 2027 - Manuel</Title>
+  <Author>Manuel</Author>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12000</WindowHeight>
+  <WindowWidth>28000</WindowWidth>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="10" ss:Color="#000000"/>
+   <Interior/><NumberFormat/><Protection/>
+  </Style>
+  <Style ss:ID="t">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="14" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F3864" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="mh">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#2E5C8A" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#FFFFFF"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="wh">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Color="#1F3864"/>
+   <Interior ss:Color="#DDEBF7" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#9DC3E6"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#FFFFFF"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="ch">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F3864" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="sec">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#375623" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="pais">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1" ss:Color="#404040"/>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="nom">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Bold="1"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="tF">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Bold="1" ss:Color="#375623"/>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="tP">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Bold="1" ss:Color="#1F3864"/>
+   <Interior ss:Color="#DDEBF7" ss:Pattern="Solid"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="tC">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Bold="1" ss:Color="#833C00"/>
+   <Interior ss:Color="#FFF2CC" ss:Pattern="Solid"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="tD">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Bold="1" ss:Color="#595959"/>
+   <Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="dl">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1" ss:Color="#C00000"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="need">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Color="#262626"/>
+   <Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFBFBF"/></Borders>
+  </Style>
+  <Style ss:ID="bp">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Color="#1F3864"/>
+   <Interior ss:Color="#9DC3E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="ba">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="8" ss:Color="#7F6000"/>
+   <Interior ss:Color="#FFD966" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="bd">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#C00000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="bh">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#7030A0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="bg">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1" ss:Color="#375623"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="h2">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F3864" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="cw">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="cb">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="cr">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Bold="1" ss:Color="#C00000"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="cy">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="9"/>
+   <Interior ss:Color="#FFF2CC" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="secB">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#375623" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="leg">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="9" ss:Color="#404040"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="GANTT">
+  <Table ss:DefaultColumnWidth="14" ss:DefaultRowHeight="14">
+   <Column ss:Index="1" ss:Width="72"/>
+   <Column ss:Index="2" ss:Width="228"/>
+   <Column ss:Index="3" ss:Width="56"/>
+   <Column ss:Index="4" ss:Width="102"/>
+   <Column ss:Index="5" ss:Width="340"/>
+   <Column ss:Index="6" ss:Span="60" ss:Width="14"/>
+   <Row ss:Height="26">
+    <Cell ss:StyleID="t" ss:MergeAcross="4"><Data ss:Type="String">GANTT MSc 2027 — calendario maestro de aplicaciones y becas</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="6" ss:MergeAcross="4"><Data ss:Type="String">AGO 26</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="11" ss:MergeAcross="3"><Data ss:Type="String">SEP 26</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="15" ss:MergeAcross="3"><Data ss:Type="String">OCT 26</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="19" ss:MergeAcross="4"><Data ss:Type="String">NOV 26</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="24" ss:MergeAcross="3"><Data ss:Type="String">DIC 26</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="28" ss:MergeAcross="3"><Data ss:Type="String">ENE 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="32" ss:MergeAcross="3"><Data ss:Type="String">FEB 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="36" ss:MergeAcross="4"><Data ss:Type="String">MAR 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="41" ss:MergeAcross="3"><Data ss:Type="String">ABR 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="45" ss:MergeAcross="4"><Data ss:Type="String">MAY 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="50" ss:MergeAcross="3"><Data ss:Type="String">JUN 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="54" ss:MergeAcross="3"><Data ss:Type="String">JUL 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="58" ss:MergeAcross="4"><Data ss:Type="String">AGO 27</Data></Cell>
+    <Cell ss:StyleID="mh" ss:Index="63" ss:MergeAcross="3"><Data ss:Type="String">SEP 27</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="ch"><Data ss:Type="String">País / Bloque</Data></Cell>
+    <Cell ss:StyleID="ch"><Data ss:Type="String">Beca / Aplicación / Hito</Data></Cell>
+    <Cell ss:StyleID="ch"><Data ss:Type="String">Tipo</Data></Cell>
+    <Cell ss:StyleID="ch"><Data ss:Type="String">Deadline clave</Data></Cell>
+    <Cell ss:StyleID="ch"><Data ss:Type="String">Qué necesito tener listo para esa fecha</Data></Cell>
+    <Cell ss:StyleID="wh" ss:Index="6"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="wh"><Data ss:Type="Number">27</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">A · DOCUMENTOS Y TESTS — la base de todo lo demás. Si esto se atrasa, se cae todo el resto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Analítico oficial FCE-UBA (español)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">DOC</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">17-ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Trámite en FCE-UBA: frente y reverso, SIN firma electrónica, con promedio. Demora típica alta: pedirlo ya. Lo usan McCall, Inova y la visa UK.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="1"/>
+    <Cell ss:StyleID="bd" ss:Index="8"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Traducción pública (título + analítico)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">DOC</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">31-ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Traductor público matriculado (CTPCBA): firma y sello en CADA página, nº de matrícula, leyenda de copia fiel, datos de contacto y fecha. NO la puede hacer la UBA. Un solo gasto sirve para McCall, Inova y visa.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="10"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">CV / resumé de 1 página (inglés)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">DOC</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">17-ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Un documento base con dos versiones: McCall (bio de 1-2 oraciones al inicio, fuente ≥10, sin foto, PDF) e Inova (fechas mm/aaaa, idiomas y cursos).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="1"/>
+    <Cell ss:StyleID="bd" ss:Index="8"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">2 referentes (1 académico + 1 comunitario)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">DOC</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">19-ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Completan un formulario online de McCall ANTES del 19-ago (no son familiares/amigos/compañeros). A las mismas 2 personas pedirles después la carta membretada con mail institucional para Inova (sep).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="1"/>
+    <Cell ss:StyleID="bd" ss:Index="8"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Endorsement de la UBA (para McCall)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">CUELLO DE BOTELLA</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~10-ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">La UBA NO es universidad participante, así que Relaciones Internacionales de FCE-UBA tiene que emitir un endorsement. Es el trámite más lento y bloquea la aplicación entera: arrancarlo primero.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6"/>
+    <Cell ss:StyleID="bd" ss:Index="7"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">GRE — objetivo Q≥165 / V≥158 / AWA≥4.0</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">TEST</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">rendir ~oct-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Pisos duros: Tinbergen Q160, LSE Q~164, SSE Q155. McGill lo exige (códigos 0935 McGill / 1801 Economics). Reservar fecha con antelación y dejar margen para un segundo intento antes de dic.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="17"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">IELTS Academic ≥6.5 (todas las bandas)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">TEST</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">rendir dic-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">McGill solo acepta IELTS ≥6.5 o TOEFL ≥86: el Cambridge C1 NO sirve ahí. Rendirlo en diciembre por las demoras reportadas en el envío del score; tiene que estar antes del 15-ene.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="17" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="25"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Base</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Pasaportes escaneados (ARG y ESP)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">DOC</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Página de datos de ambos. Preguntar a Fabiola con cuál conviene aplicar en UK: las becas regionales (Warwick Sudamérica, Edinburgh LATAM) piden perfil sudamericano, pero Glasgow GREAT va por pasaporte español.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="2"/>
+    <Cell ss:StyleID="bd" ss:Index="9"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">B · NORTEAMÉRICA — McCall MacBain, McGill, Québec. Lo más urgente del calendario.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">McCall MacBain Scholarship</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">19-AGO-2026 16h ET</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">4 essays (225+225 / 275 / 250 / 250) + 3 short answers de 105 caracteres + resumé de 1 pág + transcripts con traducción en el MISMO pdf + GPA convertido a escala 4.0 + 2 referencias enviadas + endorsement UBA + verificadores avisados. Enviar el 17, no el 19.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="1"/>
+    <Cell ss:StyleID="bd" ss:Index="8"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">McCall — entrevistas regionales (semifinales)</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ETAPA</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">oct-dic 2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Si quedás entre los ~250 semifinalistas. Tener listo el relato de liderazgo y servicio (los mismos ejes de los essays) y disponibilidad horaria.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="15" ss:MergeAcross="12"/>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">McCall — finales en Montreal</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ETAPA</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">mar-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">~85 finalistas, viaje pagado. Los no ganadores igual reciben entrance awards de CAD 5-20k, así que llegar acá ya vale.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="36" ss:MergeAcross="4"/>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Contactar supervisores McGill</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">BLOQUEANTE</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">ago a nov-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">La vía thesis exige supervisor CONFIRMADO al aplicar. Tandas de 2-3 mails: Cámara (T1, ex UBA), Ajzenman (T2, ex UBA), Saltiel (T2). Cada mail con CV adjunto y 1 paper suyo citado concretamente.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="10" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="21"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">McGill MA Economics (Thesis) — admisión</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ADMISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">15-ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">GRE ya enviado a los códigos 0935/1801 + IELTS ≥6.5 + supervisor confirmado por escrito + transcripts + CV + statement. 1 año, PhD-prep. Si sos finalista de McCall, McGill te pide aplicar ya en diciembre.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="21" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="29"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">PBEEE Québec — CAD 20.000/año</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">PARCIAL ALTO</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">2-dic-2026 (FRQ)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Requiere NOMINACIÓN de McGill: pedirla en oct-nov porque el deadline interno es anterior al del FRQ. Apilable con McGill; es el plan B si no sale McCall.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="15" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="23"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Western MA Economics (funding automático)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">VERIFICAR</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~ene-feb 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Paquete tuition + fees + TA decidido junto con la admisión, sin aplicación de beca aparte. Plan B de Norteamérica. Confirmar la fecha exacta del ciclo 2027.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="25" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="31"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">C · ALEMANIA — matrícula gratis por pasaporte ESP; con DAAD el paquete queda full.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Alemania</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">DAAD EPOS — HTW Berlin MIDE</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">CONDIC.</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">31-ago-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">ANTES de invertir tiempo: verificar el requisito de ≥2 años de experiencia POST-título contra tu fecha de egreso — es el cuello de botella. Se aplica al portal de la uni, no a DAAD. Máx. 3 cursos EPOS por ciclo.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="10"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Alemania</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">DAAD Study Scholarship — €992/mes × 10-24 meses</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL (con matríc. 0)</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">30-oct-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Título ≤6 años. CV en formato DAAD + carta de motivación + plan de estudios + 2 cartas de recomendación académicas. No hace falta tener admisión al aplicar. Sobre matrícula gratis convierte Bonn/Mannheim/Goethe en paquete completo. Armarla desde fines de agosto.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="10" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="18"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Alemania</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Admisión Bonn / Mannheim / Goethe MMF</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ADMISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~mar-abr 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Matrícula gratis (EU). Varias van por uni-assist: analítico traducido + GRE + carta de motivación. Confirmar los deadlines exactos del ciclo 2027 (varían por programa).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="32" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="43"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">D · REINO UNIDO — proceso Inova (máx. 5 apps) + becas de universidad + Chevening.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Formulario Inova + los 9 documentos</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">PROCESO</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">sep-oct 2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">9 PDFs con el nombre EXACTO de la guía, cada uno &lt;1 MB y &lt;8 MB en total. Declarar la doble nacionalidad y, en Funding, todas las becas a las que aplicás (Chevening, Think Big, BBS, ASBS, GREAT-Glasgow, Global Leadership). Se puede empezar en agosto y guardar.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="6" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="17"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Personal Statements ×5 (uno por universidad)</Data></Cell>
+    <Cell ss:StyleID="tD"><Data ss:Type="String">DOC</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">sep-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">≤1 página cada una: quién sos, por qué UK, por qué ESA uni, por qué ese programa, qué aportás y planes futuros. Reciclan los essays de McCall (comunidad, liderazgo, metas).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="10" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="16"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Chevening — DESCARTADA</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">NO APLICA</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">— (descartada 2-ago-2026)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">DESCARTADA POR ELEGIBILIDAD el 2-ago-2026: exige "at least two years work experience, acquired after completing your undergraduate degree" (2.800 h) mas haber terminado el grado al menos 2 anos antes del deadline. Manuel no llega. El perfil del proyecto contaba experiencia TOTAL, por eso parecia que cumplia. Consecuencia: quedan sin efecto las incompatibilidades Chevening vs GREAT-Glasgow y vs Southampton Presidential. La via UK pasa a ser el Banco de Espana (matricula + 18.500 GBP) o las becas propias de cada universidad. Misma regla a verificar en DAAD EPOS y World Bank JJ/WBGSP.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="15" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="19"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Chequear si vuelve la Southampton Presidential</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">DECISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~oct-2026</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Define los slots 4 y 5 de Inova. Elegibilidad por RESIDENCIA (Argentina listada) y NO permite beca externa, así que excluye Chevening en esa uni.</Data></Cell>
+    <Cell ss:StyleID="bh" ss:Index="17"><Data ss:Type="String">H</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Bristol Think Big (hasta £26.000)</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~10-abr-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Requiere oferta de MSc Economics en mano. Formulario propio + statement específico de la beca. Es la única vía real de financiación en Bristol.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="33" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="41"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Warwick Regional Sudamérica (2 × 100% tuition)</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">AUTOMÁTICA</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">aceptar oferta ~18-may</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Sin aplicación aparte, PERO solo se consideran candidatos de las rondas de admisión 1, 2 o 3 → hay que aplicar en feb-mar 2027 a más tardar. La barra naranja es la ventana en que tenés que estar aplicado.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="32" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="47"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Glasgow ASBS ×3 (full+£15k / £15k Econ / £15k Entrep.)</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL / PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~abr-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Con oferta. Las becas de Glasgow NO se apilan: te queda solo la mayor, así que conviene apuntar a la ASBS antes que a las automáticas.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="33" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="41"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Glasgow Global Leadership £10k (×281)</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~4-abr-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Exige equivalente a UK 1st Class (tu cum laude 7.82 encaja). Alta probabilidad por volumen: es tu piso realista en Glasgow. Verificar si pide formulario o es automática.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="33" ss:MergeAcross="6"/>
+    <Cell ss:StyleID="bd" ss:Index="40"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Glasgow GREAT-España £10k</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">EXCLUYENTE</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">30-abr-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Va por PASAPORTE español (distinta de la GREAT España descartada). Condición dura: NO podés tener ninguna otra fuente de funding, ni de la uni ni externa → incompatible con Chevening y ASBS. Re-chequear en marzo que España siga en la lista 2027-28.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="41" ss:MergeAcross="2"/>
+    <Cell ss:StyleID="bd" ss:Index="44"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Southampton Global Excellence £3k + VC Global Achievers £2k</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">AUTOMÁTICA</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~15-ene-2027 (depósito)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Sin aplicación. La Global Excellence es first-come: se la llevan los primeros 83 que pagan el depósito → si Southampton queda en la lista, pagar temprano ES la estrategia. Verificar si las dos acumulan entre sí.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="25" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="29"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Birmingham BBS £25k · Essex 25% · Bath</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">feb-abr 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Todas con oferta en mano. Essex es cuasi-automática (25%) y Bath tiene alta probabilidad con tope. Son las vías de respaldo del Tier 2.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="32" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="43"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Re-barrer las listas GREAT 2027-28 (4 unis)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">REVISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">feb-abr 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Las listas de países cambian todos los años: España y Argentina entran y salen. Revisar Bristol, Warwick, Glasgow y Southampton cuando publiquen el ciclo nuevo.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="34" ss:MergeAcross="9"/>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">E · OXBRIDGE — tres vías full sobre la MISMA aplicación. El mejor ratio esfuerzo/retorno de UK.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Oxford</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">MPhil/MSc + Clarendon (consideración automática)</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~ene-2027 (deadline temprana)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Clarendon se considera sin aplicación aparte, PERO solo si aplicás en la primera deadline del curso. Necesitás transcripts, GRE, 3 referencias, statement y writing sample.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="19" ss:MergeAcross="9"/>
+    <Cell ss:StyleID="bd" ss:Index="29"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Oxford</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Weidenfeld-Hoffmann (misma app de Oxford)</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">dic-2026 / ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">MSc Economics for Development y MSc Financial Economics están en la lista elegible. Statement con TEMPLATE PROPIO subido junto con la app + compromiso firme de retorno a Argentina. Aplicás como argentino residente en Argentina. Resultados a fines de may-2027.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="19" ss:MergeAcross="9"/>
+    <Cell ss:StyleID="bd" ss:Index="29"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Cambridge</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">MPhil Economics + Gates Cambridge</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">dic-2026 / ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Gates es literalmente un tilde en la aplicación de Cambridge, sin formulario aparte: tuition + £21.000/año + extras. Confirmar la deadline exacta del MPhil Economics / Economic Research (ronda internacional, varía por curso).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="19" ss:MergeAcross="8"/>
+    <Cell ss:StyleID="bd" ss:Index="28"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">F · EUROPA CONTINENTAL — con pasaporte ESP la matrícula ya es baja o cero; acá se financia la VIDA.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">UE</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Erasmus Mundus QEM / EPOG+ (ronda con beca)</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Con pasaporte español entrás como Programme Country. Tuition + ~€1.400/mes. Aplicación al consorcio: CV, carta de motivación, transcripts, 2 referencias, acreditación de inglés. ¡Aplicar en la ronda CON beca, no en la tardía!</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="15" ss:MergeAcross="14"/>
+    <Cell ss:StyleID="bd" ss:Index="30"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Francia</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Eiffel Excellence (€1.400+/mes)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">EDAD ≤29</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">interno uni nov-dic-26</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">La postula LA UNIVERSIDAD, vos no: hay que PEDIRLO expresamente al aplicar a PSE / TSE / SciencesPo, y el deadline interno de ellos es anterior al de Campus France (~8-ene-2027). No cubre matrícula, pero en Francia pagás ~€359.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="19" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="25"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Francia</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">PSE (PPD / APE) y TSE — admisión</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ADMISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">rondas ene-mar 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Matrícula ~€359. Aplicar en la PRIMERA ronda para habilitar la nominación Eiffel. Transcripts traducidos + GRE + carta de motivación + referencias.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="39"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Hungría</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Stipendium Hungaricum (full)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">NOMINACIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">15-ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Paso extra y lento: requiere NOMINACIÓN del Ministerio de Educación argentino / Campus Argentina Global. Averiguar el proceso local antes de nov-2026 o llegás tarde. Full: matrícula + estipendio + alojamiento + seguro. Fit: Corvinus (respaldo).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="17" ss:MergeAcross="11"/>
+    <Cell ss:StyleID="bd" ss:Index="29"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Bélgica</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Master Mind Flandes — €10.225 + matrícula €137</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">CASI FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">feb-abr 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Se pide VÍA KU LEUVEN, no hay portal aparte: necesitás la aplicación de admisión en curso. Piden GPA 3.5/4 (el cum laude 7.82 es argumentable — preparar la conversión). Todas las nacionalidades salvo RU.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="32" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="43"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Bélgica</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">KU Leuven — admisión</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ADMISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~mar-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Matrícula ~€1.2k con fee status EU. Transcripts + carta de motivación + 2 referencias. Es el paso que habilita Master Mind.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="36"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Irlanda</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Admisión TCD / UCD (para tener oferta)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">PRE-REQ.</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">ene-feb 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Recordá: en Irlanda pagás fees NON-EU pese al pasaporte español (regla de residencia 3 de los últimos 5 años). Necesitás la OFERTA en mano antes de que abra la convocatoria GOI-IES.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="4"/>
+    <Cell ss:StyleID="bd" ss:Index="33"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Irlanda</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">GOI-IES — €10.000 + waiver total (60 becas)</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">CASI FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~ene-mar 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Oferta de admisión + fee status non-EU (que en tu caso se cumple). Patrón del ciclo anterior: abrió 29-ene y cerró 12-mar. Contacto para confirmar fechas: goi-ies@hea.ie.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="31" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="37"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Países Bajos</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Tinbergen · Groningen · Tilburg · Maastricht · Radboud</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ADMISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">dic-2026 a ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Tinbergen tiene la deadline más temprana y piso GRE Q160. Matrícula €2.694 con fee status EU. Groningen MSc regular ya no pide GRE (el Research Master sí).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="19" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="25"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Dinamarca</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Aarhus MSc Economics — admisión</Data></Cell>
+    <Cell ss:StyleID="tP"><Data ss:Type="String">ADMISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~1-mar-2027 (verificar)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Matrícula 0 con pasaporte EU. No hay beca clásica que te aplique: el financiamiento real es el SU danés (ver fila siguiente). Confirmar la fecha exacta del ciclo.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="7"/>
+    <Cell ss:StyleID="bd" ss:Index="36"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Dinamarca</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Conseguir part-time formal (activa el SU, ~DKK 7.000/mes)</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">MECANISMO</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">jun-ago 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Contrato FORMAL de 10-12 h/semana, no changas, sostenido ~10 semanas ANTES de solicitar. Después: MitID y pedido de "equal status" en minSU dentro de las 3 semanas. Esto es lo que vuelve autofinanciable a Aarhus.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="50" ss:MergeAcross="12"/>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Suiza</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">ETH ESOP — CHF 12.000/semestre + waiver</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">FIT PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">1-30 nov-2026 (ventana única)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Exige top 10% de la cohorte del grado (argumentable con el cum laude). ETH no tiene MSc Economics puro: el fit es MSc MTEC o Quantitative Finance. Solo tiene sentido si el track quant-finance entra en juego. Ventana cortísima.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="16" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="22"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Suiza</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">EPFL Excellence Fellowship — CHF 10.000/semestre</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">FIT PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">15-dic-2026 (r1) · 31-mar-2027 (r2)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Se pide tildando una casilla en la aplicación de máster de EPFL. Máximo 4 semestres + habitación reservada. Igual que ETH: no hay MSc Economics, el fit es Financial Engineering (MFE) o Management/Technology. El cuadrado violeta es la 2ª ronda.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="21" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="25"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="bh" ss:Index="40"><Data ss:Type="String">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Italia</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Invest Your Talent in Italy</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">EDAD ≤25</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">abr-may 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">VERIFICAR PRIMERO el límite de edad al momento de aplicar: puede invalidarla de entrada. Si califica: waiver + estipendio por 9 meses, Economics es elegible.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="41" ss:MergeAcross="6"/>
+    <Cell ss:StyleID="bd" ss:Index="48"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Italia</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">DSU regional — hasta €7.200 + alojamiento + comedor</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">POR INGRESOS</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">ago-sep 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Need-based: umbral ISEE familiar ~&lt;€26-27k (paquete completo con ISEE &lt;~€14k). CALCULAR el ISEE parificato estimado antes de contar con ella. Se pide al ente regional (ER.GO, EDISU, DSU Toscana) DESPUÉS de la admisión.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="58" ss:MergeAcross="4"/>
+    <Cell ss:StyleID="bd" ss:Index="63"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">G · FUNDACIONES Y ORGANISMOS — se apilan con la admisión; casi todas caen en ene-feb 2027.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Fundación Carolina</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~ene-feb 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Según la FAQ oficial, con doble nacionalidad te postulás como ARGENTINO. Requisito: no residir en España. Es la vía clave para CEMFI y BSE. Necesitás admisión o pre-admisión al programa listado.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="4"/>
+    <Cell ss:StyleID="bd" ss:Index="33"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">CEMFI — financiación del máster</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL / PARCIAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">31-ene-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">La solicitud de financiación va en la MISMA ronda que la aplicación al máster: transcripts, GRE, cartas de recomendación, statement.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="2"/>
+    <Cell ss:StyleID="bd" ss:Index="31"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Fundación Ramón Areces</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~feb-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Vía nacionalidad española (fit perfecto). Exige admisión o pre-admisión + proyecto de estudios + expediente académico. Confirmar la fecha exacta cuando publiquen la convocatoria.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="30" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="34"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Fundación Rafael del Pino</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">FULL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~23-feb-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Vía nacionalidad española. Expediente + admisión + entrevista. Preparar el pitch de retorno y de impacto.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="31" ss:MergeAcross="3"/>
+    <Cell ss:StyleID="bd" ss:Index="35"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Multilateral</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">World Bank JJ / WBGSP</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">VERIFICAR</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">~mar-abr 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Pide ~3 años de experiencia laboral en desarrollo y solo financia una lista CERRADA de programas. Confirmar que el programa elegido esté en la lista antes de invertir tiempo.</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="36" ss:MergeAcross="5"/>
+    <Cell ss:StyleID="bd" ss:Index="42"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">Multilateral</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Rotary Global Grant — US$30.600</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">RELACIONAL</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">rolling (armar desde sep-26)</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">No tiene deadline fijo: necesitás un club Rotary patrocinador en Buenos Aires MÁS un club anfitrión en destino, y eso lleva meses. "Economic and community development" encaja con el track T2. Contactar el distrito BA en septiembre.</Data></Cell>
+    <Cell ss:StyleID="ba" ss:Index="11" ss:MergeAcross="24"/>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">EE.UU.</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Fulbright ARG — solo si habilitás intake 2028-29</Data></Cell>
+    <Cell ss:StyleID="tC"><Data ss:Type="String">DECISIÓN</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">conv. ~ene-mar 2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">El ciclo 2027-28 cerró el 25-mar-2026, así que solo sirve para empezar en 2028. Decisión previa tuya: ¿2028 entra en juego? Si sí, cumplís los requisitos (promedio ≥7, ~2 años de experiencia, inglés).</Data></Cell>
+    <Cell ss:StyleID="bp" ss:Index="28" ss:MergeAcross="10"/>
+    <Cell ss:StyleID="bd" ss:Index="39"><Data ss:Type="String">D</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="sec" ss:MergeAcross="65"><Data ss:Type="String">H · LLEGADA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="pais"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="nom"><Data ss:Type="String">Inicio del máster</Data></Cell>
+    <Cell ss:StyleID="tF"><Data ss:Type="String">META</Data></Cell>
+    <Cell ss:StyleID="dl"><Data ss:Type="String">sep-2027</Data></Cell>
+    <Cell ss:StyleID="need"><Data ss:Type="String">Visa tramitada (la traducción pública del analítico se reutiliza acá), alojamiento y, si es Dinamarca, el part-time ya arrancado.</Data></Cell>
+    <Cell ss:StyleID="bg" ss:Index="63" ss:MergeAcross="3"/>
+   </Row>
+   <Row ss:Height="8"/>
+   <Row ss:Height="18">
+    <Cell ss:StyleID="secB" ss:MergeAcross="4"><Data ss:Type="String">REFERENCIAS</Data></Cell>
+   </Row>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="bp"/>
+    <Cell ss:StyleID="leg"><Data ss:Type="String">Ventana de preparación: en esas semanas hay que estar armando la aplicación.</Data></Cell>
+   </Row>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="ba"/>
+    <Cell ss:StyleID="leg"><Data ss:Type="String">Convocatoria abierta / etapa en curso (entrevistas, rondas de admisión, gestión).</Data></Cell>
+   </Row>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="bd"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="leg"><Data ss:Type="String">Deadline: semana en la que cierra. Todo lo de la columna E tiene que estar listo antes.</Data></Cell>
+   </Row>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="bh"><Data ss:Type="String">H</Data></Cell>
+    <Cell ss:StyleID="leg"><Data ss:Type="String">Hito de decisión o revisión (no se entrega nada, pero define el plan).</Data></Cell>
+   </Row>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="bg"/>
+    <Cell ss:StyleID="leg"><Data ss:Type="String">Meta final: inicio del máster.</Data></Cell>
+   </Row>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="leg" ss:Index="2"><Data ss:Type="String">Cada columna del calendario es una SEMANA; el número es el lunes de esa semana. Fechas sin confirmar están marcadas con ~ o con VERIFICAR en la columna Tipo.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <PageMargins x:Bottom="0.5" x:Left="0.4" x:Right="0.4" x:Top="0.5"/>
+   </PageSetup>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <SplitVertical>5</SplitVertical>
+   <LeftColumnRightPane>5</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane><Number>3</Number><ActiveRow>2</ActiveRow><ActiveCol>5</ActiveCol></Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Requisitos">
+  <Table ss:DefaultRowHeight="14">
+   <Column ss:Index="1" ss:Width="215"/>
+   <Column ss:Index="2" ss:Width="66"/>
+   <Column ss:Index="3" ss:Width="100"/>
+   <Column ss:Index="4" ss:Width="265"/>
+   <Column ss:Index="5" ss:Width="240"/>
+   <Column ss:Index="6" ss:Width="120"/>
+   <Column ss:Index="7" ss:Width="100"/>
+   <Column ss:Index="8" ss:Width="285"/>
+   <Row ss:Height="34">
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Beca / Aplicación</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">País</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Deadline</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Documentos que pide</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Escritura propia (essays / cartas)</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Referencias</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Trampa a vigilar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">McCall MacBain</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">19-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Resumé 1 pág (PDF, fuente ≥10, sin foto, bio inicial) · transcripts de TODOS los estudios con traducción en el mismo PDF · GPA convertido a escala 4.0</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">4 essays: comunidad 225 + programa 225 · liderazgo 275 (en 5 partes) · contribución 250 · course correction 250. Más 3 short answers de 105 caracteres.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 (1 académica + 1 comunitaria), form online propio</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">GRE opcional</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">El endorsement de la UBA es obligatorio y lento (la UBA no es universidad participante). Además hay que declarar verificadores de actividades y avisarles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">McGill MA Economics (Thesis)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">15-ene-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + CV + prueba de mate (2 cálculo, álgebra matricial, estadística anual)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Statement of purpose + idealmente una propuesta corta de investigación para el supervisor</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 académicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">GRE obligatorio (0935 / 1801) + IELTS ≥6.5</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Supervisor CONFIRMADO al momento de aplicar (la vía non-thesis está suspendida). El Cambridge C1 no sirve: solo IELTS o TOEFL.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">PBEEE Québec</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">2-dic-2026 (FRQ)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CV académico + transcripts + carta de nominación de McGill</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Descripción del proyecto de investigación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Vía la nominación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">No aplicás vos directamente: McGill tiene que nominarte y su deadline interno es de oct-nov, anterior al del FRQ.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">DAAD Study Scholarship</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Alemania</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">30-oct-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CV en formato DAAD (europass) + transcripts traducidos + título ≤6 años</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación + plan de estudios / investigación detallado</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 cartas académicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">No hace falta admisión al aplicar, pero el plan de estudios tiene que nombrar universidades concretas y justificar la elección.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">DAAD EPOS (HTW Berlin MIDE)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Alemania</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">31-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CV + transcripts + certificados laborales que prueben la experiencia</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación orientada a desarrollo</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 cartas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Exige ≥2 años de experiencia POST-título: verificar contra tu fecha de egreso ANTES de escribir nada. Máx. 3 cursos EPOS por ciclo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Chevening</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">6-OCT-2026 11:00 UTC (abre 4-ago-2026)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + pasaporte + prueba de 2 años de experiencia laboral</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">4 essays: liderazgo, networking, elección de curso, plan de carrera</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 (se piden en etapa posterior)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés al recibir oferta</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">FECHA CORREGIDA 2-ago-2026: decía "~nov-2026 (abre 7-oct)" y estaba mal. Abre 4-ago-2026 y cierra 6-oct-2026, ambas 11:00 UTC. Hay que elegir 3 cursos UK concretos. Incompatible con la GREAT de Glasgow, con la Southampton Presidential y ahora también con el Banco de España.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Proceso Inova (5 apps UK)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">sep-oct 2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Los 9: título ES/EN, analítico ES/EN, CV, personal statements, 2 cartas, pasaporte, inglés. PDF, &lt;1 MB c/u, &lt;8 MB total, nombres exactos.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">1 personal statement POR universidad (≤1 pág)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 cartas membretadas, mail institucional (Warwick pide 1)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Se puede declarar Cambridge C1</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Las cartas necesitan hoja membretada, mail institucional (no Gmail), teléfono y desde cuándo te conocen. Pedirlas con tiempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Oxford + Clarendon + Weidenfeld</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">dic-2026 / ene-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + CV + writing sample</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Statement of purpose + statement específico de Weidenfeld con template propio (incluye compromiso de retorno)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">3 académicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">GRE + inglés</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Clarendon es automática SOLO si aplicás en la primera deadline del curso. Weidenfeld exige nacionalidad y residencia en país en desarrollo: aplicás como argentino.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Cambridge + Gates</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">dic-2026 / ene-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + CV</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Statement of purpose + sección Gates dentro de la misma aplicación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2-3 académicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">GRE + inglés</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">La deadline cambia según el curso y hay una ronda internacional específica: confirmarla apenas abra el ciclo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Becas de universidad UK (Think Big, ASBS, BBS, Global Leadership...)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">mar-abr 2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Oferta de admisión en mano (requisito común) + a veces un formulario propio</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Statement corto de beca (Think Big, ASBS)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Normalmente reusan las de la admisión</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Todo se destraba con la OFERTA: aplicar temprano a la admisión es lo que habilita las becas. En Glasgow no se apilan; en Warwick solo cuentan las rondas 1-3.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Glasgow GREAT-España</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">30-abr-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Pasaporte español + oferta aceptada con condiciones cumplidas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Statement corto</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Excluyente: no podés tener NINGUNA otra fuente de funding. Y la lista de países cambia cada año: confirmar en marzo que España siga.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Erasmus Mundus QEM / EPOG+</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">UE</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~ene-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CV + transcripts traducidos + pasaporte ESP</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación por consorcio</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 académicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Hay una ronda CON beca (temprana) y una sin beca (tardía). Aplicar en la temprana o la beca no existe.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Eiffel Excellence</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Francia</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">interno uni nov-dic 2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CV + transcripts; el expediente lo arma la universidad</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación y proyecto profesional</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Vía la universidad</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Doble trampa: límite de edad ≤29 a nivel máster, y la postula la universidad → hay que PEDIRLO al aplicar, con deadline interno anterior al de Campus France.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Stipendium Hungaricum</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Hungría</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">15-ene-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + título + certificado médico + nominación de la autoridad argentina</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">La nominación del Ministerio de Educación argentino es un trámite paralelo con su propio calendario: averiguarlo antes de noviembre.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Master Mind Flandes</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Bélgica</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">feb-abr 2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + conversión de GPA a escala 4.0 (piso 3.5)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Según la institución</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Se pide VÍA KU Leuven, no hay portal propio: sin aplicación de admisión en curso no existe. Preparar el argumento de equivalencia del 7.82 cum laude a 3.5/4.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">GOI-IES Irlanda</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Irlanda</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~ene-mar 2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Oferta de admisión + prueba de fee status non-EU + transcripts</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Statement de motivación e impacto</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Normalmente 1-2</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Sin oferta en mano no se puede aplicar, y la ventana es corta (el ciclo anterior fue 29-ene a 12-mar): la admisión tiene que salir antes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">ETH ESOP</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Suiza</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">1-30 nov-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Transcripts + prueba de estar en el top 10% de la cohorte + CV</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2 académicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">GRE + inglés</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Ventana de 30 días, una sola vez al año, y solo en la primera ronda de aplicación. Además ETH no tiene MSc Economics: el fit es MTEC o Quantitative Finance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">EPFL Excellence Fellowship</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Suiza</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">15-dic-2026 / 31-mar-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">La misma aplicación de máster de EPFL + evidencia de actividades extracurriculares</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación de la admisión</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Las de la admisión</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Es solo un tilde en la aplicación, así que el costo marginal es bajo — pero EPFL no tiene MSc Economics: el fit sería Financial Engineering. Solo si va el track quant.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Fundación Carolina</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~ene-feb 2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Admisión o pre-admisión al programa listado + transcripts + CV</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Carta de motivación y de compromiso de retorno</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">1-2</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Te postulás bajo la nacionalidad ARGENTINA y no podés residir en España. Solo financia programas de su listado: verificar que CEMFI/BSE estén en el ciclo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Areces / Rafael del Pino</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">feb-2027</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Expediente académico + admisión o pre-admisión + DNI/pasaporte español</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Proyecto de estudios y memoria personal</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inglés acreditado</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Van por nacionalidad ESPAÑOLA (a diferencia de Carolina). Del Pino incluye entrevista. La Caixa quedó descartada: exige grado de universidad española.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Rotary Global Grant</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Multilateral</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">rolling</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CV + admisión + presupuesto del grant</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Propuesta alineada a "economic and community development"</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Vía los clubes</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Es relacional, no burocrático: necesitás un club patrocinador en BA y un club anfitrión en destino. Sin arrancar en septiembre no llega.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/><FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal><TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical><LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes><Pane><Number>3</Number></Pane></Panes>
+   <ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Documentos maestros">
+  <Table ss:DefaultRowHeight="14">
+   <Column ss:Index="1" ss:Width="200"/>
+   <Column ss:Index="2" ss:Width="105"/>
+   <Column ss:Index="3" ss:Width="300"/>
+   <Column ss:Index="4" ss:Width="210"/>
+   <Column ss:Index="5" ss:Width="330"/>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Documento</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Listo para</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Quién lo consume</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Dónde se tramita</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Notas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Analítico oficial (español)</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">17-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McCall · Inova (5 unis UK) · McGill · Oxbridge · todas las continentales · visa UK</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Dirección de Alumnos, FCE-UBA</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">El documento más reutilizado de todo el proceso. Frente y reverso, sin firma electrónica, con promedio. Es el que más demora: pedirlo primero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Traducción pública del analítico</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">31-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inova · McGill · Oxbridge · DAAD · Erasmus Mundus · Stipendium · visa UK</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Traductor público matriculado (CTPCBA)</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Un solo gasto con muchos usos. Requiere firma y sello por página, nº de matrícula, leyenda de copia fiel, contacto y fecha. La traducción "de cortesía" de la uni NO sirve para visa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Título + traducción</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">sep-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inova · admisiones continentales · Stipendium</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">FCE-UBA + traductor público</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Si el título todavía no está emitido, se puede postular sin él (Inova lo confirma). No bloquea.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">CV / resumé de 1 página</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">14-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McCall · Inova · mails a supervisores McGill · DAAD · fundaciones españolas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Lo escribís vos</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Un documento base, dos versiones: McCall (bio inicial, sin foto, fuente ≥10) e Inova (fechas mm/aaaa, idiomas y cursos).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Endorsement institucional UBA</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~10-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Solo McCall MacBain</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Relaciones Internacionales, FCE-UBA</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Único uso pero bloqueante absoluto: sin él la aplicación de McCall no cuenta. Trámite institucional lento e impredecible.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">2 referentes (form + cartas)</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">19-ago-2026 (form) · sep (cartas)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McCall · Inova · McGill · Oxbridge · DAAD · Erasmus Mundus · fundaciones</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">1 académico (IIEP/FCE) + 1 laboral (Bunge)</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Pedirles TODO junto una sola vez: el form de McCall ahora y una carta genérica membretada en inglés para después. Las cartas necesitan mail institucional, no Gmail.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">GRE (Q≥165 / V≥158 / AWA≥4.0)</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">oct-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McGill (obligatorio) · Tinbergen · LSE · Oxbridge · CEMFI · PSE/TSE</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">ETS (reservar con antelación)</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Rendirlo en octubre deja margen para un segundo intento antes de las deadlines de dic-ene. Códigos McGill: 0935 / 1801.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">IELTS Academic ≥6.5</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">dic-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McGill (excluyente) · UK · Irlanda · varias continentales</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">British Council / IDP, presencial</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Tu Cambridge C1 sirve para declarar en Inova pero NO para McGill. El envío electrónico lo hace el centro y viene demorando: rendir en diciembre, no en enero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Essays de McCall (4 + 3 short answers)</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">14-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McCall directo; alimentan los personal statements UK, Chevening y las cartas de motivación continentales</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Lo escribís vos</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Son la materia prima de casi toda la escritura posterior: los ejes comunidad / liderazgo / contribución / pivote se reciclan en todas las demás postulaciones.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Personal Statements ×5 (UK)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">sep-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Inova (una por universidad)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Lo escribís vos</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Template base + 2 párrafos específicos por uni. Salen de los essays de McCall.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">GPA convertido a escala 4.0</Data></Cell>
+    <Cell ss:StyleID="cr"><Data ss:Type="String">14-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">McCall · McGill · Master Mind (piso 3.5) · ETH (top 10%)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Guía de equivalencias de McGill</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Hacerlo UNA vez y bien, con las 50 palabras de contexto: el mismo argumento sirve para defender el 7.82 cum laude ante Master Mind y ETH.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Propuesta corta de investigación</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">sep-2026</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Mails a supervisores McGill · PBEEE · Oxbridge · research masters NL</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Lo escribís vos</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">1-2 páginas por track (T1 macro/monetaria, T2 desarrollo/causal). Es lo que convence a un supervisor de responderte.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">ISEE parificato estimado</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">antes de contar con DSU</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Solo DSU Italia</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">CAF italiano / cálculo propio</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Calcularlo ANTES de incluir DSU en cualquier plan financiero: si el ingreso familiar supera ~€30k, la beca no existe.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/><FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal><TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes><Pane><Number>2</Number></Pane></Panes>
+   <ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Proximos 90 dias">
+  <Table ss:DefaultRowHeight="14">
+   <Column ss:Index="1" ss:Width="92"/>
+   <Column ss:Index="2" ss:Width="255"/>
+   <Column ss:Index="3" ss:Width="440"/>
+   <Column ss:Index="4" ss:Width="95"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="t" ss:MergeAcross="3"><Data ss:Type="String">PRÓXIMOS 90 DÍAS — 1-ago a 30-oct-2026. Mirar esta hoja cada lunes.</Data></Cell>
+   </Row>
+   <Row ss:Height="26">
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Fecha</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Qué</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Acción concreta</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Estado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">Semana 3-ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Endorsement UBA (McCall)</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Mail y visita a Relaciones Internacionales de FCE-UBA explicando qué es McCall MacBain y que la UBA no es universidad participante. Es lo más lento: arrancarlo antes que nada.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">Semana 3-ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Analítico oficial FCE-UBA</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Iniciar el trámite en Alumnos. Pedir frente y reverso, sin firma electrónica. Preguntar la demora estimada y anotarla.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">Semana 3-ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">2 referentes + verificadores</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Contactar 1 académico (IIEP/FCE) y 1 comunitario. Explicarles que tienen que completar un form online ANTES del 19-ago, y aprovechar para pedirles la carta membretada de Inova para septiembre. Avisar a los verificadores de actividades.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Semana 3-ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Mapear actividades de los últimos 5 años</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Listar 4 actividades comunitarias, 3 obras intelectuales, 5 trabajos y 3 roles de liderazgo desde ene-2021. Sin este mapa los essays no salen.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Semana 10-ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Essays McCall + resumé + GPA 4.0</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Drafts de los 4 essays y las 3 short answers, resumé de 1 página, y conversión del 7.82 a escala 4.0 con la guía de McGill. Cargar todo al portal e ir monitoreando que las referencias avancen.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">17-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">ENVIAR McCall MacBain</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Enviar el 17, no el 19: dejar 48 h de colchón por si falta el endorsement o una referencia. Deadline duro: mié 19-ago, 16:00 ET (17:00 ARG).</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Semana 17-ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Encargar traducciones públicas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Con el analítico en mano, encargar la traducción a un traductor del CTPCBA. Confirmar que incluya sello por página, matrícula, leyenda de copia fiel y contacto (requisito para la visa UK).</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~20-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Decidir DAAD EPOS sí/no</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Contar los años de experiencia POST-título contra la fecha de egreso. Si no llegás a 2 años, EPOS queda descartada y te ahorrás la aplicación del 31-ago.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">31-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">DAAD EPOS — HTW Berlin MIDE</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Solo si pasaste el filtro de experiencia. Se aplica al portal de HTW Berlin, no al de DAAD.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Fines de ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Primera tanda de mails a McGill</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Cámara, Ajzenman y Saltiel (los tres con conexión LATAM/UBA). Usar el template del plan de ataque, adjuntar CV y citar 1 paper concreto de cada uno. A Cámara y Ajzenman se les puede abrir en español.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Fines de ago</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Arrancar DAAD Study Scholarship</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Es la que vuelve full el plan Alemania y vence el 30-oct: dos meses de preparación. Empezar por el plan de estudios (tiene que nombrar Bonn/Mannheim/Goethe y justificar la elección).</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Ago-sep</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Empezar el form de Inova</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Tiene "Save and Continue Later", así que se puede llenar de a poco. Preparar antes: direcciones postales completas de Bunge, IIEP y FCE-UBA, fechas exactas, y los datos completos de los 2 referentes.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">Principios de sep</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Reservar fecha de GRE</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Apuntar a mediados de octubre para dejar margen a un segundo intento antes de las deadlines de dic-ene. Las sedes se llenan: reservar ya.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Sep-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">5 Personal Statements + cartas membretadas</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Template base y dos párrafos propios por universidad. En paralelo, pedir a los 2 referentes las cartas en hoja membretada con mail institucional.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Sep-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Contactar el distrito Rotary de Buenos Aires</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">El Global Grant necesita club patrocinador local y club anfitrión en destino: son meses de gestión relacional. Si no arranca en septiembre, no llega para 2027.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Sep-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Averiguar la nominación argentina de Stipendium Hungaricum</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Preguntar en Campus Argentina Global / Ministerio de Educación cómo y cuándo se tramita. Tiene calendario propio anterior al 15-ene.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Sep-oct</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Reunión formal con Inova y envío</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Enviar el form completo con los 9 documentos. Llevar las 5 preguntas para Fabiola (con qué pasaporte aplicar, nombres exactos de los MSc, si gestionan también las becas, postular sin título, esperar o no el IELTS).</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">2-ago-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">CHEVENING DESCARTADA — no cuenta como hito del calendario</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Se habia corregido la fecha (abria 4-ago y cerraba 6-oct-2026, no "abria el 7-oct" como decia este Gantt) y despues se verifico que Manuel no es elegible: hacen falta 2 anos de experiencia laboral POSTERIORES al titulo de grado. Agosto y septiembre quedan libres de Chevening: la prioridad limpia es McCall MacBain (19-ago).</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Cerrada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~dic-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Se publican las bases del Banco de Espana 2027-28</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">NUEVO (7a tanda). Programa de ayudas para estudios en economia y finanzas: matricula completa + 21.500 EUR/ano (Europa) o 18.500 GBP (UK), hasta 2 cursos, + estancia de 1-2 meses en el BdE a 1.550 EUR/mes. 10 plazas. Solo nacionalidad espanola + titulo de grado, sin exigir que el grado sea espanol. Patron: anuncio a mediados de diciembre.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~18-feb-2027</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">CIERRE Banco de Espana</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Requiere: formulario telematico, certificacion academica con nota media, carta de motivacion, relacion de centros solicitados, justificantes de admision (vale la solicitud si aun no hay respuesta), y 2 o mas INFORMES DE PROFESORES que envian ELLOS directamente a investigacion.becas@bde.es, redactados ex profeso. INCOMPATIBLE con cualquier otra beca simultanea: hay que decidir antes entre BdE, Areces, del Pino y Chevening.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">~mediados de oct</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Rendir GRE</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Objetivo Q≥165 / V≥158 / AWA≥4.0. Enviar scores a McGill (0935 / 1801) apenas salgan.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Oct-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Chequear Southampton Presidential</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Define los slots 4 y 5 de Inova. De paso, verificar si la Global Excellence £3k y la VC Global Achievers £2k acumulan entre sí.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Oct-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Pedir la nominación PBEEE a McGill</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">El deadline interno de la universidad es anterior al 2-dic del FRQ. Pedirla al departamento o al supervisor con el que hayas avanzado.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Oct-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Reservar fecha de IELTS para diciembre</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Presencial, IELTS Academic. El envío electrónico lo hace el centro y viene demorado; tiene que llegar a McGill antes del 15-ene.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">30-oct-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">DAAD Study Scholarship</Data></Cell>
+    <Cell ss:StyleID="cy"><Data ss:Type="String">Deadline. CV DAAD + carta de motivación + plan de estudios + 2 cartas académicas. Es la pieza que vuelve full el plan Alemania.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cr"><Data ss:Type="String">1-30 nov-2026</Data></Cell>
+    <Cell ss:StyleID="cb"><Data ss:Type="String">(Justo después) ETH ESOP — ventana única</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">Queda fuera de los 90 días por poco, pero se prepara en octubre. Solo si el track quant-finance (MTEC / Quantitative Finance) entra en juego.</Data></Cell>
+    <Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/><FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal><TopRowBottomPane>2</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes><Pane><Number>2</Number></Pane></Panes>
+   <ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Seguimiento">
+  <Table ss:DefaultRowHeight="14">
+   <Column ss:Index="1" ss:Width="235"/>
+   <Column ss:Index="2" ss:Width="80"/>
+   <Column ss:Index="3" ss:Width="95"/>
+   <Column ss:Index="4" ss:Width="150"/>
+   <Column ss:Index="5" ss:Width="115"/>
+   <Column ss:Index="6" ss:Width="115"/>
+   <Column ss:Index="7" ss:Width="115"/>
+   <Column ss:Index="8" ss:Width="260"/>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Beca / Programa</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">País</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Tipo</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Monto aprox.</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Deadline</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Estado</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Resultado</Data></Cell>
+    <Cell ss:StyleID="h2"><Data ss:Type="String">Notas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">McCall MacBain</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + CAD 2.300/mes</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">19-ago-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Lo más urgente de todo el calendario</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">DAAD EPOS (HTW Berlin MIDE)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Alemania</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">€992/mes + vuelos</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">31-ago-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Filtro previo: 2 años de experiencia post-título</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">DAAD Study Scholarship</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Alemania</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">€992/mes × 10-24 meses</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">30-oct-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Con matrícula gratis = paquete completo</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Chevening</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + vida + vuelos</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">DESCARTADA</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Cerrada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">2-ago-2026: no elegible, exige 2 años de experiencia POSTERIORES al título de grado</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Banco de España — ayudas economía y finanzas</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">España (destino libre)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Matrícula + 21.500 EUR/año (18.500 GBP en UK)</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~18-feb-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">NUEVA (7a tanda). La mejor del mapa. Bases ~dic-2026. Incompatible con cualquier otra beca. Exige 2+ informes de profesores enviados por ellos</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">ETH ESOP</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Suiza</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial alto</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">CHF 12k/sem + waiver</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">30-nov-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Solo MTEC / Quantitative Finance</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">PBEEE Québec</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial alto</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">CAD 20.000/año</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">2-dic-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Nominación de McGill, deadline interno antes</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">EPFL Excellence Fellowship</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Suiza</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial alto</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">CHF 10k/semestre × 4</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">15-dic-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Sin MSc Econ: fit Financial Engineering. 2ª ronda 31-mar</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Cambridge MPhil + Gates</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + £21.000/año</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">dic-26/ene-27</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Un tilde en la app de Cambridge</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Oxford + Clarendon</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + ~£20.000/año</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~ene-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Automática solo si aplicás en la 1ª deadline</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Weidenfeld-Hoffmann (Oxford)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + vida + liderazgo</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">dic-26/ene-27</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">MSc Economics for Development está en la lista elegible</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Tinbergen / Groningen / Tilburg / Maastricht</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">NL</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Admisión</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Matrícula €2.694 (EU)</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">dic-26/ene-27</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Tinbergen: piso GRE Q160</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Eiffel Excellence</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Francia</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial alto</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">€1.400+/mes</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">nov-dic-2026</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">La postula la uni. Límite de edad ≤29</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">McGill MA Economics (Thesis)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Admisión</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">CAD 25.7k intl</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">15-ene-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Supervisor confirmado + GRE + IELTS</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Stipendium Hungaricum</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Hungría</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Matrícula + vida + alojam.</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">15-ene-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Requiere nominación del Ministerio argentino</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Southampton GE £3k + VC £2k</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Automática</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">£5.000 combinadas</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~15-ene-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">First-come por depósito: pagar temprano</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Erasmus Mundus QEM / EPOG+</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UE</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + ~€1.400/mes</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~ene-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Aplicar en la ronda CON beca</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">CEMFI funding</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">España</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full / parcial</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Variable</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">31-ene-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Se pide en la misma ronda que la admisión</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Fundación Carolina</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">España</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Matrícula + vida</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~feb-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Bajo nacionalidad ARGENTINA</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Ramón Areces</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">España</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Matrícula + vida</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~feb-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Vía nacionalidad española</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Rafael del Pino</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">España</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Matrícula + vida</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~23-feb-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Incluye entrevista</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">GOI-IES Irlanda</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Irlanda</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Casi full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">€10.000 + waiver total</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~mar-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Requiere oferta de admisión en mano</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Glasgow Global Leadership</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">£10.000 (×281)</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~4-abr-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Alta probabilidad por volumen</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Glasgow ASBS (×3)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full / parcial</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full+£15k o £15k</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~abr-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Las de Glasgow no se apilan</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Bristol Think Big</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Hasta £26.000</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~10-abr-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Única vía real en Bristol</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Master Mind Flandes</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Bélgica</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Casi full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">€10.225 + matríc. €137</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">feb-abr 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Vía KU Leuven. Deja el costo en ~cero</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Warwick Regional Sudamérica</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Automática</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">2 × 100% tuition</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~18-may-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Solo rondas de admisión 1-3</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Glasgow GREAT-España</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">UK</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">£10.000</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">30-abr-2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Excluyente: sin ninguna otra fuente de funding</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Invest Your Talent in Italy</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Italia</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Parcial</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Waiver + estipendio 9 m</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">abr-may 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Verificar límite de edad ≤25</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">World Bank JJ / WBGSP</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Multilateral</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + vida</Data></Cell><Cell ss:StyleID="cr"><Data ss:Type="String">~mar-abr 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Lista cerrada de programas</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Rotary Global Grant</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Multilateral</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">US$30.600</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">rolling</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Empezar por el distrito de Buenos Aires en sep</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">DSU Italia</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Italia</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Need-based</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Hasta €7.200 + alojam.</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">ago-sep 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Calcular ISEE antes de contar con ella</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Aarhus + SU (trabajo part-time)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Dinamarca</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Mecanismo</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">~DKK 7.000/mes</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">jun-ago 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">No es beca: es status de trabajador EU</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Western MA Economics</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Canadá</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full (paquete)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Tuition + fees + TA</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">~ene-feb 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Plan B de Norteamérica. Confirmar fecha</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Fulbright ARG (intake 2028-29)</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">EE.UU.</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Full</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">Hasta US$3.231/mes</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">~ene-mar 2027</Data></Cell><Cell ss:StyleID="cw"><Data ss:Type="String">No iniciada</Data></Cell><Cell ss:StyleID="cw"/><Cell ss:StyleID="cw"><Data ss:Type="String">Solo si habilitás empezar en 2028</Data></Cell></Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/><FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal><TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes><Pane><Number>2</Number></Pane></Panes>
+   <ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R35C8" xmlns="urn:schemas-microsoft-com:office:excel"/>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C6:R60C6</Range>
+   <Type>List</Type>
+   <Value>&quot;No iniciada,En curso,Enviada,Entrevista,Ganada,Rechazada,Descartada&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C7:R60C7</Range>
+   <Type>List</Type>
+   <Value>&quot;Pendiente,Positivo,Negativo,Lista de espera&quot;</Value>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

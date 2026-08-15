@@ -1,0 +1,227 @@
+{
+  "version": "0.2",
+  "updated": "2026-08-02",
+  "stages": {
+    "profile":  { "last_run": null },
+    "scout":    { "last_run": null },
+    "target":   { "last_run": "2026-08-02T18:40:00Z" },
+    "gaps":     { "last_run": null },
+    "outreach": { "last_run": null },
+    "roadmap":  { "last_run": null }
+  },
+  "inventory": {
+    "citizenships": [
+      { "value": "Argentina", "provenance": "stated", "as_of": "2026-08-02" },
+      { "value": "Spain", "provenance": "stated", "as_of": "2026-08-02" }
+    ],
+    "country_of_residence": { "value": "Argentina", "provenance": "stated", "as_of": "2026-08-02" },
+    "note": "Inventario completo no levantado en esta corrida. Solo se registran los campos que deciden elegibilidad en Stipendium Hungaricum. Correr /recon:profile para el inventario real."
+  },
+  "preferences": {
+    "degree_level": "masters",
+    "field": "economics",
+    "priorities": ["cost", "research fit", "prestige", "immigration pathway"],
+    "note": "Dos tracks: T1 Economics & Finance / politica monetaria; T2 Development / inferencia causal."
+  },
+  "systems": [
+    {
+      "country": "Hungary",
+      "model": "central scholarship (Stipendium Hungaricum) + matricula de pago para todos en programas en ingles",
+      "sources": [
+        { "class": "primary_funder", "surface": "stipendiumhungaricum.hu" },
+        { "class": "applicant_side_national", "surface": "argentina.gob.ar/capital-humano/educacion/campusargentinaglobal" },
+        { "class": "catalogue", "surface": "apply.stipendiumhungaricum.hu study finder" }
+      ]
+    },
+    {
+      "country": "Austria",
+      "model": "privada de elite con ayuda por merito (CEU) + publicas casi gratis para ciudadanos UE (Univ. Wien, WU)",
+      "sources": [
+        { "class": "institute_direct", "surface": "ceu.edu" },
+        { "class": "structured_programme", "surface": "Vienna Economics Graduate Center (CEU + WU + UniWien)" }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "stipendium-hungaricum-ma-2027",
+      "name": "Stipendium Hungaricum - master, via Argentina",
+      "funder_type": "government",
+      "country": "Hungary",
+      "degree_levels": ["masters"],
+      "tracks": ["T1 parcial (macro/monetaria en Corvinus)", "T2 debil"],
+      "signal": {
+        "type": "standing",
+        "evidence_url": "https://stipendiumhungaricum.hu/apply/",
+        "verified_on": "2026-08-02",
+        "note": "Ciclo 2026/27 cerro 15-ene-2026. La pagina oficial anuncia que el periodo 2027/28 abre en NOVIEMBRE 2026. No verificado como confirmado por el gobierno entrante."
+      },
+      "requirements": [
+        { "field": "citizenship", "operator": "==", "value": "Argentina (o SEGIB, no ambas)", "kind": "disqualifier", "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf", "as_of": "2026-08-02" },
+        { "field": "nomination", "operator": "==", "value": "nominacion obligatoria de la autoridad argentina; sin ella la aplicacion no se considera", "kind": "disqualifier", "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf", "as_of": "2026-08-02" },
+        { "field": "study_field", "operator": "==", "value": "sin restriccion: el acuerdo con Argentina dice 'Full degree master studies: In any field of interest'", "kind": "threshold", "source_url": "https://stipendiumhungaricum.hu/partners/", "as_of": "2026-08-02" },
+        { "field": "eu_citizenship", "operator": "==", "value": "NO RESUELTO. El Call no excluye a ciudadanos UE explicitamente (solo a hungaros y dobles hungaros), pero Corvinus publica que SH es 'available for non-EU nationals'. Conflicto sin resolver.", "kind": "disqualifier", "source_url": "https://study-in-hungary.com/corvinus-university-of-budapest/economic-analysis-msc/", "as_of": "2026-08-02" },
+        { "field": "applications", "operator": "<=", "value": "1 sending partner; aplicar por dos marcos = descalificacion", "kind": "disqualifier", "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf", "as_of": "2026-08-02" }
+      ],
+      "financials": {
+        "tuition_covered": true,
+        "stipend": 43700,
+        "currency": "HUF",
+        "period": "month, 12 meses al ano",
+        "accommodation": "dormitorio gratuito O 40.000 HUF/mes de contribucion",
+        "insurance": "cobertura hungara + suplementaria hasta 65.000 HUF/ano",
+        "travel": false,
+        "living_support_eur_approx": 210,
+        "stipend_to_col_ratio": "bajo: habitacion privada en Budapest 120.000-150.000 HUF/mes contra 83.700 HUF/mes de apoyo total",
+        "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf"
+      },
+      "deadlines": [
+        { "what": "apertura del ciclo 2027/28", "when": "noviembre 2026", "verified": true, "source_url": "https://stipendiumhungaricum.hu/apply/" },
+        { "what": "cierre estimado", "when": "~15 de enero de 2027", "verified": false, "note": "patron del ciclo anterior (15-ene-2026, 14:00 CET)" },
+        { "what": "nominacion argentina", "when": "la lista debe llegar a Tempus antes del 28 de febrero", "verified": true, "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf" }
+      ],
+      "life": {
+        "col": "Budapest barata en terminos europeos, pero el apoyo no cubre una habitacion privada. Con plaza de dormitorio el paquete se vuelve viable y ajustado.",
+        "political": "Orban perdio en abril de 2026. Gobierno de Peter Magyar (Tisza). Hungria vuelve a Erasmus desde el proximo ano academico y desmonta las fundaciones universitarias (PIT). Horizon sigue sin resolverse.",
+        "source_url": "https://www.timeshighereducation.com/news/hungary-rejoin-erasmus-and-phase-out-university-foundations",
+        "unverified": "No se alcanzaron fuentes de primera mano (estudiantes actuales) sobre vida real con el estipendio."
+      },
+      "cost_now": "medio - matricula cubierta pero costo de vida mayormente a tu cargo",
+      "doors_opened": "bajo-medio - sin evidencia de placement a PhD de primer nivel desde los programas humgaros de economia en ingles",
+      "tier": "B",
+      "matched_field": null,
+      "discovered_via": { "class": "primary_funder", "surface": "stipendiumhungaricum.hu" }
+    },
+    {
+      "id": "corvinus-msc-economic-analysis",
+      "name": "Corvinus University of Budapest - MSc Economic Analysis (2 anos, ingles)",
+      "funder_type": "university",
+      "country": "Hungary",
+      "degree_levels": ["masters"],
+      "tracks": ["T1 via especializacion Macroeconomic analyst", "T2 debil"],
+      "signal": { "type": "standing", "evidence_url": "https://apply.stipendiumhungaricum.hu/courses/course/375-msc-economic-analysis", "verified_on": "2026-08-02", "note": "Listado como programa host de SH" },
+      "requirements": [
+        { "field": "entrance_exam", "operator": "==", "value": "test escrito online + entrevista; se exime con GRE 300 o GMAT 500", "kind": "threshold", "source_url": "https://www.uni-corvinus.hu/post/landing-page/msc-economic-analysis/?lang=en", "as_of": "2026-08-02" }
+      ],
+      "financials": {
+        "tuition_eur_eu_students_approx": "~4.200/ano (rango 3.200-5.500 segun study.eu; confirmar con Corvinus)",
+        "note": "Corvinus es universidad de fundacion y cobra matricula tambien a ciudadanos UE. El pasaporte espanol NO da gratuidad aqui.",
+        "corvinus_scholarship": "beca propia de matricula completa existe pero, segun la pagina, para MSc Management and Leadership, MSc Finance e International MBA - NO para Economic Analysis. Confirmar.",
+        "source_url": "https://www.uni-corvinus.hu/post/landing-page/application/scholarships-and-discounts/?lang=en"
+      },
+      "deadlines": [],
+      "life": {},
+      "cost_now": "medio",
+      "doors_opened": "medio en Hungria y region; sin evidencia de feeder a PhD internacional",
+      "tier": "B",
+      "matched_field": null,
+      "discovered_via": { "class": "catalogue", "surface": "apply.stipendiumhungaricum.hu" }
+    },
+    {
+      "id": "ceu-ma-economics-data-policy",
+      "name": "CEU - MA in Economics, Data and Policy (Viena, 1 o 2 anos)",
+      "funder_type": "university",
+      "country": "Austria",
+      "degree_levels": ["masters"],
+      "tracks": ["T1 fuerte (Global Economic Policy, Finance)", "T2 fuerte (Research pre-PhD, Data Science)"],
+      "signal": {
+        "type": "standing",
+        "evidence_url": "https://www.ceu.edu/departments/economics",
+        "verified_on": "2026-08-02",
+        "note": "Departamento activo en Viena. PhD integrado al Vienna Economics Graduate Center con WU y Universidad de Viena. Grants del ERC segun la propia pagina."
+      },
+      "requirements": [
+        { "field": "math_test", "operator": "==", "value": "CEU Mathematics Test (existe pagina dedicada)", "kind": "threshold", "source_url": "https://www.ceu.edu/departments/economics/ceu-mathematics-test", "as_of": "2026-08-02" },
+        { "field": "financial_aid_flag", "operator": "==", "value": "hay que tildar interes en ayuda financiera en la seccion Funding del formulario", "kind": "disqualifier", "source_url": "https://www.ceu.edu/admissions/financial-aid", "as_of": "2026-08-02" }
+      ],
+      "financials": {
+        "tuition": 12000,
+        "currency": "EUR",
+        "period": "year",
+        "aid": "Master's Tuition Award 50-80% (full solo excepcional) + Master's Stipend Award 300-750 EUR/mes. Economics publica que a los mejores les ofrece waiver total + 10.000 EUR/ano.",
+        "open_to": "candidatos de cualquier pais",
+        "source_url": "https://www.ceu.edu/admissions/financial-aid"
+      },
+      "deadlines": [
+        { "what": "deadline de ayuda financiera del ciclo 2027", "when": "no verificado", "verified": false }
+      ],
+      "life": { "col": "Viena cara pero con transporte y servicios de primer nivel; no verificado contra el monto del stipend" },
+      "cost_now": "medio si sale waiver parcial; bajo si sale el paquete top",
+      "doors_opened": "alto - departamento internacional, PhD en alianza con WU y UniWien, salidas declaradas a bancos centrales y organismos",
+      "tier": "A",
+      "matched_field": null,
+      "discovered_via": { "class": "institute_direct", "surface": "ceu.edu" }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "arg-sh-authority",
+      "name": "Iara Margalit Waisberg (asesora) / Marianela Bonilla (coordinadora)",
+      "role": "coordinator",
+      "institution": "Programa de Educacion, Formacion y Becas Internacionales - Ministerio de Capital Humano, Argentina",
+      "email": "iara.waisberg@educacion.gob.ar",
+      "phone": "+54 11 4129-1288",
+      "opportunity_ids": ["stipendium-hungaricum-ma-2027"],
+      "signal": { "type": "standing", "evidence_url": "https://stipendiumhungaricum.hu/partners/", "verified_on": "2026-08-02" },
+      "published_filters": [],
+      "hooks": [
+        { "text": "Es la autoridad que nomina: sin su nominacion la aplicacion a SH no se considera, y la lista tiene que llegar a Tempus antes del 28 de febrero. Es tambien quien puede responder si la doble ciudadania espanola invalida la postulacion por Argentina, y si conviene el marco bilateral o el de SEGIB.", "source_url": "https://stipendiumhungaricum.hu/partners/" }
+      ],
+      "status": "live",
+      "dead_reason": null,
+      "discovered_via": { "class": "primary_funder", "surface": "stipendiumhungaricum.hu/partners" }
+    },
+    {
+      "id": "tempus-sh",
+      "name": "Tempus Public Foundation - Stipendium Hungaricum Unit",
+      "role": "admissions",
+      "institution": "Tempus Kozalapitvany",
+      "opportunity_ids": ["stipendium-hungaricum-ma-2027"],
+      "signal": { "type": "standing", "evidence_url": "https://stipendiumhungaricum.hu/contact/", "verified_on": "2026-08-02" },
+      "published_filters": [
+        { "text": "El Call pide expresamente no aplicar a traves de agencias: 'The application has no additional costs; therefore, we highly suggest not to apply through any agencies.'", "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf" }
+      ],
+      "hooks": [
+        { "text": "Es la unica fuente que puede zanjar el conflicto entre el Call (que solo excluye a hungaros y dobles hungaros) y lo que publican las universidades host ('SH is available for non-EU nationals'). Pregunta concreta: un ciudadano argentino que ademas tiene ciudadania espanola, residente en Argentina, postulando por el sending partner Argentina, cae dentro del Section 39 (1) a).", "source_url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/BA_MA_OTM_Call_for_Applications_2026_27.pdf" }
+      ],
+      "status": "live",
+      "dead_reason": null,
+      "discovered_via": { "class": "primary_funder", "surface": "stipendiumhungaricum.hu" }
+    },
+    {
+      "id": "ceu-econ-dept",
+      "name": "CEU Department of Economics - consultas generales",
+      "role": "admissions",
+      "institution": "Central European University, Viena",
+      "email": "econdept@ceu.edu",
+      "opportunity_ids": ["ceu-ma-economics-data-policy"],
+      "signal": { "type": "standing", "evidence_url": "https://www.ceu.edu/departments/economics", "verified_on": "2026-08-02" },
+      "published_filters": [
+        { "text": "La ayuda financiera se pide tildando la seccion 'Funding' del formulario de aplicacion, no por mail.", "source_url": "https://www.ceu.edu/admissions/financial-aid" }
+      ],
+      "hooks": [
+        { "text": "El track Research (pre-PhD) del MA existe explicitamente como preparacion doctoral, y el PhD del departamento esta dentro del Vienna Economics Graduate Center junto con WU y la Universidad de Viena. Pregunta util: que fraccion del paquete top (waiver total + 10.000 EUR/ano) se asigna y cual es el deadline de ayuda financiera del ciclo 2027.", "source_url": "https://www.ceu.edu/academics/degrees/phd-economics" }
+      ],
+      "status": "live",
+      "dead_reason": null,
+      "discovered_via": { "class": "institute_direct", "surface": "ceu.edu" }
+    },
+    {
+      "id": "ceu-via-stipendium",
+      "name": "CEU como universidad host de Stipendium Hungaricum",
+      "role": "admissions",
+      "institution": "Central European University",
+      "opportunity_ids": ["stipendium-hungaricum-ma-2027"],
+      "signal": { "type": "standing", "evidence_url": "https://www.ceu.edu/campus", "verified_on": "2026-08-02" },
+      "published_filters": [],
+      "hooks": [],
+      "status": "dead",
+      "dead_reason": "Los programas de grado de CEU se dictan en Viena y estan acreditados en Austria y Estados Unidos. El sitio de Budapest es de investigacion, docencia no conducente a titulo y eventos. CEU no es una via alcanzable via Stipendium Hungaricum.",
+      "discovered_via": { "class": "institute_direct", "surface": "ceu.edu/campus" }
+    }
+  ],
+  "outreach": [],
+  "settings": {
+    "capacity_per_wave": 3
+  }
+}

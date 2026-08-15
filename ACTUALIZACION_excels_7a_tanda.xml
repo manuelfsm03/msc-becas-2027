@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Actualizacion 7a tanda - filas para pegar en los Excel maestros</Title>
+  <Author>Sesion Claude 2-ago-2026</Author>
+ </DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" ss:Size="10"/></Style>
+  <Style ss:ID="tit"><Font ss:FontName="Calibri" ss:Size="14" ss:Bold="1" ss:Color="#1F4E79"/><Alignment ss:Vertical="Center"/></Style>
+  <Style ss:ID="sub"><Font ss:FontName="Calibri" ss:Size="10" ss:Italic="1" ss:Color="#555555"/><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style>
+  <Style ss:ID="hd"><Font ss:FontName="Calibri" ss:Size="10" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#2E5E8C" ss:Pattern="Solid"/><Alignment ss:Vertical="Center" ss:WrapText="1"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/></Borders></Style>
+  <Style ss:ID="c"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D0D7DE"/></Borders></Style>
+  <Style ss:ID="cb"><Font ss:FontName="Calibri" ss:Size="10" ss:Bold="1"/><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D0D7DE"/></Borders></Style>
+  <Style ss:ID="ok"><Interior ss:Color="#DFF3E3" ss:Pattern="Solid"/><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D0D7DE"/></Borders></Style>
+  <Style ss:ID="warn"><Interior ss:Color="#FFF2CC" ss:Pattern="Solid"/><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D0D7DE"/></Borders></Style>
+  <Style ss:ID="crit"><Font ss:FontName="Calibri" ss:Size="10" ss:Bold="1" ss:Color="#9C0006"/><Interior ss:Color="#FFC7CE" ss:Pattern="Solid"/><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D0D7DE"/></Borders></Style>
+ </Styles>
+
+ <Worksheet ss:Name="LEEME">
+  <Table>
+   <Column ss:Width="640"/>
+   <Row ss:Height="24"><Cell ss:StyleID="tit"><Data ss:Type="String">Actualizacion 7a tanda — filas para volcar a los Excel maestros</Data></Cell></Row>
+   <Row ss:Height="8"/>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="sub"><Data ss:Type="String">Generado el 2-ago-2026. El entorno de scripting que hace falta para editar .xlsx directamente no arranco en esa sesion, asi que en vez de dejar el Excel maestro sin actualizar, aca estan las filas ya armadas y con el formato correcto para copiar y pegar. Este archivo abre nativo en Excel y en LibreOffice.</Data></Cell></Row>
+   <Row ss:Height="8"/>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="cb"><Data ss:Type="String">Que va donde</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="c"><Data ss:Type="String">Hoja "1-Becas nuevas"  →  pegar en la hoja Becas de masters_consolidado_GRE_2027.xlsx. Son 4 entradas nuevas: Banco de Espana, EUI Florencia, Kiel ASP y la ruta predoc/RA. Las columnas siguen el esquema documentado del proyecto: Beca / Categoria / Cobertura / Via elegibilidad / Estado / Deadline / Fit track / Notas / URL. Si tu hoja tiene las columnas en otro orden, reordenalas antes de pegar.</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="c"><Data ss:Type="String">Hoja "2-Timeline correcciones"  →  pegar en la hoja Timeline. Incluye la correccion critica de Chevening (la fila vieja que dice "7-oct-2026 abre Chevening" hay que BORRARLA, no dejarla) y los hitos nuevos del Banco de Espana.</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="c"><Data ss:Type="String">Hoja "3-Pendientes nuevos"  →  pegar en la hoja Pendientes.</Data></Cell></Row>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="c"><Data ss:Type="String">Hoja "4-UK"  →  pegar en tabla_becas_uk.xlsx. Es una sola fila (Banco de Espana cubre UK) mas la nota de incompatibilidad que afecta a TODAS las filas UK existentes.</Data></Cell></Row>
+   <Row ss:Height="8"/>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="crit"><Data ss:Type="String">ANTES DE PEGAR NADA: BORRAR de las hojas Becas y Timeline todo lo referido a Chevening. Quedo DESCARTADA el 2-ago-2026 por elegibilidad: exige 2 anos de experiencia laboral posteriores al titulo de grado (2.800 h) y Manuel no llega. Fuente: chevening.org/resource-hub/guidance/eligibility/ . Ojo que el perfil del proyecto decia "mas de 2 anos de experiencia profesional" contando experiencia TOTAL: ese era el error. La misma regla hay que verificarla en DAAD EPOS y en el World Bank JJ/WBGSP.</Data></Cell></Row>
+   <Row ss:Height="8"/>
+   <Row ss:AutoFitHeight="1"><Cell ss:StyleID="sub"><Data ss:Type="String">El detalle completo, con fuentes primarias enlazadas, esta en EXPAND_hallazgos_ago2026.md. El resumen ejecutivo esta en la seccion 6 de NODO_MAESTRO_MSC_2027.md.</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="1-Becas nuevas">
+  <Table>
+   <Column ss:Width="200"/><Column ss:Width="150"/><Column ss:Width="230"/><Column ss:Width="70"/><Column ss:Width="55"/><Column ss:Width="120"/><Column ss:Width="80"/><Column ss:Width="420"/><Column ss:Width="260"/>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Beca</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Categoria</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Cobertura</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Via</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Estado</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Deadline</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Fit track</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Notas</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">URL (fuente primaria)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Banco de Espana — Programa de ayudas para estudios en economia y finanzas</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">D (institucion publica) — categoria nueva</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">MATRICULA COMPLETA (aparte, previa justificacion) + 21.500 EUR/ano en Espana y resto de Europa · 18.500 GBP en UK · 29.000 USD en EEUU. Hasta 2 cursos academicos. + estancia de 1 a 2 meses en el BdE con 1.550 EUR/mes adicionales.</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">ESP</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">SI</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">~18-feb-2027 (bases ~dic-2026)</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">T1 (perfecto) y T2</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">EL HALLAZGO PRINCIPAL DE LA 7a TANDA. 10 plazas. Elegibilidad: nacionalidad espanola + titulo de licenciatura o grado universitario "o de otro analogo" — NO exige que el grado sea espanol, que es el filtro exacto que descarto a la Caixa. Centro y titulacion a eleccion del estudiante, asi que cubre UK igual que el continente: 18.500 GBP + matricula pagada vuelve viables Bristol/Warwick/Glasgow SIN Chevening. La evaluacion pondera la correspondencia entre los estudios y las prioridades analiticas y de investigacion del BdE. INCOMPATIBLE con el disfrute simultaneo de cualquier otra beca o remuneracion, salvo investigacion autorizada por el BdE — o sea que REEMPLAZA a Areces / del Pino / Chevening, no se suma. Exige 2 o mas informes de profesorado universitario redactados ex profeso y enviados DIRECTAMENTE por los profesores a investigacion.becas@bde.es (mismos profesores que las referencias de McCall MacBain: pedir todo junto). PENDIENTE DE VERIFICAR: si el titulo de la UBA requiere homologacion — preguntar a per.investigacion.becas@bde.es</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">https://www.bde.es/f/webbde/PER/convoca/ficheros/descargar/Bases26_27.pdf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">EUI Florencia — cupo nacional espanol (Ministerio de Ciencia, Innovacion y Universidades)</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">C (gobierno)</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">1.650 EUR/mes + ayuda de viaje + seguro de salud. 12 becas para el proceso 2026-2027.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">ESP</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">VERIF</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">junto con la app al doctorado</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">T1 y T2</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">OJO: es para el DOCTORADO, exige master oficial terminado. No sustituye al MSc 2027 — es el paso siguiente. Igual entra al mapa porque cambia que master conviene elegir: si el objetivo real es el PhD, Espana tiene 12 plazas reservadas en el EUI y conviene un master cuantitativo que el EUI mire bien. No hay solicitud separada: postularse al doctorado ES postularse a la beca. VERIFICAR: la elegibilidad dice "Citizenship or Legal Residence in Spain for at least two years prior to the application" y es ambiguo si los 2 anos aplican tambien a los ciudadanos — mismo patron que ya tumbo a la Caixa, GREAT Espana e Irlanda. Preguntar a becas.iue@universidades.gob.es antes de contar con esto.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">https://www.eui.eu/en/services/academic-service/doctoral-programme/funding-information/spainespana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Kiel Institute — Advanced Studies Program (ASP)</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">A (instituto de investigacion)</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Sin matricula + beca de 1.750 EUR/mes durante 16 meses</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">TODOS</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">VERIF</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">consultar ciclo</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">T1</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Programa de 10 meses en macroeconomia internacional, finanzas internacionales, comercio, migracion, economia politica internacional y economia del clima. Exige master en economia con muy buenas notas, terminado al momento de entrar — o sea POST-master. Orientado explicitamente a colocar en el job market internacional o en instituciones de policy. Relevante para la decision abierta "1 ano vs. research master de 2 anos": si existe un puente financiado post-master, el master de 1 ano pierde su principal desventaja.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">https://www.ifw-kiel.de/institute/advanced-studies-program/</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Ruta predoc / RA remunerada (no es una beca, es empleo)</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">E (empleador) — categoria nueva</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Sueldo. Ej. verificado: predoc en CSAE Oxford, 35.681 a 41.636 GBP/ano.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">TODOS</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">EXPLORAR</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">ventanas oct-ene, arranque en verano</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">T1 y T2</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">RAMA QUE NUNCA SE ABRIO EN TODO EL PROYECTO. Es sueldo y no matricula, por lo tanto NO viola la politica de "Norteamerica solo con full funding" — no hay nada que financiar. Es la ruta estandar de preparacion para doctorado en economia y encaja con el perfil (Python, econometria aplicada, inferencia causal, research fellow en IIEP). EUROPA: Oxford (Global Priorities Institute, CSAE, EIT Oxford), Sciences Po Paris, Universidad de Zurich (rolling), LSE Centre for Economic Performance, Manchester (Arthur Lewis Lab). EEUU, volumenes grandes: Federal Reserve Board y Feds regionales (Atlanta, Boston, Chicago, Cleveland, Kansas City, NY, Richmond, St. Louis), Yale Tobin Center, Princeton IRS y SPIA, Chicago BFI, MIT, Stanford SIEPR, Opportunity Insights. Si esto entra en juego para 2027, se decide en octubre-2026, en paralelo con Chevening.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">https://www.predoc.org/opportunities · https://econjobmarket.org/market</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="2-Timeline correcciones">
+  <Table>
+   <Column ss:Width="150"/><Column ss:Width="70"/><Column ss:Width="330"/><Column ss:Width="70"/><Column ss:Width="460"/>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Fecha</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Accion sobre el Excel</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Hito</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Prioridad</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Detalle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="crit"><Data ss:Type="String">—</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">BORRAR</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">La fila existente que dice "7-oct-2026 — Abre Chevening 2027-28"</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">CRITICA</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Es falsa. El dato venia del ciclo anterior (2026-27 cerro el 7-oct-2025) leido como fecha de apertura del siguiente. Reemplazar por las dos filas de abajo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="crit"><Data ss:Type="String">4-ago-2026 11:00 UTC</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">ABRE Chevening 2027-28</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">CRITICA</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Elegir las 3 universidades UK y arrancar los 4 essays (liderazgo, networking, eleccion de curso, plan de carrera). Va por fuera de Inova, pero la shortlist de Inova tiene que estar lo bastante avanzada para poder nombrar 3 cursos concretos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="crit"><Data ss:Type="String">6-oct-2026 11:00 UTC</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">CIERRA Chevening 2027-28</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">CRITICA</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Ventana real de ~9 semanas desde el 4-ago, solapada con el tramo final de McCall MacBain (19-ago). Las dos piden material de liderazgo y servicio comunitario: reciclar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="c"><Data ss:Type="String">mediados de feb-2027</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Chevening: shortlist para entrevistas</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Media</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Entrevistas mar-abr 2027 en la embajada britanica. Documentacion (ID, diploma de grado, cartas de referencia) a subir al menos 7 dias habiles antes de la entrevista.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="c"><Data ss:Type="String">8-jul-2027 17:00 BST</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Chevening: deadline de la oferta INCONDICIONAL</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Alta</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Hay que tener y subir al menos una oferta incondicional de una universidad UK. Resultados de entrevista desde mediados de jun-2027, o sea que el margen es de tres semanas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="ok"><Data ss:Type="String">~oct-2026</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Ventanas predoc / RA</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Media</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">predoc.org y econjobmarket abren la temporada oct-ene con arranque en verano. Solo si esa ruta entra en juego.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="ok"><Data ss:Type="String">~dic-2026</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Se publican las bases del Banco de Espana 2027-28</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Alta</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Patron: la convocatoria 2026-27 se aprobo el 19-dic-2025. Vigilar bde.es, seccion Sobre el Banco / Trabajar en el Banco / Convocatorias con plazo abierto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="ok"><Data ss:Type="String">~18-feb-2027</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">CIERRE Banco de Espana</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Alta</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Formulario telematico + certificacion academica con nota media + carta de motivacion + relacion de centros solicitados + justificantes de admision (vale la solicitud si todavia no hay respuesta). Aparte y por fuera del formulario: 2 o mas informes de profesores que envian ELLOS a investigacion.becas@bde.es antes de la misma fecha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="crit"><Data ss:Type="String">antes de feb-2027</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">AGREGAR</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">DECISION: orden de preferencia entre BdE / Areces / del Pino / Chevening</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Alta</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">El Banco de Espana es incompatible con el disfrute simultaneo de cualquier otra beca. Las cuatro caen en la misma ventana de enero-febrero. Hay que decidir antes, no en el momento.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="3-Pendientes nuevos">
+  <Table>
+   <Column ss:Width="520"/><Column ss:Width="110"/><Column ss:Width="100"/><Column ss:Width="230"/>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Pendiente</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Tipo</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Estado</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Contacto / referencia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Verificar DAAD EPOS y World Bank JJ/WBGSP contra la regla de experiencia POST-titulo. Es la misma que descarto a Chevening el 2-ago-2026, asi que probablemente caigan igual. El perfil del proyecto contaba experiencia TOTAL y por eso parecia que cumplia.</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Beca</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">URGENTE</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">chevening.org/resource-hub/guidance/eligibility/</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Preguntar al Banco de Espana si el titulo de grado de la UBA requiere homologacion. Es lo unico que puede tumbar la mejor beca del mapa.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Elegibilidad</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">PENDIENTE</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">per.investigacion.becas@bde.es</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Preguntar al EUI si el requisito de residencia de 2 anos aplica tambien a ciudadanos espanoles.</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">Elegibilidad</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">PENDIENTE</Data></Cell>
+    <Cell ss:StyleID="warn"><Data ss:Type="String">becas.iue@universidades.gob.es</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Avisar a los profesores de la FCE-UBA que ademas de las referencias de McCall MacBain (form online antes del 19-ago) habra informes firmados para el Banco de Espana en ~feb-2027. Son los mismos profesores: pedir las dos cosas de una.</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Referencias</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">PENDIENTE</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">MCCALL_MCGILL_plan_ataque.md</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="c"><Data ss:Type="String">Filtrar el catalogo Erasmus Mundus por campo ECO (220 proyectos, filtro "Economic Sciences") y cotejar contra la hoja Todos los programas. Solo QEM y EPOG+ estan relevados, y llegaron por conocimiento previo, no por barrer el catalogo. Argentina es pais participante y la UBA figura en el catalogo.</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Busqueda</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">PENDIENTE</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="c"><Data ss:Type="String">Decidir si la ruta predoc / RA entra en juego. Las ventanas son oct-ene, o sea que la decision es en octubre-2026.</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Estrategia</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">PENDIENTE</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">predoc.org/opportunities</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="c"><Data ss:Type="String">Contactos nombrados para el continente via OpenAlex y paginas de departamento — segunda pasada, si interesa. Nota: para MSc taught europeos la admision es por comite y no se exige supervisor, asi que el ROI del outreach a profesores es bajo (a diferencia de McGill MA, que exige supervisor confirmado al aplicar).</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">Contactos</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">OPCIONAL</Data></Cell>
+    <Cell ss:StyleID="c"><Data ss:Type="String">EXPAND_hallazgos_ago2026.md sec. 7</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="4-UK">
+  <Table>
+   <Column ss:Width="180"/><Column ss:Width="170"/><Column ss:Width="120"/><Column ss:Width="70"/><Column ss:Width="480"/>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Beca</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Cobertura en UK</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Deadline</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Acumula?</Data></Cell>
+    <Cell ss:StyleID="hd"><Data ss:Type="String">Notas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Banco de Espana (NUEVA)</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Matricula completa + 18.500 GBP/ano, hasta 2 cursos</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">~18-feb-2027</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">NO</Data></Cell>
+    <Cell ss:StyleID="ok"><Data ss:Type="String">Cambia el cuadro UK entero: hasta ahora el supuesto era que UK solo era viable con Chevening o con una beca full de universidad. El BdE cubre matricula + 18.500 GBP con eleccion libre de universidad, o sea que Bristol, Warwick y Glasgow pasan a ser financiables por una segunda via. Contrapartida: es incompatible con cualquier otra beca simultanea, asi que no se apila con Think Big, BBS, ASBS, GREAT-Glasgow ni Chevening — se elige una.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="1">
+    <Cell ss:StyleID="cb"><Data ss:Type="String">Chevening (CORRECCION)</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">Sin cambios en cobertura</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">CIERRA 6-oct-2026 (abre 4-ago-2026)</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">NO</Data></Cell>
+    <Cell ss:StyleID="crit"><Data ss:Type="String">La fecha que figuraba ("abre 7-oct-2026", a veces "~nov-2026") era erronea. Ademas de las incompatibilidades ya conocidas (GREAT-Glasgow, Southampton Presidential), sumar la del Banco de Espana. Oferta incondicional a subir antes del 8-jul-2027 17:00 BST.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

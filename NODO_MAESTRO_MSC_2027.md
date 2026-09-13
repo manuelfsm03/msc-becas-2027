@@ -1,6 +1,6 @@
 # NODO MAESTRO — Búsqueda MSc Economics 2027 (Manuel)
 
-> **Actualizado: 17-jul-2026 (2ª pasada: verificaciones la Caixa/Carolina, barrida Campus Argentina Global, plan McCall MacBain + McGill).** Este documento SUPERSEDE a `CONTEXTO_MSC_traspaso.md` y a `briefing_manu_masters_v2.md`. Es el nodo de sincronización entre el trabajo en Cowork local y el proyecto de chat en Claude.ai. La fuente de datos viva es `masters_consolidado_GRE_2027.xlsx` (carpeta local MSc); este nodo resume su estado y decisiones tomadas.
+> **Actualizado: 13-sep-2026 (HSG St. Gallen entra al foco activo por decisión de Manuel: el foco pasa a ser Banco de España + Inova/UK + HSG. Antes: 9-sep, dossier Suiza y lectura completa de las bases oficiales del BdE; 16-ago, McCall MacBain/McGill desistido).** Este documento SUPERSEDE a `CONTEXTO_MSC_traspaso.md` y a `briefing_manu_masters_v2.md`. Es el nodo de sincronización entre el trabajo en Cowork local y el proyecto de chat en Claude.ai. La fuente de datos viva es `masters_consolidado_GRE_2027.xlsx` (carpeta local MSc); este nodo resume su estado y decisiones tomadas.
 
 ## 1. Perfil
 
@@ -17,6 +17,7 @@ Dos tracks de interés: **(T1) Economics & Finance / Política Monetaria** (cuan
 - **Restricción Norteamérica RELAJADA (jul-2026):** originalmente descartada por costo; ahora se consideran oportunidades **full-funding** caso por caso (disparador: McCall MacBain/McGill). No se agrega Norteamérica en general, solo becas realmente completas.
 - **GREAT España: DESCARTADA** (exige residencia permanente en España). Eliminada de todos los archivos jul-2026.
 - Trabaja con **Inova Education** para UK/NL (máx. 5 aplicaciones UK). Asesora: Fabiola Delfín. **To-do list de documentos y form: `INOVA_todo_documentos.md`** (17-jul-2026; basada en el mail de Fabiola del 14-may + form real de inovaeducation.com/apply-now). Form llenable desde agosto; documentos clave a iniciar YA: analítico FCE-UBA + traducción pública (sirve para Inova + McCall + visa).
+- **HSG St. Gallen entra al foco activo (13-sep-2026, decisión de Manuel).** El foco pasa a ser Banco de España + Inova/UK + HSG. Sustento: es el mejor fit de método del mapa — el SEW-HSG tiene bajo un mismo techo a Lechner (causal machine learning para política pública) y a Koeniger (transmisión monetaria y fiscal identificada con datos transaccionales), ver `MATCH_grupos_profes_por_uni.md` → BLOQUE SUIZA —, el MEcon no exige GRE, y HSG Best Talents es la única beca suiza que entra por el pasaporte español (`SUIZA_dossier.md` §3.3). Consecuencia operativa: aplicar a MEcon desde el 1-oct-2026, porque Best Talents (portal nov-2026, rolling) exige estar admitido. **Queda abierto** el reparto de cartas entre MEcon y MiQE/F.
 
 ## 2 bis. ⛔ Filtro transversal: la experiencia laboral se cuenta DESPUÉS del título (2-ago-2026)
 
@@ -57,7 +58,14 @@ Correcciones verificadas: Bristol Think Big £26k SÍ aplica a MSc Econ; Glasgow
 
 ## 5. NUEVO (17-jul-2026): Norteamérica y becas investigadas
 
-### McCall MacBain — plan de aplicación armado (17-jul-2026)
+### McCall MacBain / McGill — ❌ DESISTIDO (16-ago-2026)
+
+Manuel desistió de McCall MacBain y McGill MA Economics: el endorsement UBA obligatorio (la UBA no es universidad participante) no salió a tiempo — sin él, no se puede aplicar a la beca. Con esto se cae también el plan B asociado (PBEEE Québec, apilable con McGill) y el pendiente #3 de contactar supervisores McGill. El foco pasa a **Banco de España + Inova/UK** en paralelo.
+
+Queda como registro histórico (checklist, cronograma, supervisores, templates) en `MCCALL_MCGILL_plan_ataque.md` — no seguir usándolo para planificar.
+
+<details>
+<summary>Detalle original (17-jul-2026) — supersedido</summary>
 
 Checklist completo, cronograma semanal, shortlist de supervisores McGill y template de mail en **`MCCALL_MCGILL_plan_ataque.md`**. Puntos nuevos verificados en la web oficial:
 - **⚠️ Endorsement UBA obligatorio:** la UBA NO es universidad participante (LatAm: solo USP, UFMG, UNAM, Tec, Los Andes, Nal. Colombia, PUCP, U. Lima, UWI) → el aplicante de universidad no participante debe conseguir endorsement de su universidad, sin importar el año de graduación. Iniciar trámite en FCE-UBA YA.
@@ -72,6 +80,8 @@ Prioridad máxima (los tres verificados activos, con **conexión UBA los dos pri
 ### McGill MA Economics + McCall MacBain — ✅ AGREGADO, prioridad alta
 - **MA Economics (Thesis)**: 1 año (3 terms, sep-ago), PhD-prep explícito (micro/macro/econometría, se eligen 2 de 3 campos). Tuition intl ~CAD 25.7k + vida ~CAD 18k. **GRE REQUERIDO** para grados no canadienses — verificado en la página del departamento (how-to-apply, nov-2025): GMAT no sustituye; códigos GRE 0935 (McGill) / 1801 (Economics). **Inglés (verificado GPS jun-2026): SOLO IELTS Academic ≥6.5 (presencial, envío electrónico por el centro) o TOEFL iBT ≥86 (mín. 20/sección) — NO aceptan Cambridge C1, Duolingo ni PTE** → el C1 de Manuel no sirve acá; rendir IELTS antes de dic-2026 por demoras reportadas en el envío. **Deadline programa: 15-ene-2027 (intl).** Non-thesis suspendido desde 2024 → la vía es thesis, y **exige supervisor de McGill Economics confirmado AL MOMENTO de aplicar** (contactar profesores meses antes del deadline). Requisitos de mate: 2 cursos de cálculo + álgebra matricial + estadística anual (perfil UBA cubre).
 - **McCall MacBain Scholarship**: FULL (tuition + fees todo el programa + CAD 2.300/mes + relocation + verano). Sin restricción de nacionalidad; elegible si el grado se obtuvo hace <5 años (o ≤30 años). ~30 becas intl/año; finalistas no ganadores reciben entrance awards CAD 5-20k. Selección tipo Rhodes (liderazgo + servicio + académico). **⏰ Deadline internacional: 19-AGO-2026** (entrevistas nov-2026 y mar-2027). Se aplica a la beca Y al programa por separado.
+
+</details>
 
 ### DAAD Helmut Schmidt (PPGG) — ⚠️ elegible pero fit parcial
 Argentina elegible; full funding (~€992/mes + seguro + viaje + 6 meses de alemán). **PERO solo másters de Public Policy/Good Governance** (Development & Governance Duisburg-Essen, MPP Erfurt, Development Studies/Governance Passau, Social Protection H-BRS, etc.) — **no cubre MSc Economics**. Solo tiene sentido si Manuel quisiera pivotar al track policy/desarrollo institucional. Ventana: 1-jun a 31-jul-2026 (intake 2027), aplicación directa a las unis (hasta 2). Resultado dic-2026/ene-2027.
@@ -99,11 +109,22 @@ Full funding (fees + vuelos + alojamiento + €700/mes), Argentina elegible como
 
 Informe completo con los 24 veredictos: **`BECAS_veredictos_lista_24.md`**. Lo nuevo accionable:
 
-- **DAAD Study Scholarship (másters todas las disciplinas) ✅ ⭐**: ~€992/mes × 10-24 meses para CUALQUIER máster en Alemania — sobre matrícula gratis convierte Bonn/Mannheim/Goethe en paquete full. Deadline ~31-oct-2026 (confirmar ciclo en portal DAAD ARG).
+- **DAAD Study Scholarship (másters todas las disciplinas) ✅ ⭐ — elegibilidad UE confirmada sin restricción (25-ago-2026).** ~€992/mes × 10-24 meses para CUALQUIER máster en Alemania — sobre matrícula gratis convierte Bonn/Mannheim/Goethe en paquete full. Deadline ~31-oct-2026 ⚠️ (fecha exacta no confirmada esta tanda, confirmar en portal DAAD ARG). **Dossier a fondo: `DAAD_STUDY_SCHOLARSHIP_dossier.md`** — resuelve la pregunta de si el pasaporte español (patrón de exclusión visto en la Caixa/GREAT/Ireland/Hungría) afecta esta beca: **no afecta.** La ficha oficial del programa no tiene lista de países elegibles ni cláusula de exclusión por nacionalidad (a diferencia de EPOS/Helmut Schmidt, que sí son development-focused). La regla de doble nacionalidad de DAAD es por país de origen/residencia, no por pasaporte adicional — y el ejemplo oficial que da DAAD para explicar la regla es, cambiando Italia por España, el caso exacto de Manuel: aplica por Argentina, vía DAAD Information Centre Buenos Aires. El mismo dossier suma 5 candidatos nuevos de MSc Economics en Alemania más allá de Bonn/Mannheim/Goethe MMF: **Heidelberg (AWI, versátil T1+T2 en un solo programa vía tracks) y HU Berlin (MSc Economics puro, T1 vía Monetary Economics, sin GRE)** como los mejores hallazgos; también Kiel (ligado al IfW ya conocido por el ASP), Cologne (Economic Research, feeder de PhD) y, con reservas a depurar, Konstanz y Tübingen. Frankfurt School queda descartada del radar "gratis por pasaporte ESP": es privada (~€35-42k) y exige GMAT/GRE sin waiver.
 - **Master Mind (Flandes) ✅ ⭐**: €10.225/año + matrícula ~€137, todas las nacionalidades; se aplica vía la institución → KU Leuven (ya 4.70 en el ranking) queda a costo ~cero. Feb-abr-2027.
 - **Clarendon (Oxford) ✅ + Gates Cambridge ✅**: full, todas las nacionalidades; Clarendon es automática con la app a Oxford y Gates es un tilde en la app a Cambridge → sobre la MISMA aplicación de MPhil Econ hay 3 vías full (Clarendon + Weidenfeld + college funds / Gates). Revisar al alza la financiabilidad de Oxbridge en el ranking UK.
 - **GOI-IES Irlanda ✅**: €10.000 + waiver total (60 becas), conv. ~ene-2027 con oferta en mano. **Hallazgo asociado — CORRECCIÓN al perfil: en Irlanda el fee status EU exige residencia UE 3 de los últimos 5 años → viviendo en Argentina, Manuel paga fees NON-EU pese al pasaporte español.** Irlanda no era "barata vía EU"; GOI-IES es la compensación.
 - **ETH ESOP ⚠️**: CHF 12k/semestre + waiver, ventana única 1-30 nov-2026; ETH no tiene MSc Econ puro (fit = MTEC o Quantitative Finance).
+
+#### 🇨🇭 SUIZA — barrida a fondo (9-sep-2026, 8ª tanda). Dossier: `SUIZA_dossier.md`
+
+Suiza estaba cubierta sólo por el lado de las becas. Barrida completa del catálogo oficial (87 programas → 9 candidatos reales) con costos, becas y fit verificados.
+
+- ⛔ **CORRECCIÓN AL PERFIL — segunda excepción a la palanca del pasaporte, después de Irlanda y por un mecanismo distinto: en Suiza el pasaporte español NO reduce la matrícula.** Suiza no diferencia por ciudadanía sino por **origen del título de secundaria** ("non-Swiss educational qualifications"): con secundario argentino se paga tarifa extranjera siempre. La matrícula es barata igual — CHF 870 (Ginebra) · 1.000 (Lausana) · 1.640 (UZH) · 1.700 (Basilea) · 5.100 (Berna) · 6.634 (HSG) · 8.000 (IHEID/USI) al año.
+- **Pero el pasaporte sí sirve para tres cosas:** (1) **HSG Best Talents** ✅ ⭐ — la única beca de máster suiza restringida a nacionales **UE/EFTA** o permiso C: matrícula completa + aporte a costo de vida, 39 plazas → 45, **portal reabre nov-2026 para la cohorte 2027**, exige estar ya admitido a un máster de HSG (⚠️ monto del aporte de vida sin publicar); (2) permiso B UE/EFTA sin visado y **sin el tope de 15 h/semana ni la espera de 6 meses** que atan a los no-UE → el trabajo de asistente es línea de financiación real; (3) deadlines más holgados (UNIL: 30-abr, contra 28-feb para quien necesita visado — mismo mecanismo que Konstanz).
+- **El costo de vida es el único problema real: CHF 18-23k/año en St. Gallen, Berna y Basilea; CHF 24-30k en Zúrich y Ginebra**, más KVG obligatorio CHF 280-380/mes ⚠️ (posible exención, ~CHF 4.000/año en juego).
+- **Suiza se comporta como UK, no como Alemania: exige beca full.** No hay DAAD suizo ni Master Mind y Erasmus+ no la cubre. **Con el BdE queda esencialmente autofinanciable en St. Gallen / Berna / Basilea** y corta CHF 8-14k/año en Zúrich y Ginebra. Sin BdE, la única vía propia es Best Talents.
+- **Programas, por fit con la espina:** **HSG MEcon** ★★★★ (SEW-HSG de Michael Lechner: causal machine learning para evaluación de política pública — el mejor fit de método de todo el mapa continental; **GRE/GMAT OPCIONAL**, si no se presenta el promedio pondera doble; 1-oct a 31-mar; la ciudad más barata) · **UZH MA Economics** ★★★★ (RePEc #1 de Suiza, Pomeranz + Yanagizawa-Drott, ya listada en la ruta predoc; pero Zúrich carísima, sin beca de máster, ⚠️ deadline sin verificar) · **UNIL MSc Economics** ★★★★ (único programa que cubre T1 y T2 explícitamente: menciones en Macroeconomic Policy, Development Economics, Public Economics, Quantitative Economics, Data Science; ⚠️ riesgo de *bridging programme* para título UBA, sin resolver) · **MIME Basilea+Berna** ★★★ (T1 puro, BIS + SNB + Gerzensee; ir por Basilea: CHF 850/sem vs 2.550 de Berna; ⚠️ exige 5,0/6 o GRE) · **HSG MiQE/F** ★★★ (GRE obligatorio; permite designar MEcon como alternativa si se aplica antes del 31-ene) · **IHEID Ginebra** ★★★ (única beca propia decente de Suiza: hasta CHF 20k por dos años, mérito+necesidad) · UNIGE ★★ · UniBE ★★ · UniNE ★. USI y Unilu descartadas.
+- ESKAS ❌ **reconfirmada** (2027-28 exige máster completo al 31-jul-2027: es research/PhD). ETH ESOP y EPFL Excellence ⚠️ sin cambios (siguen sin MSc Econ).
 - **Eiffel re-verificada ✅**: límite máster ≤29 años confirmado (el dato del Excel era correcto); la postula la universidad.
 - **Descartes verificados:** Rhodes Global SUSPENDIDA por el Board (oficial, jul-2026) · Commonwealth (solo Commonwealth) · Reach Oxford (grado) · GREAT (ARG fuera) · Yale/Harvard (sin full para másters de econ) · AAUW (mujeres) · SI/VLIR/ARES/Holland ya descartadas antes.
 
@@ -159,34 +180,46 @@ En vez de buscar más becas (saturado), se diffeó **de dónde** salió todo lo 
 |---|---|
 | jul-ago 2026 | Preparar GRE (Q≥165/V≥158/AWA≥4.0) |
 | ~~4-ago-2026~~ | ~~Abre Chevening~~ ❌ descartada 2-ago-2026 (no llega a 2 años post-título) |
-| **18-24 jul-2026** | Endorsement UBA + pedir 2 referencias McCall MacBain (cronograma semanal en plan de ataque) |
+| ~~18-24 jul-2026~~ | ~~Endorsement UBA + referencias McCall MacBain~~ ❌ **desistido 16-ago-2026: el endorsement UBA no salió a tiempo** |
 | **31-jul-2026** | Cierra DAAD Helmut Schmidt (solo si interesa PPGG) |
-| **19-ago-2026** | 🎯 Deadline McCall MacBain intl (ensayos + 2 referencias) |
+| ~~19-ago-2026~~ | ~~🎯 Deadline McCall MacBain intl~~ ❌ ya no aplica |
 | ~ago 2026 | DAAD EPOS |
-| sep-oct 2026 | Arranca proceso Inova (5 apps UK) |
+| sep-oct 2026 | 🎯 Arranca proceso Inova (5 apps UK) — foco inmediato |
 | ~dic-2026 | Se publican las bases del **Banco de España** 2027-28 |
 | ~18-feb-2027 | 🎯 **Cierre Banco de España** (+ informes de profesores enviados por ellos) |
 | ~oct-2026 | Chequear si vuelve Southampton Presidential |
 | ~dic 2026 | Tinbergen/ETH deadlines tempranos |
 | ~ene 2027 | IELTS rendido |
-| **15-ene-2027** | Deadline McGill MA Economics (intl) |
+| ~~15-ene-2027~~ | ~~Deadline McGill MA Economics~~ ❌ ya no aplica |
 | ene / feb 2027 | CEMFI funding (31/1) · Areces · del Pino · Carolina (la Caixa ❌, no aplica) |
+| ~18-feb-2027 | 🎯 **Cierre Banco de España** — foco inmediato en paralelo con Inova |
 | feb-abr 2027 | Aplicaciones rolling UK + continente |
+| **1-oct-2026** | 🇨🇭 Abre la ventana de aplicación de HSG St. Gallen (MEcon y MiQE/F) |
+| **nov-2026** | 🇨🇭 🎯 **Reabre el portal de HSG Best Talents (cohorte 2027)** — adjudicación rolling, aplicar temprano; exige admisión previa a un máster de HSG |
+| 31-ene-2027 | 🇨🇭 Límite para designar programa alternativo (MEcon) en la aplicación de MiQE/F |
+| 28-feb-2027 | 🇨🇭 Cierra UNIGE |
+| **31-mar-2027** | 🇨🇭 Cierra **HSG MEcon** (GRE opcional) |
+| **30-abr-2027** | 🇨🇭 Cierra HSG MiQE/F · **UNIL** (30-abr por ser UE, no 28-feb) · **MIME Basilea** (tardías hasta 31-jul) |
 | sep 2027 | 🎓 Inicio |
 
 ## 8. Pendientes abiertos clave
 
 1. ~~Verificar la Caixa y Carolina~~ ✔ RESUELTO 17-jul-2026: la Caixa ❌ / Carolina ✅ (bajo nacionalidad ARG).
-2. ⏰ **YA (jul-2026): iniciar endorsement UBA para McCall MacBain** + pedir 2 referencias + preparar essays (checklist y cronograma en `MCCALL_MCGILL_plan_ataque.md`; deadline 19-ago).
-3. ⏰ AGO-SEP 2026: contactar supervisores McGill (empezar por Cámara, Ajzenman, Saltiel — template en el mismo doc).
-4. ⏰ OCT-2026: chequear Southampton Presidential 2027-28 (define slots 4-5 de Inova).
+2. ~~Endorsement UBA para McCall MacBain~~ ❌ CERRADO 16-ago-2026: no salió a tiempo, Manuel desistió de McCall MacBain/McGill. Ver `MCCALL_MCGILL_plan_ataque.md` (queda como registro histórico).
+3. ~~Contactar supervisores McGill~~ ❌ CERRADO 16-ago-2026: sin objeto tras desistir de McGill.
+4. ⏰ **AHORA (sep-2026): foco triple Banco de España + Inova/UK + HSG St. Gallen** (HSG sumado el 13-sep-2026 por decisión de Manuel). Inova: avanzar documentos y form (arranca sep-oct, `INOVA_todo_documentos.md`). Banco de España: preparar informes de profesores (los mismos que se iban a pedir para McCall MacBain — pedirlos ya) y verificar homologación del título UBA (pendiente 9). HSG: aplicar a MEcon desde el 1-oct-2026 para tener la admisión cuando reabra Best Talents en nov-2026.
+5. ⏰ OCT-2026: chequear Southampton Presidential 2027-28 (define slots 4-5 de Inova).
 5. Verificar edad ≤25 para IYT Italia al momento de aplicar (conv. abr-may-2027).
 6. Resolver tensión 1 año vs. research masters de 2 años (PhD-prep) — decisión de Manuel. McGill MA resuelve parcialmente: 1 año Y PhD-prep.
-7. ~~Becas restantes por investigar~~ ✔ CERRADO 17-jul-2026 (ver sección 6). Nuevos pendientes: nominación PBEEE vía McGill (oct-nov-2026) · contactar Rotary BA (~sep-2026) · decidir si intake 2028-29 habilita Fulbright · evaluar Western MA en el Ranking.
+7. ~~Becas restantes por investigar~~ ✔ CERRADO 17-jul-2026 (ver sección 6). Nuevos pendientes: ~~nominación PBEEE vía McGill~~ ❌ sin objeto (dependía de McGill) · contactar Rotary BA (~sep-2026) · decidir si intake 2028-29 habilita Fulbright · evaluar Western MA en el Ranking.
 8. ~~Chevening~~ ✔ CERRADO 2-ago-2026: **descartada por elegibilidad** (§2 bis). Con eso, UK depende del Banco de España o de las becas de universidad.
-9. ⏰ **Preguntar al Banco de España si el título de la UBA requiere homologación** (`per.investigacion.becas@bde.es`). Es lo único que puede tumbar la mejor beca del mapa, y ahora que Chevening cayó, la vía UK depende de ella.
+9. ⏰ **Mail al Banco de España (`per.investigacion.becas@bde.es`), tres preguntas en uno, con las bases 27-28 (~dic-2026).** ✅ **Riesgo acotado el 9-sep-2026:** leídas las [bases oficiales 26-27](https://www.bde.es/f/webbde/PER/convoca/ficheros/descargar/Bases26_27.pdf) completas, **no exigen homologación ni universidad española** — sólo *"nacionalidad española"* + *"título de licenciatura o de grado universitario"*. Deja de ser "lo único que puede tumbar la mejor beca del mapa", pero conviene tenerlo por escrito. Las otras dos preguntas, nuevas y de más impacto: **(b)** ¿un contrato de asistente de investigación en el departamento entra en la excepción de la base 7 (*"ayuda, beca o remuneración... derivadas de actividades de investigación en el área de especialización"*)? — define si el hueco de financiación se puede tapar trabajando; **(c)** ⚠️ ¿el requisito de *"conocer el idioma del país donde vayan a realizar sus estudios"* (base 1) se satisface con inglés en un país donde el idioma oficial es otro? Es un riesgo específico de Suiza, Países Bajos y nórdicos.
 10. ⏰ **Preguntar al EUI si el requisito de residencia ≥2 años aplica también a ciudadanos españoles** (`becas.iue@universidades.gob.es`).
 11. ⏰ **Verificar DAAD EPOS y World Bank JJ/WBGSP contra la regla de experiencia post-título** (§2 bis). Probablemente caigan igual que Chevening.
-12. **Decidir orden de preferencia BdE / Areces / del Pino antes de feb-2027** — el BdE es incompatible con cualquier otra beca simultánea. (Chevening ya no está en la ecuación.)
+12. **Decidir orden de preferencia BdE / Areces / del Pino antes de feb-2027** — el BdE es incompatible con cualquier otra beca simultánea. ✅ **Confirmado 9-sep-2026 contra la base 7: la incompatibilidad alcanza también a las becas propias de universidad**, así que entran en la misma decisión Warwick Regional, Bristol Think Big y **HSG Best Talents**. (Chevening ya no está en la ecuación.)
+16. ⏰ **Suiza (9-sep-2026, ver `SUIZA_dossier.md` §7):** mail a HSG por el monto del aporte de vida de Best Talents y su compatibilidad con beca externa · mail a `HECmasterAdmission@unil.ch` por el riesgo de *bridging programme* con título UBA (**UNIL no se puede rankear hasta saberlo**) · conversión de la nota UBA a la escala suiza /6 (define si MIME exige GRE) · deadline de aplicación de UZH ⚠️ sin verificar · vía de exención del KVG (~CHF 4.000/año).
+17. ⛔ **Cargar en `masters_consolidado_GRE_2027.xlsx` (hoja "Todos los programas") los 9 programas suizos** de `SUIZA_dossier.md` §1: HSG MEcon y MiQE/F, UZH, UNIL, MIME Basilea, IHEID, UNIGE, UniBE, UniNE. Mismo bloqueo de scripting que los puntos 13 y 14.
 13. Filtrar el catálogo Erasmus Mundus por campo ECO y cotejar contra la hoja "Todos los programas".
 13. ⛔ **Pendiente manual:** `masters_consolidado_GRE_2027.xlsx` y `tabla_becas_uk.xlsx` no pudieron editarse por script (el entorno de scripting no arrancó). Las filas están listas para copiar y pegar en **`ACTUALIZACION_excels_7a_tanda.xml`** (4 hojas: Becas nuevas · Timeline correcciones · Pendientes nuevos · UK). ❗Antes de pegar hay que **borrar la fila vieja de Chevening** ("7-oct-2026 abre") de la hoja Timeline.
+14. ⏰ (25-ago-2026) **Agregar a `masters_consolidado_GRE_2027.xlsx` (hoja "Todos los programas") los 5 candidatos alemanes nuevos** del dossier DAAD: HU Berlin MSc Economics, Heidelberg AWI, Kiel (Quant. Economics/Economics), Cologne Economic Research, Konstanz/Tübingen (con reservas) — ver `DAAD_STUDY_SCHOLARSHIP_dossier.md` §2.2. Mismo bloqueo de scripting que el punto 13.
+15. ⏰ Confirmar fecha exacta del deadline DAAD Study Scholarship ciclo 2026 (funding oct-2027) en el portal DAAD seleccionando Argentina como país de origen — el dato "~31-oct-2026" es estimado por precedente, no confirmado. Mail opcional de buena práctica a `info.buenosaires@daad.de`.

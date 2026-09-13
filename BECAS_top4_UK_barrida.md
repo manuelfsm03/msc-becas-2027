@@ -52,6 +52,8 @@ ASBS Global Impact FULL+£15k ×4 · ASBS Economics £15k ×9 · ASBS Entreprene
 ### Sin cambios
 Presidential Int'l 10×100% + 15×£10k — sigue **condicional a que vuelva en oct-2026** (decisión ya agendada). GREAT Southampton: Egipto, Francia, Ghana, Indonesia, Nigeria, USA — sin España ni Argentina ❌.
 
+> **Chequeo 22-ago-2026:** en el listado oficial de becas internacionales (southampton.ac.uk/study/fees-funding/international/scholarships) todavía NO figura la Presidential Int'l de masters — solo aparece "Presidential bursaries" de PhD (otra beca, no aplica). Sigue en pie el chequeo agendado para oct-2026.
+
 ---
 
 ## WARWICK — sin becas nuevas, con 2 datos operativos importantes

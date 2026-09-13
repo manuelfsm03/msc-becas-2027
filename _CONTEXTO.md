@@ -1,8 +1,8 @@
 # Contexto del proyecto
 
 **Qué es:** búsqueda de un MSc en Economía financiado para arrancar en septiembre de 2027. Manuel es argentino con ciudadanía española; la doble nacionalidad es la palanca central de todo el proyecto.
-**Estado:** mapa de becas maduro tras siete tandas de barrida. Chevening cayó por elegibilidad el 2-ago-2026 y el **Banco de España** pasó a ser la beca principal. Lo más urgente en el calendario es McCall MacBain (19-ago-2026).
-**Última actualización:** 2026-08-02
+**Estado:** mapa de becas maduro tras ocho tandas de barrida. Chevening cayó por elegibilidad el 2-ago-2026 y el **Banco de España** pasó a ser la beca principal. McCall MacBain/McGill se desistió el 16-ago-2026 (no salió el endorsement UBA a tiempo). El 9-sep-2026 se barrió Suiza a fondo y se leyeron completas las bases oficiales del BdE: su incompatibilidad alcanza también a las becas propias de universidad. Foco actual: **Banco de España + Inova/UK + HSG St. Gallen** (HSG sumado el 13-sep-2026).
+**Última actualización:** 2026-09-13
 
 ## Para arrancar
 
@@ -12,11 +12,18 @@ Leer este archivo + `NODO_MAESTRO_MSC_2027.md`. Con eso alcanza para la mayoría
 
 | Archivo | Cubre | Últ. toque |
 |---|---|---|
-| `NODO_MAESTRO_MSC_2027.md` | **Hub del proyecto.** Perfil, decisiones estratégicas vigentes, filtros transversales de elegibilidad, mapa de becas por categoría, shortlist UK, timeline y pendientes. Supersede a los dos archivos marcados abajo. | 2026-08-02 |
+| `NODO_MAESTRO_MSC_2027.md` | **Hub del proyecto.** Perfil, decisiones estratégicas vigentes, filtros transversales de elegibilidad, mapa de becas por categoría, shortlist UK, timeline y pendientes. Supersede a los dos archivos marcados abajo. | 2026-09-13 |
+| `SEGUIMIENTO_DIARIO.md` | **Lista viva de tareas y próximos cierres.** La reescribe un recordatorio automático a las 8:30 y a las 19:00 (tareas `\ClaudeMSc\` del Programador de tareas de Windows; script e instrucciones en `C:\Users\Manue\.claude\msc-companion\`). Para registrar avances, una línea en su sección Novedades. | 2026-09-13 |
 | `EXPAND_hallazgos_ago2026.md` | 7ª tanda: barrida por hueco de cobertura. Banco de España, EUI Florencia, Kiel ASP, ruta predoc, catálogo Erasmus Mundus sin barrer. Diff de clases de fuente. | 2026-08-02 |
 | `HUNGRIA_stipendium_dossier.md` | Dossier Hungría / Stipendium Hungaricum y el hallazgo de CEU Viena. Producido por otra sesión del 2-ago-2026. | 2026-08-02 |
+| `SUIZA_dossier.md` | **Dossier Suiza (8ª tanda).** Los 9 programas que sobreviven al filtro del catálogo oficial, matrículas y costo de vida por ciudad, el mapa de becas suizo (HSG Best Talents es el hallazgo) y el fit contra la espina. Contiene además la **lectura completa de las bases oficiales del Banco de España**, que resuelve la pregunta de incompatibilidad y acota el pendiente de homologación. | 2026-09-10 |
+| `RECAP_becas_y_pairing.md` | **Vista de becas vivas y qué destino financia cada una.** Rutas excluyentes A (BdE sola) y B (el stack), foco inmediato, segundo anillo, pairing por país (incluye Suiza) y las decisiones abiertas. | 2026-09-13 |
+| `MATCH_grupos_profes_por_uni.md` | **Centros y profesores por universidad para el bloque 5 de cada SOP**, filtrados contra la espina (identificación causal aplicada a macro y política pública). Bloques UK, continental y Suiza/HSG (10-sep), lecturas transversales y reglas de verificación antes de enviar. | 2026-09-13 |
+| `SOP_MAESTRO_desarrollo_policy.md` | **SOP maestro, track desarrollo/política.** Espina, borrador en inglés de los bloques 1-4 y 6, riesgos y referencias verificadas. El bloque 5 es modular por universidad y sale de `MATCH_grupos_profes_por_uni.md`. | 2026-09-08 |
+| Artefacto web **Dossier Suiza 2027** | Vista navegable de `SUIZA_dossier.md` (programas, costos, financiación, fit): https://claude.ai/code/artifact/f3b188d7-28ad-48f7-a49d-c64ff2cd6389 ⚠️ Su ficha de HSG no tiene el matcheo de profesores del 10-sep. | 2026-09-09 |
+| `DAAD_STUDY_SCHOLARSHIP_dossier.md` | Dossier DAAD Study Scholarship: confirma que el pasaporte español NO excluye (a diferencia de la Caixa/GREAT/Ireland/Hungría) + mapa de MSc Economics en Alemania más allá de Bonn/Mannheim/Goethe MMF (HU Berlin, Heidelberg, Kiel, Cologne, Konstanz/Tübingen). | 2026-08-25 |
 | `BECAS_veredictos_lista_24.md` · `BECAS_nordicos_y_reevaluaciones.md` · `BECAS_top4_UK_barrida.md` | Informes de barridas anteriores (tandas 3ª a 6ª). Snapshots fechados: se consultan, no se reescriben. | 2026-08-02 |
-| `MCCALL_MCGILL_plan_ataque.md` | Aplicación a McCall MacBain + McGill MA: checklist, cronograma, supervisores, template de mail. **Lo más urgente del calendario.** | 2026-08-02 |
+| `MCCALL_MCGILL_plan_ataque.md` | ❌ **Desistido el 16-ago-2026** (no salió el endorsement UBA). Registro histórico de la aplicación a McCall MacBain + McGill MA: checklist, cronograma, supervisores, template de mail. No usar para planificar. | 2026-08-02 |
 | `INOVA_todo_documentos.md` | Proceso con la consultora Inova para las 5 aplicaciones UK: documentos, formulario, cronograma. | 2026-08-02 |
 | `INFORME_SOP_top4_UK.md` | Statements of purpose para las universidades UK del tier 1. | 2026-07 |
 | `masters_consolidado_GRE_2027.xlsx` | **Fuente de datos viva.** 9 hojas: Ranking, Todos los programas (109), Becas, Filtro GRE-GMAT, Timeline, Pendientes. ⚠️ No tiene la 7ª tanda. | 2026-07-24 |
@@ -25,7 +32,7 @@ Leer este archivo + `NODO_MAESTRO_MSC_2027.md`. Con eso alcanza para la mayoría
 | `GANTT_becas_MSc_2027.xml` / `.xlsx` | Calendario operativo semanal ago-2026 → sep-2027 con las ~45 becas y sus requisitos. | 2026-08-02 |
 | `tabla_becas_uk.xlsx` · `masters_europa_continental.xlsx` | Tablas de apoyo. ⚠️ La de UK no tiene la 7ª tanda. | 2026-07 |
 | `recon.json` | Estado del skill `recon` (etapas, inventario, sistemas). Lo escribe el skill, no editar a mano. | 2026-08-02 |
-| `_BITACORA.md` | Histórico cronológico de sesiones. | 2026-08-02 |
+| `_BITACORA.md` | Histórico cronológico de sesiones. | 2026-09-13 |
 
 ### ⛔ Supersedidos — no usar para planificar
 

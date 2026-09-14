@@ -109,3 +109,11 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 - **`RECAP_becas_y_pairing.md` suma Suiza** (bloque de pairing, HSG en el foco inmediato, Best Talents en el segundo anillo y en la decisión de orden de preferencia). Se corrigió también el riesgo de homologación, que seguía figurando como "lo único que puede tumbar la mejor beca del mapa" después de que las bases oficiales mostraran que no la exigen.
 
 → Tocados: `_CONTEXTO.md`, `NODO_MAESTRO_MSC_2027.md` (encabezado, §2, pendientes 4 y 17), `RECAP_becas_y_pairing.md` (§1, §2, §3, §4, §7), `MATCH_grupos_profes_por_uni.md` (reparto marcado como propuesta), `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`
+
+## 2026-09-14
+
+- **El recordatorio diario pasó a la nube.** La versión local del 13-sep dependía de que la PC estuviera prendida: la corrida de la mañana del 14 no salió. Ahora son dos rutinas de Claude en la nube (8:20 y 18:50) que trabajan sobre el repo, siguen `RECORDATORIO_INSTRUCCIONES.md` y avisan con un evento de Google Calendar a las 8:30 y a las 19:00, que suena en el celular. Probado de punta a punta el 14-sep a las 20:35: lista actualizada, commit subido y evento creado.
+- **La carpeta del proyecto está en un repo privado de GitHub** (`manuelfsm03/msc-becas-2027`). Una tarea de Windows sincroniza cada 30 minutos y al iniciar sesión; si la lista cambia en la PC y en la nube a la vez, avisa del conflicto en vez de pisar nada.
+- Las tareas locales con aviso de Windows quedaron deshabilitadas, no borradas, como respaldo.
+
+→ Tocados: `RECORDATORIO_INSTRUCCIONES.md` (nuevo), `.gitignore` (nuevo), `_CONTEXTO.md` (fila del seguimiento y de las instrucciones)

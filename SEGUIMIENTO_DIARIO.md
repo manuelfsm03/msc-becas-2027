@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 14-sep-2026, 20:28 · turno noche
+> **Última actualización:** 14-sep-2026, 20:35 · turno noche
 
 ## ✍️ Novedades
 
@@ -109,3 +109,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 13-sep-2026 noche (17:00) · confirmar DAAD y redactar pedido hoy / mandarlo y decidir GRE mañana
 - 13-sep-2026 noche (21:05) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana
 - 14-sep-2026 noche (20:28) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
+- 14-sep-2026 noche (20:35) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles

@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 14-sep-2026, 20:35 · turno noche
+> **Última actualización:** 15-sep-2026, 08:30 · turno mañana
 
 ## ✍️ Novedades
 
@@ -11,29 +11,29 @@
 
 ## 🎯 Foco de hoy
 
-1. **Antes de dormir: confirmá la fecha de cierre del DAAD Study Scholarship** en el portal, con Argentina como país de origen (10 minutos), y **redactá el pedido unificado a los referentes** (carta membretada en inglés para Inova, carta académica para el DAAD, aviso del informe de febrero al Banco de España). Lleva dos turnos sin moverse.
-2. **Mañana a primera hora: mandá el pedido a los referentes y decidí el GRE.** Si es que sí, reservá turno para mediados de octubre.
-3. **Preparate para el Q&A de Inova del miércoles 16 a las 20:00** (las 5 preguntas de §D y avisarle a Fabiola que Chevening cayó), y anotá en Novedades lo que resolviste hoy.
+1. **Mandá hoy el pedido unificado a los referentes** (carta membretada en inglés para Inova, carta académica para el DAAD, aviso del informe de febrero al Banco de España) y **confirmá la fecha de cierre del DAAD Study Scholarship** en el portal, con Argentina como país de origen. Lleva dos turnos sin moverse.
+2. **Decidí el GRE sí o no.** Si es que sí, reservá turno para mediados de octubre — de eso depende el reparto de cartas entre MEcon y MiQE/F en HSG.
+3. **Preparate para el Q&A de Inova de mañana miércoles 16 a las 20:00**: las 5 preguntas de §D y avisarle a Fabiola que Chevening cayó.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | 2 días | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
-| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 17 días | Aplicar temprano: Best Talents exige estar admitido |
+| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | 1 día | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
+| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 16 días | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **46 días** | Fecha sin confirmar en el portal |
-| 1 al 30-nov-2026 | ETH ESOP | 48 días | Sólo si entra el track quant-finance |
+| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **45 días** | Fecha sin confirmar en el portal |
+| 1 al 30-nov-2026 | ETH ESOP | 47 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~7 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 92 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 123 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 139 días | |
-| **~18-feb-2027** | **Banco de España** | **~157 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~162 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 91 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 122 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 138 días | |
+| **~18-feb-2027** | **Banco de España** | **~156 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~161 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 198 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 228 días | |
+| 31-mar-2027 | HSG MEcon | 197 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 227 días | |
 
 ## 📋 Tareas abiertas
 
@@ -110,3 +110,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 13-sep-2026 noche (21:05) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana
 - 14-sep-2026 noche (20:28) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
 - 14-sep-2026 noche (20:35) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
+- 15-sep-2026 mañana · sin novedades cargadas, mismo foco: pedido a referentes y confirmar DAAD / decidir GRE / prepararse Q&A miércoles

@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 15-sep-2026, 08:30 · turno mañana
+> **Última actualización:** 15-sep-2026, 19:00 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,9 +11,11 @@
 
 ## 🎯 Foco de hoy
 
-1. **Mandá hoy el pedido unificado a los referentes** (carta membretada en inglés para Inova, carta académica para el DAAD, aviso del informe de febrero al Banco de España) y **confirmá la fecha de cierre del DAAD Study Scholarship** en el portal, con Argentina como país de origen. Lleva dos turnos sin moverse.
-2. **Decidí el GRE sí o no.** Si es que sí, reservá turno para mediados de octubre — de eso depende el reparto de cartas entre MEcon y MiQE/F en HSG.
-3. **Preparate para el Q&A de Inova de mañana miércoles 16 a las 20:00**: las 5 preguntas de §D y avisarle a Fabiola que Chevening cayó.
+1. **Esta noche, si podés, mandá el pedido unificado a los referentes** (carta membretada en inglés para Inova, carta académica para el DAAD, aviso del informe de febrero al Banco de España) y **confirmá la fecha de cierre del DAAD Study Scholarship** en el portal, con Argentina como país de origen. Es un mail y un chequeo de dos minutos, y sigue sin moverse desde el 13-sep.
+2. **Mañana a primera hora, repasá las 5 preguntas de `INOVA_todo_documentos.md` §D** y avisale a Fabiola que Chevening cayó, antes del Q&A de Inova de las 20:00.
+3. **En algún momento de mañana, decidí el GRE sí o no.** Si es sí, reservá turno para mediados de octubre — de eso depende el reparto de cartas entre MEcon y MiQE/F en HSG.
+
+Anotá en Novedades qué de esto hiciste hoy (pedido mandado, DAAD confirmado) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
@@ -111,3 +113,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 14-sep-2026 noche (20:28) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
 - 14-sep-2026 noche (20:35) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
 - 15-sep-2026 mañana · sin novedades cargadas, mismo foco: pedido a referentes y confirmar DAAD / decidir GRE / prepararse Q&A miércoles
+- 15-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: mandar pedido a referentes y confirmar DAAD esta noche / repasar Q&A a primera hora / decidir GRE mañana

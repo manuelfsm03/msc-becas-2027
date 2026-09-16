@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 15-sep-2026, 19:00 · turno noche
+> **Última actualización:** 16-sep-2026, 08:20 · turno mañana
 
 ## ✍️ Novedades
 
@@ -11,9 +11,9 @@
 
 ## 🎯 Foco de hoy
 
-1. **Esta noche, si podés, mandá el pedido unificado a los referentes** (carta membretada en inglés para Inova, carta académica para el DAAD, aviso del informe de febrero al Banco de España) y **confirmá la fecha de cierre del DAAD Study Scholarship** en el portal, con Argentina como país de origen. Es un mail y un chequeo de dos minutos, y sigue sin moverse desde el 13-sep.
-2. **Mañana a primera hora, repasá las 5 preguntas de `INOVA_todo_documentos.md` §D** y avisale a Fabiola que Chevening cayó, antes del Q&A de Inova de las 20:00.
-3. **En algún momento de mañana, decidí el GRE sí o no.** Si es sí, reservá turno para mediados de octubre — de eso depende el reparto de cartas entre MEcon y MiQE/F en HSG.
+1. **Este ítem lleva 3 mañanas seguidas sin moverse (13-sep, 15-sep, hoy). Partilo en dos mails chicos en vez de "el pedido unificado":** mandá primero el de `info.buenosaires@daad.de` confirmando la fecha de cierre (dos minutos), y aparte uno solo de los tres pedidos de carta a referentes (Inova, DAAD o Banco de España — el que tengas más a mano). No hace falta resolver los tres pedidos juntos.
+2. **Repasá las 5 preguntas de `INOVA_todo_documentos.md` §D** y avisale a Fabiola que Chevening cayó, antes del Q&A de Inova de hoy a las 20:00.
+3. **Decidí el GRE sí o no.** Si es sí, reservá turno para mediados de octubre — eso vence en unas semanas y de la decisión depende el reparto de cartas entre MEcon y MiQE/F en HSG.
 
 Anotá en Novedades qué de esto hiciste hoy (pedido mandado, DAAD confirmado) para que la próxima corrida lo tilde.
 
@@ -21,28 +21,30 @@ Anotá en Novedades qué de esto hiciste hoy (pedido mandado, DAAD confirmado) p
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | 1 día | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
-| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 16 días | Aplicar temprano: Best Talents exige estar admitido |
+| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | hoy | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
+| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 15 días | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **45 días** | Fecha sin confirmar en el portal |
-| 1 al 30-nov-2026 | ETH ESOP | 47 días | Sólo si entra el track quant-finance |
+| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **44 días** | Fecha sin confirmar en el portal |
+| 1 al 30-nov-2026 | ETH ESOP | 46 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~7 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 91 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 122 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 138 días | |
-| **~18-feb-2027** | **Banco de España** | **~156 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~161 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 90 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 121 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 137 días | |
+| **~18-feb-2027** | **Banco de España** | **~155 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~160 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 197 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 227 días | |
+| 31-mar-2027 | HSG MEcon | 196 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 226 días | |
 
 ## 📋 Tareas abiertas
 
 ### 🔴 Esta semana
 
-- [ ] Confirmar la fecha exacta del DAAD Study Scholarship en el portal (país de origen: Argentina)
-- [ ] Pedido unificado a los referentes: carta membretada en inglés (Inova) + carta académica (DAAD) + aviso del informe para el Banco de España en febrero. Ojo con la cuenta: Inova pide 1 académico y 1 laboral (Bunge), pero el DAAD y el Banco de España piden profesores. Te hacen falta 2 académicos y 1 laboral.
+- [ ] Confirmar la fecha exacta del DAAD Study Scholarship: mandar el mail a `info.buenosaires@daad.de` (país de origen: Argentina, y dejar por escrito la regla de doble nacionalidad)
+- [ ] Pedirle la carta al referente académico #1: carta membretada en inglés para Inova
+- [ ] Pedirle la carta al referente académico #2: carta académica para el DAAD y aviso del informe de febrero al Banco de España
+- [ ] Pedirle la carta al referente laboral (Bunge): carta membretada en inglés para Inova
 - [ ] Decidir GRE sí o no. Sin McGill no es obligatorio en nada del foco actual, pero lo piden Tinbergen, LSE y HSG MiQE/F, y suma en Oxbridge, CEMFI y PSE/TSE. Si es sí, reservar para mediados de octubre. De esto depende también el reparto de cartas entre MEcon y MiQE/F en HSG, que sigue siendo una propuesta sin decidir.
 - [ ] Q&A de Inova, mié 16-sep a las 20:00: las 5 preguntas de §D y el aviso de que Chevening cayó
 - [ ] Rotary Global Grant: decidir si va. Según el GANTT, si no arranca en septiembre no llega para 2027. Si va, contactar al distrito de Buenos Aires esta semana o la próxima.
@@ -53,7 +55,7 @@ Anotá en Novedades qué de esto hiciste hoy (pedido mandado, DAAD confirmado) p
 - [ ] Elegir los programas del plan de estudios (Bonn, Mannheim, Goethe MMF; ver si entran Heidelberg o HU Berlin) y justificar la elección
 - [ ] Carta de motivación, a partir de `SOP_MAESTRO_desarrollo_policy.md`
 - [ ] CV en el formato que pide el DAAD
-- [ ] 2 cartas académicas (salen del pedido unificado)
+- [ ] 2 cartas académicas (salen de los pedidos a los referentes académicos, ver 🔴)
 
 **Inova / UK**
 - [ ] Analítico oficial de FCE-UBA ❓
@@ -68,7 +70,6 @@ Anotá en Novedades qué de esto hiciste hoy (pedido mandado, DAAD confirmado) p
 - [ ] Aplicar a MEcon en octubre, para tener la admisión cuando abra Best Talents
 
 **Mails cortos (15 minutos cada uno)**
-- [ ] `info.buenosaires@daad.de`: fecha del cierre, y dejar por escrito la regla de doble nacionalidad
 - [ ] `HECmasterAdmission@unil.ch`: riesgo de *bridging programme* con título UBA (sin esto UNIL no se puede rankear)
 - [ ] HSG: monto del aporte de vida de Best Talents y si es compatible con una beca externa
 - [ ] `econdept@ceu.edu`: MA in Economics, Data and Policy (radar)
@@ -114,3 +115,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 14-sep-2026 noche (20:35) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
 - 15-sep-2026 mañana · sin novedades cargadas, mismo foco: pedido a referentes y confirmar DAAD / decidir GRE / prepararse Q&A miércoles
 - 15-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: mandar pedido a referentes y confirmar DAAD esta noche / repasar Q&A a primera hora / decidir GRE mañana
+- 16-sep-2026 mañana · sin novedades cargadas, ítem trabado partido en dos mails chicos (DAAD + un referente) / Q&A Inova hoy 20hs / decidir GRE

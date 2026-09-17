@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 17-sep-2026, 08:20 · turno mañana
+> **Última actualización:** 17-sep-2026, 18:50 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,17 +11,16 @@
 
 ## 🎯 Foco de hoy
 
-1. **Mandá el mail al DAAD ahora, antes de otra cosa** (`info.buenosaires@daad.de`, confirmando el cierre y dejando por escrito la regla de doble nacionalidad, dos líneas). Llevás 4 corridas de mañana seguidas sin mandarlo — ya se partió el 16-sep para achicarlo y sigue trabado. Hoy no hay nada compitiendo: escribilo y mandalo ahora, no lo dejes para la noche.
-2. **Pedile la carta al referente que tengas más a mano** (Inova, DAAD o Banco de España): un mail corto avisándole que se la vas a pedir.
-3. **Decidí GRE sí o no.** De eso depende el reparto de cartas entre MEcon y MiQE/F en HSG, y si es sí hay que reservar para mediados de octubre.
+1. **Si llegás, mandá el mail al DAAD antes de dormir** (`info.buenosaires@daad.de`, confirmando el cierre y dejando por escrito la regla de doble nacionalidad, dos líneas). Es el ítem más trabado del proyecto — ya lleva varias corridas sin salir. Son dos minutos: sacátelo de encima ahora en vez de arrastrarlo a mañana de nuevo.
+2. **Mandá también el mail al referente que tengas más a mano** (Inova, DAAD o Banco de España): avisale que le vas a pedir la carta. Otro mail corto, sirve para dejarlo hecho hoy.
+3. **Decidí GRE sí o no a primera hora de mañana.** No es un mail — necesita pensarlo, mejor con la cabeza despejada. De eso depende el reparto de cartas entre MEcon y MiQE/F en HSG, y si es sí hay que reservar para mediados de octubre.
 
-Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al referente, GRE decidido) para que la corrida de la noche lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al referente, GRE decidido) para que la corrida de mañana lo tilde.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | ⛔ venció, ¿aplicaste? | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
 | 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 14 días | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
 | **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **43 días** | Fecha sin confirmar en el portal |
@@ -118,3 +117,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 16-sep-2026 mañana · sin novedades cargadas, ítem trabado partido en dos mails chicos (DAAD + un referente) / Q&A Inova hoy 20hs / decidir GRE
 - 16-sep-2026 noche (18:51) · sin novedades cargadas, foco: mail DAAD esta noche si llega / Q&A Inova 20hs / pedido a referente y decidir GRE mañana
 - 17-sep-2026 mañana · sin novedades cargadas, Q&A Inova del 16-sep sin confirmar (pasa a Estado que no conozco), ítem DAAD trabado 4ª corrida seguida: mandarlo ahora / pedido a referente / decidir GRE
+- 17-sep-2026 noche (18:50) · sin novedades cargadas, saco de la tabla el Q&A vencido (ya marcado una corrida), mismo foco: DAAD y pedido a referente esta noche / decidir GRE a primera hora de mañana

@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 16-sep-2026, 18:51 · turno noche
+> **Última actualización:** 17-sep-2026, 08:20 · turno mañana
 
 ## ✍️ Novedades
 
@@ -11,31 +11,31 @@
 
 ## 🎯 Foco de hoy
 
-1. **Antes de dormir, si llegás: mandá el mail a `info.buenosaires@daad.de`** confirmando la fecha de cierre (dos minutos, dejá por escrito la regla de doble nacionalidad). Es el más rápido de los dos pendientes de esta noche.
-2. **20:00: Q&A de Inova con Fabiola.** Llevá las 5 preguntas de `INOVA_todo_documentos.md` §D y avisale que Chevening cayó.
-3. **Primero de mañana: mandá el pedido de carta a un referente** (Inova, DAAD o Banco de España, el que tengas más a mano) y decidí el GRE sí o no — vence en unas semanas y de la decisión depende el reparto de cartas entre MEcon y MiQE/F en HSG.
+1. **Mandá el mail al DAAD ahora, antes de otra cosa** (`info.buenosaires@daad.de`, confirmando el cierre y dejando por escrito la regla de doble nacionalidad, dos líneas). Llevás 4 corridas de mañana seguidas sin mandarlo — ya se partió el 16-sep para achicarlo y sigue trabado. Hoy no hay nada compitiendo: escribilo y mandalo ahora, no lo dejes para la noche.
+2. **Pedile la carta al referente que tengas más a mano** (Inova, DAAD o Banco de España): un mail corto avisándole que se la vas a pedir.
+3. **Decidí GRE sí o no.** De eso depende el reparto de cartas entre MEcon y MiQE/F en HSG, y si es sí hay que reservar para mediados de octubre.
 
-Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, Q&A hecho) para que la corrida de mañana lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al referente, GRE decidido) para que la corrida de la noche lo tilde.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | hoy | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
-| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 15 días | Aplicar temprano: Best Talents exige estar admitido |
+| mié 16-sep-2026, 20:00 | Q&A de Inova con Fabiola | ⛔ venció, ¿aplicaste? | Llevar las 5 preguntas de `INOVA_todo_documentos.md` §D y avisarle que Chevening cayó |
+| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 14 días | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **44 días** | Fecha sin confirmar en el portal |
-| 1 al 30-nov-2026 | ETH ESOP | 46 días | Sólo si entra el track quant-finance |
+| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **43 días** | Fecha sin confirmar en el portal |
+| 1 al 30-nov-2026 | ETH ESOP | 45 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~7 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 90 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 121 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 137 días | |
-| **~18-feb-2027** | **Banco de España** | **~155 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~160 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 89 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 120 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 136 días | |
+| **~18-feb-2027** | **Banco de España** | **~154 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~159 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 196 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 226 días | |
+| 31-mar-2027 | HSG MEcon | 195 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 225 días | |
 
 ## 📋 Tareas abiertas
 
@@ -46,7 +46,6 @@ Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, Q&A hecho) p
 - [ ] Pedirle la carta al referente académico #2: carta académica para el DAAD y aviso del informe de febrero al Banco de España
 - [ ] Pedirle la carta al referente laboral (Bunge): carta membretada en inglés para Inova
 - [ ] Decidir GRE sí o no. Sin McGill no es obligatorio en nada del foco actual, pero lo piden Tinbergen, LSE y HSG MiQE/F, y suma en Oxbridge, CEMFI y PSE/TSE. Si es sí, reservar para mediados de octubre. De esto depende también el reparto de cartas entre MEcon y MiQE/F en HSG, que sigue siendo una propuesta sin decidir.
-- [ ] Q&A de Inova, mié 16-sep a las 20:00: las 5 preguntas de §D y el aviso de que Chevening cayó
 - [ ] Rotary Global Grant: decidir si va. Según el GANTT, si no arranca en septiembre no llega para 2027. Si va, contactar al distrito de Buenos Aires esta semana o la próxima.
 
 ### 🟡 Próximas semanas (sep-oct)
@@ -96,6 +95,7 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - ¿Está hecho el CV de 1 página?
 - ¿Tenés fecha de GRE o de IELTS?
 - ¿Los referentes ya saben que les vas a pedir cartas?
+- ¿Cómo salió el Q&A de Inova con Fabiola del 16-sep? ¿Llevaste las 5 preguntas de §D y le avisaste que Chevening cayó?
 
 ## ✅ Hecho (últimos 30 días)
 
@@ -117,3 +117,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 15-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: mandar pedido a referentes y confirmar DAAD esta noche / repasar Q&A a primera hora / decidir GRE mañana
 - 16-sep-2026 mañana · sin novedades cargadas, ítem trabado partido en dos mails chicos (DAAD + un referente) / Q&A Inova hoy 20hs / decidir GRE
 - 16-sep-2026 noche (18:51) · sin novedades cargadas, foco: mail DAAD esta noche si llega / Q&A Inova 20hs / pedido a referente y decidir GRE mañana
+- 17-sep-2026 mañana · sin novedades cargadas, Q&A Inova del 16-sep sin confirmar (pasa a Estado que no conozco), ítem DAAD trabado 4ª corrida seguida: mandarlo ahora / pedido a referente / decidir GRE

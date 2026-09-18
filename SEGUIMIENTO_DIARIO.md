@@ -2,54 +2,47 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 17-sep-2026, 18:50 · turno noche
+> **Última actualización:** 18-sep-2026, 08:30 · turno mañana
 
 ## ✍️ Novedades
 
 <!-- Escribí debajo, una línea por novedad. La próxima corrida la procesa y la borra. -->
-- 15-sep · Las 3 cartas de recomendación están conseguidas: Juan Roberts (ex jefe en TMC / The MindCo, laboral), Priscila Ramos y Carlos Romero (MESi-IIEP, académicas). Cae la tarea del pedido unificado a referentes.
-- 15-sep · Priscila y Carlos aceptan firmar borradores escritos por Manuel. Hay un modelo de carta de Priscila (español, hoja membretada del IIEP, mail institucional mpramos@economicas.uba.ar). Pendiente nuevo: redactar las dos cartas en inglés.
-- 15-sep · El analítico y el título oficial de FCE-UBA están los dos EN TRÁMITE. Cae el bloqueo de la traducción pública: falta conseguir traductor del CTPCBA y dejar el turno reservado.
-- 15-sep · ⚠️ Corrección: el Q&A de Inova del miércoles NO es una cita agendada, es el espacio semanal abierto de Inova. No hay reserva en el chat con Fabiola. Último contacto con ella: 17-jul-2026.
-- 15-sep · Armados los 6 mails pendientes en `MAILS_pendientes_sep2026.md`.
-- 15-sep · Para el Q&A de Inova del 16-sep se agrega una pregunta a las 5 de §D: si conviene sumar un cuarto referente con research más alineado a inferencia causal, y si algún partner UK objeta cartas redactadas por el candidato y firmadas por el referente.
+- 
 
 ## 🎯 Foco de hoy
 
-1. **Si llegás, mandá el mail al DAAD antes de dormir** (`info.buenosaires@daad.de`, confirmando el cierre y dejando por escrito la regla de doble nacionalidad, dos líneas). Es el ítem más trabado del proyecto — ya lleva varias corridas sin salir. Son dos minutos: sacátelo de encima ahora en vez de arrastrarlo a mañana de nuevo.
-2. **Mandá también el mail al referente que tengas más a mano** (Inova, DAAD o Banco de España): avisale que le vas a pedir la carta. Otro mail corto, sirve para dejarlo hecho hoy.
-3. **Decidí GRE sí o no a primera hora de mañana.** No es un mail — necesita pensarlo, mejor con la cabeza despejada. De eso depende el reparto de cartas entre MEcon y MiQE/F en HSG, y si es sí hay que reservar para mediados de octubre.
+1. **Decidí GRE sí o no ahora, a primera hora.** Define el reparto de cartas entre MEcon y MiQE/F en HSG, y si es sí hay que reservarlo para mediados de octubre.
+2. **Mandá el mail al DAAD, ya armado** (`MAILS_pendientes_sep2026.md` #2: pegale tu nombre y teléfono y lo mandás a `info.buenosaires@daad.de`). Es la 5ª corrida de mañana seguida sin salir — no se puede partir más chico que esto, sólo falta apretar enviar.
+3. **Mandale WhatsApp a Fabiola de Inova para retomar el contacto** (mensajes A y B ya armados en `MAILS_pendientes_sep2026.md` #1). Dos meses sin hablarle y de ahí depende todo el proceso de Inova/UK.
 
-Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al referente, GRE decidido) para que la corrida de mañana lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (GRE decidido, mail al DAAD mandado, WhatsApp a Fabiola) para que la corrida de esta noche lo tilde.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 14 días | Aplicar temprano: Best Talents exige estar admitido |
+| 1-oct-2026 | Abre HSG St. Gallen (MEcon y MiQE/F) | 13 días | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **43 días** | Fecha sin confirmar en el portal |
-| 1 al 30-nov-2026 | ETH ESOP | 45 días | Sólo si entra el track quant-finance |
+| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **42 días** | Fecha sin confirmar en el portal |
+| 1 al 30-nov-2026 | ETH ESOP | 44 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~7 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 89 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 120 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 136 días | |
-| **~18-feb-2027** | **Banco de España** | **~154 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~159 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 88 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 119 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 135 días | |
+| **~18-feb-2027** | **Banco de España** | **~153 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~158 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 195 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 225 días | |
+| 31-mar-2027 | HSG MEcon | 194 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 224 días | |
 
 ## 📋 Tareas abiertas
 
 ### 🔴 Esta semana
 
-- [ ] Confirmar la fecha exacta del DAAD Study Scholarship: mandar el mail a `info.buenosaires@daad.de` (país de origen: Argentina, y dejar por escrito la regla de doble nacionalidad)
-- [ ] Pedirle la carta al referente académico #1: carta membretada en inglés para Inova
-- [ ] Pedirle la carta al referente académico #2: carta académica para el DAAD y aviso del informe de febrero al Banco de España
-- [ ] Pedirle la carta al referente laboral (Bunge): carta membretada en inglés para Inova
+- [ ] Mandar el mail al DAAD (ya armado en `MAILS_pendientes_sep2026.md` #2, sólo falta completar nombre y teléfono) confirmando el cierre y la regla de doble nacionalidad
 - [ ] Decidir GRE sí o no. Sin McGill no es obligatorio en nada del foco actual, pero lo piden Tinbergen, LSE y HSG MiQE/F, y suma en Oxbridge, CEMFI y PSE/TSE. Si es sí, reservar para mediados de octubre. De esto depende también el reparto de cartas entre MEcon y MiQE/F en HSG, que sigue siendo una propuesta sin decidir.
+- [ ] Fabiola Delfín (Inova): mandale WhatsApp para retomar el contacto (mensaje armado en `MAILS_pendientes_sep2026.md` #1). Último contacto: 17-jul-2026
 - [ ] Rotary Global Grant: decidir si va. Según el GANTT, si no arranca en septiembre no llega para 2027. Si va, contactar al distrito de Buenos Aires esta semana o la próxima.
 
 ### 🟡 Próximas semanas (sep-oct)
@@ -58,11 +51,12 @@ Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al re
 - [ ] Elegir los programas del plan de estudios (Bonn, Mannheim, Goethe MMF; ver si entran Heidelberg o HU Berlin) y justificar la elección
 - [ ] Carta de motivación, a partir de `SOP_MAESTRO_desarrollo_policy.md`
 - [ ] CV en el formato que pide el DAAD
-- [ ] 2 cartas académicas (salen de los pedidos a los referentes académicos, ver 🔴)
+- [ ] Redactar en inglés las cartas de Priscila y Carlos (hay modelo de Priscila en español, hoja membretada del IIEP, mail institucional mpramos@economicas.uba.ar; los dos ya aceptaron firmar lo que redacte Manuel)
+- [ ] Mandarles a Priscila, Carlos y Juan el mail de confirmación de formato y plazo, junto con el borrador de cada carta (mail armado en `MAILS_pendientes_sep2026.md` #6); pedirles tenerlas para mediados de octubre
 
 **Inova / UK**
-- [ ] Analítico oficial de FCE-UBA ❓
-- [ ] Traducción pública del analítico, y del título si ya está ❓
+- [ ] Analítico oficial de FCE-UBA: en trámite
+- [ ] Traducción pública del analítico y el título (los dos en trámite): conseguir traductor del CTPCBA y reservar turno (mail armado en `MAILS_pendientes_sep2026.md` #4)
 - [ ] CV de 1 página en inglés ❓
 - [ ] Escribir el bloque 5 del SOP maestro (el que cambia por universidad) y recortar a 1 página por uni: Bristol, Warwick, Glasgow, Birmingham. Southampton espera a la Presidential.
 - [ ] Escanear el pasaporte (antes preguntarle a Fabiola cuál conviene)
@@ -73,8 +67,8 @@ Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al re
 - [ ] Aplicar a MEcon en octubre, para tener la admisión cuando abra Best Talents
 
 **Mails cortos (15 minutos cada uno)**
-- [ ] `HECmasterAdmission@unil.ch`: riesgo de *bridging programme* con título UBA (sin esto UNIL no se puede rankear)
-- [ ] HSG: monto del aporte de vida de Best Talents y si es compatible con una beca externa
+- [ ] `HECmasterAdmission@unil.ch`: riesgo de *bridging programme* con título UBA (mail armado en `MAILS_pendientes_sep2026.md` #5; falta completar los años de la licenciatura)
+- [ ] HSG: monto del aporte de vida de Best Talents y si es compatible con una beca externa (mail armado en `MAILS_pendientes_sep2026.md` #3)
 - [ ] `econdept@ceu.edu`: MA in Economics, Data and Policy (radar)
 
 - [ ] Reservar IELTS Academic para diciembre (hacerlo en octubre)
@@ -94,15 +88,13 @@ Anotá en Novedades qué de esto hiciste hoy (mail al DAAD mandado, pedido al re
 
 Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicieron. Contestá en Novedades y las acomodo:
 
-- ¿Pediste el analítico en FCE-UBA? ¿Cuándo sale?
-- ¿Encargaste la traducción pública?
 - ¿Está hecho el CV de 1 página?
 - ¿Tenés fecha de GRE o de IELTS?
-- ¿Los referentes ya saben que les vas a pedir cartas?
-- ¿Cómo salió el Q&A de Inova con Fabiola del 16-sep? ¿Llevaste las 5 preguntas de §D y le avisaste que Chevening cayó?
 
 ## ✅ Hecho (últimos 30 días)
 
+- 15-sep · Los 3 referentes de las cartas confirmados: Juan Roberts (ex jefe en TMC/The MindCo, laboral), Priscila Ramos y Carlos Romero (MESi-IIEP, académicas)
+- 15-sep · Armados los 6 mails/mensajes pendientes en `MAILS_pendientes_sep2026.md` (Fabiola, DAAD, HSG, traductor CTPCBA, UNIL, confirmación a referentes)
 - 10-sep · Matcheo de grupos y profesores de HSG St. Gallen
 - 9-sep · Dossier Suiza y recap de becas vivas. Confirmado que la incompatibilidad del Banco de España alcanza a las becas propias de universidad.
 - 7/8-sep · SOP maestro: bloques 1, 2, 3, 4 y 6 en borrador (853 palabras)
@@ -123,3 +115,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 16-sep-2026 noche (18:51) · sin novedades cargadas, foco: mail DAAD esta noche si llega / Q&A Inova 20hs / pedido a referente y decidir GRE mañana
 - 17-sep-2026 mañana · sin novedades cargadas, Q&A Inova del 16-sep sin confirmar (pasa a Estado que no conozco), ítem DAAD trabado 4ª corrida seguida: mandarlo ahora / pedido a referente / decidir GRE
 - 17-sep-2026 noche (18:50) · sin novedades cargadas, saco de la tabla el Q&A vencido (ya marcado una corrida), mismo foco: DAAD y pedido a referente esta noche / decidir GRE a primera hora de mañana
+- 18-sep-2026 mañana · referentes conseguidos, analítico/título en trámite, corrección Q&A Inova (no había cita), mails armados: DAAD y Fabiola por mandar hoy / GRE a primera hora

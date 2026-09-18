@@ -7,7 +7,12 @@
 ## ✍️ Novedades
 
 <!-- Escribí debajo, una línea por novedad. La próxima corrida la procesa y la borra. -->
--
+- 15-sep · Las 3 cartas de recomendación están conseguidas: Juan Roberts (ex jefe en TMC / The MindCo, laboral), Priscila Ramos y Carlos Romero (MESi-IIEP, académicas). Cae la tarea del pedido unificado a referentes.
+- 15-sep · Priscila y Carlos aceptan firmar borradores escritos por Manuel. Hay un modelo de carta de Priscila (español, hoja membretada del IIEP, mail institucional mpramos@economicas.uba.ar). Pendiente nuevo: redactar las dos cartas en inglés.
+- 15-sep · El analítico y el título oficial de FCE-UBA están los dos EN TRÁMITE. Cae el bloqueo de la traducción pública: falta conseguir traductor del CTPCBA y dejar el turno reservado.
+- 15-sep · ⚠️ Corrección: el Q&A de Inova del miércoles NO es una cita agendada, es el espacio semanal abierto de Inova. No hay reserva en el chat con Fabiola. Último contacto con ella: 17-jul-2026.
+- 15-sep · Armados los 6 mails pendientes en `MAILS_pendientes_sep2026.md`.
+- 15-sep · Para el Q&A de Inova del 16-sep se agrega una pregunta a las 5 de §D: si conviene sumar un cuarto referente con research más alineado a inferencia causal, y si algún partner UK objeta cartas redactadas por el candidato y firmadas por el referente.
 
 ## 🎯 Foco de hoy
 

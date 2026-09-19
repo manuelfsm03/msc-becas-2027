@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 19-sep-2026, 08:30 · turno mañana
+> **Última actualización:** 19-sep-2026, 18:51 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,13 +11,13 @@
 
 ## 🎯 Foco de hoy
 
-1. **GRE: hoy no "decidas", chequeá turno.** Llevás 5 mañanas seguidas con esto sin moverse. Partido más chico: entrá a la web de ETS y fijate si hay lugar para mediados de octubre en Buenos Aires. Sin turno, la decisión se resuelve sola (no); con turno, mañana decidís con eso en la mano. Es sábado, se puede hacer desde casa.
-2. **Mandale WhatsApp a Fabiola de Inova para retomar el contacto** (mensajes A y B ya armados en `MAILS_pendientes_sep2026.md` #1). Dos meses sin hablarle y de ahí depende todo el proceso de Inova/UK. No es mail a institución, se puede mandar en fin de semana.
-3. **Decidí si el Rotary Global Grant va.** Según el GANTT, si no arranca en septiembre no llega para 2027 — quedan 11 días del mes. Si es sí, el contacto al distrito de Buenos Aires queda para el lunes.
+1. **Mandale el WhatsApp a Fabiola de Inova ahora, antes de dormir.** No es mail institucional, se manda a cualquier hora, y van dos meses de silencio con todo Inova/UK dependiendo de eso (mensajes A y B en `MAILS_pendientes_sep2026.md` #1).
+2. **Entrá a la web de ETS y fijate si hay turno de GRE para mediados de octubre.** Es sólo mirar disponibilidad online, no depende de horario de oficina — hacelo esta noche si no quedó hecho de la corrida de la mañana.
+3. **Decidí el Rotary Global Grant esta noche.** Quedan 11 días de septiembre y sin arranque este mes no llega para 2027. Si es sí, el contacto al distrito de Buenos Aires queda para el lunes.
 
-El mail al DAAD (`MAILS_pendientes_sep2026.md` #2) queda armado y listo con nombre y teléfono, pero no lo mandes hoy: es sábado y va a una casilla institucional, mandalo a primera hora del lunes.
+El mail al DAAD (`MAILS_pendientes_sep2026.md` #2) sigue armado con nombre y teléfono, pero espera a primera hora del lunes: va a una casilla institucional y hoy es sábado.
 
-Anotá en Novedades qué de esto hiciste hoy (turno de GRE encontrado o no, WhatsApp a Fabiola, Rotary decidido, DAAD mandado el lunes) para que la próxima corrida lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (WhatsApp a Fabiola, turno de GRE encontrado o no, Rotary decidido) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
@@ -103,7 +103,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 13-sep-2026 · armado inicial
 - 13-sep-2026 mañana · DAAD portal / redactar pedido referentes / decidir GRE
 - 13-sep-2026 noche (17:00) · confirmar DAAD y redactar pedido hoy / mandarlo y decidir GRE mañana
 - 13-sep-2026 noche (21:05) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana
@@ -117,3 +116,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 17-sep-2026 noche (18:50) · sin novedades cargadas, saco de la tabla el Q&A vencido (ya marcado una corrida), mismo foco: DAAD y pedido a referente esta noche / decidir GRE a primera hora de mañana
 - 18-sep-2026 mañana · referentes conseguidos, analítico/título en trámite, corrección Q&A Inova (no había cita), mails armados: DAAD y Fabiola por mandar hoy / GRE a primera hora
 - 19-sep-2026 mañana · sin novedades cargadas, HSG pasa a Esta Semana (abre en 12 días), DAAD armado pero se manda el lunes por ser sábado, foco: turno de GRE en ETS / WhatsApp a Fabiola / decidir Rotary
+- 19-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: WhatsApp a Fabiola y chequear turno de GRE esta noche / decidir Rotary / DAAD sigue para el lunes

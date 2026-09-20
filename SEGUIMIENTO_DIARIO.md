@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 19-sep-2026, 18:51 · turno noche
+> **Última actualización:** 20-sep-2026, 08:20 · turno mañana
 
 ## ✍️ Novedades
 
@@ -11,32 +11,32 @@
 
 ## 🎯 Foco de hoy
 
-1. **Mandale el WhatsApp a Fabiola de Inova ahora, antes de dormir.** No es mail institucional, se manda a cualquier hora, y van dos meses de silencio con todo Inova/UK dependiendo de eso (mensajes A y B en `MAILS_pendientes_sep2026.md` #1).
-2. **Entrá a la web de ETS y fijate si hay turno de GRE para mediados de octubre.** Es sólo mirar disponibilidad online, no depende de horario de oficina — hacelo esta noche si no quedó hecho de la corrida de la mañana.
-3. **Decidí el Rotary Global Grant esta noche.** Quedan 11 días de septiembre y sin arranque este mes no llega para 2027. Si es sí, el contacto al distrito de Buenos Aires queda para el lunes.
+1. **Fabiola (Inova) lleva 3 corridas de mañana seguidas en el foco sin moverse (18, 19 y 20-sep) y sin novedad cargada.** El mensaje largo armado no salió. Partilo en algo más chico: mandale ahora sólo una línea retomando contacto ("Hola Fabiola, quería retomar el proceso de Inova, ¿seguís gestionando aplicaciones?") y dejá el mensaje largo (`MAILS_pendientes_sep2026.md` #1) para cuando responda.
+2. **Entrá a la web de ETS y fijate si hay turno de GRE para mediados de octubre.** Es sólo mirar disponibilidad online, se hace desde casa un domingo.
+3. **Decidí el Rotary Global Grant hoy.** Quedan 10 días de septiembre y sin arranque este mes no llega para 2027. Si es sí, el contacto al distrito de Buenos Aires queda para mañana lunes.
 
-El mail al DAAD (`MAILS_pendientes_sep2026.md` #2) sigue armado con nombre y teléfono, pero espera a primera hora del lunes: va a una casilla institucional y hoy es sábado.
+El mail al DAAD (`MAILS_pendientes_sep2026.md` #2) sigue armado con nombre y teléfono, pero espera a primera hora de mañana lunes: va a una casilla institucional y hoy es domingo.
 
-Anotá en Novedades qué de esto hiciste hoy (WhatsApp a Fabiola, turno de GRE encontrado o no, Rotary decidido) para que la próxima corrida lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (mensaje corto a Fabiola, turno de GRE encontrado o no, Rotary decidido) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| **1-oct-2026** ⚠️ | **Abre HSG St. Gallen (MEcon y MiQE/F)** | **12 días** | Aplicar temprano: Best Talents exige estar admitido |
+| **1-oct-2026** ⚠️ | **Abre HSG St. Gallen (MEcon y MiQE/F)** | **11 días** | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **41 días** | Fecha sin confirmar en el portal |
-| 1 al 30-nov-2026 | ETH ESOP | 43 días | Sólo si entra el track quant-finance |
+| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **40 días** | Fecha sin confirmar en el portal |
+| 1 al 30-nov-2026 | ETH ESOP | 42 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~7 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 87 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 118 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 134 días | |
-| **~18-feb-2027** | **Banco de España** | **~152 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~157 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 86 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 117 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 133 días | |
+| **~18-feb-2027** | **Banco de España** | **~151 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~156 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 193 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 223 días | |
+| 31-mar-2027 | HSG MEcon | 192 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 222 días | |
 
 ## 📋 Tareas abiertas
 
@@ -46,7 +46,7 @@ Anotá en Novedades qué de esto hiciste hoy (WhatsApp a Fabiola, turno de GRE e
 - [ ] Decidir GRE sí o no. Sin McGill no es obligatorio en nada del foco actual, pero lo piden Tinbergen, LSE y HSG MiQE/F, y suma en Oxbridge, CEMFI y PSE/TSE. Si es sí, reservar para mediados de octubre. De esto depende también el reparto de cartas entre MEcon y MiQE/F en HSG, que sigue siendo una propuesta sin decidir.
 - [ ] Fabiola Delfín (Inova): mandale WhatsApp para retomar el contacto (mensaje armado en `MAILS_pendientes_sep2026.md` #1). Último contacto: 17-jul-2026
 - [ ] Rotary Global Grant: decidir si va. Según el GANTT, si no arranca en septiembre no llega para 2027. Si va, contactar al distrito de Buenos Aires esta semana o la próxima.
-- [ ] HSG St. Gallen abre el 1-oct (en 12 días): confirmar que Lechner sigue activo antes de nombrarlo en la carta
+- [ ] HSG St. Gallen abre el 1-oct (en 11 días): confirmar que Lechner sigue activo antes de nombrarlo en la carta
 - [ ] Aplicar a HSG MEcon en octubre, para tener la admisión cuando abra Best Talents
 
 ### 🟡 Próximas semanas (sep-oct)
@@ -103,7 +103,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 13-sep-2026 mañana · DAAD portal / redactar pedido referentes / decidir GRE
 - 13-sep-2026 noche (17:00) · confirmar DAAD y redactar pedido hoy / mandarlo y decidir GRE mañana
 - 13-sep-2026 noche (21:05) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana
 - 14-sep-2026 noche (20:28) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
@@ -117,3 +116,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 18-sep-2026 mañana · referentes conseguidos, analítico/título en trámite, corrección Q&A Inova (no había cita), mails armados: DAAD y Fabiola por mandar hoy / GRE a primera hora
 - 19-sep-2026 mañana · sin novedades cargadas, HSG pasa a Esta Semana (abre en 12 días), DAAD armado pero se manda el lunes por ser sábado, foco: turno de GRE en ETS / WhatsApp a Fabiola / decidir Rotary
 - 19-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: WhatsApp a Fabiola y chequear turno de GRE esta noche / decidir Rotary / DAAD sigue para el lunes
+- 20-sep-2026 mañana · sin novedades cargadas, Fabiola trabada 3ª corrida de mañana seguida (se propone mensaje corto) / turno de GRE en ETS / decidir Rotary hoy, distrito mañana / DAAD sigue para el lunes

@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 20-sep-2026, 08:20 · turno mañana
+> **Última actualización:** 20-sep-2026, 18:50 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,13 +11,13 @@
 
 ## 🎯 Foco de hoy
 
-1. **Fabiola (Inova) lleva 3 corridas de mañana seguidas en el foco sin moverse (18, 19 y 20-sep) y sin novedad cargada.** El mensaje largo armado no salió. Partilo en algo más chico: mandale ahora sólo una línea retomando contacto ("Hola Fabiola, quería retomar el proceso de Inova, ¿seguís gestionando aplicaciones?") y dejá el mensaje largo (`MAILS_pendientes_sep2026.md` #1) para cuando responda.
-2. **Entrá a la web de ETS y fijate si hay turno de GRE para mediados de octubre.** Es sólo mirar disponibilidad online, se hace desde casa un domingo.
-3. **Decidí el Rotary Global Grant hoy.** Quedan 10 días de septiembre y sin arranque este mes no llega para 2027. Si es sí, el contacto al distrito de Buenos Aires queda para mañana lunes.
+1. **Mandale ahora el mensaje corto a Fabiola por WhatsApp** ("Hola Fabiola, quería retomar el proceso de Inova, ¿seguís gestionando aplicaciones?", `MAILS_pendientes_sep2026.md` #1): es de una línea, no hace falta esperar a mañana.
+2. **Fijate en la web de ETS si hay turno de GRE para mediados de octubre.** Dos minutos desde el celular, antes de dormir.
+3. **Decidí el Rotary Global Grant antes de acostarte.** Quedan 10 días de septiembre y sin arranque este mes no llega para 2027. Si es sí, mañana a primera hora contactás al distrito de Buenos Aires.
 
-El mail al DAAD (`MAILS_pendientes_sep2026.md` #2) sigue armado con nombre y teléfono, pero espera a primera hora de mañana lunes: va a una casilla institucional y hoy es domingo.
+El mail al DAAD (`MAILS_pendientes_sep2026.md` #2) sigue armado con nombre y teléfono, pero espera a mañana lunes a primera hora: va a una casilla institucional.
 
-Anotá en Novedades qué de esto hiciste hoy (mensaje corto a Fabiola, turno de GRE encontrado o no, Rotary decidido) para que la próxima corrida lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (mensaje a Fabiola, turno de GRE encontrado o no, Rotary decidido) para que la corrida de mañana lo tilde.
 
 ## ⏳ Próximos cierres
 
@@ -103,10 +103,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 13-sep-2026 noche (17:00) · confirmar DAAD y redactar pedido hoy / mandarlo y decidir GRE mañana
-- 13-sep-2026 noche (21:05) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana
-- 14-sep-2026 noche (20:28) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
-- 14-sep-2026 noche (20:35) · sin novedades cargadas, mismo foco: DAAD y pedido esta noche / mandarlo y GRE mañana / prepararse Q&A miércoles
 - 15-sep-2026 mañana · sin novedades cargadas, mismo foco: pedido a referentes y confirmar DAAD / decidir GRE / prepararse Q&A miércoles
 - 15-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: mandar pedido a referentes y confirmar DAAD esta noche / repasar Q&A a primera hora / decidir GRE mañana
 - 16-sep-2026 mañana · sin novedades cargadas, ítem trabado partido en dos mails chicos (DAAD + un referente) / Q&A Inova hoy 20hs / decidir GRE
@@ -117,3 +113,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 19-sep-2026 mañana · sin novedades cargadas, HSG pasa a Esta Semana (abre en 12 días), DAAD armado pero se manda el lunes por ser sábado, foco: turno de GRE en ETS / WhatsApp a Fabiola / decidir Rotary
 - 19-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: WhatsApp a Fabiola y chequear turno de GRE esta noche / decidir Rotary / DAAD sigue para el lunes
 - 20-sep-2026 mañana · sin novedades cargadas, Fabiola trabada 3ª corrida de mañana seguida (se propone mensaje corto) / turno de GRE en ETS / decidir Rotary hoy, distrito mañana / DAAD sigue para el lunes
+- 20-sep-2026 noche (18:50) · sin novedades cargadas, mismo foco: mensaje corto a Fabiola y turno de GRE esta noche / decidir Rotary antes de dormir / DAAD sigue para el lunes

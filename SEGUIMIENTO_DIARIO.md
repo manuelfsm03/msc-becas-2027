@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 22-sep-2026, 08:20 · turno mañana
+> **Última actualización:** 22-sep-2026, 18:50 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,11 +11,11 @@
 
 ## 🎯 Foco de hoy
 
-1. **Decidí Rotary hoy, aunque sea un no**: lleva 4 corridas de mañana seguidas sin resolverse y quedan 8 días de septiembre. Si no llegás a decidirlo entero, partilo más chico: mandale hoy un mail al distrito de Buenos Aires preguntando plazos, sin comprometerte a nada.
-2. **Mandá el mail al DAAD** (`MAILS_pendientes_sep2026.md` #2), hoy es martes, día hábil: sólo falta completar nombre y teléfono, ya son 2 corridas de mañana seguidas sin salir.
-3. **Fabiola**: 5 corridas de mañana seguidas sin registrarse, ni con el mensaje corto. Probá otro canal, llamala en vez de escribirle.
+1. **Mandá el mail al DAAD antes de dormir** (`MAILS_pendientes_sep2026.md` #2): sólo falta completar nombre y teléfono, hoy fue día hábil y ya son 2 corridas de mañana seguidas sin salir.
+2. **Si no decidiste Rotary, al menos mandale esta noche el mail corto al distrito de Buenos Aires** preguntando plazos, sin comprometerte a nada: lleva 4 corridas de mañana seguidas sin resolverse y quedan 8 días de septiembre.
+3. **Fabiola**: dejala para primera hora de mañana y llamala en vez de escribirle. Lleva 5 corridas de mañana seguidas sin registrarse, ni con el mensaje corto.
 
-Anotá en Novedades qué de esto hiciste hoy (Rotary decidido, DAAD mandado, Fabiola contactada) para que la próxima corrida lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (DAAD mandado, Rotary decidido o mail al distrito mandado, Fabiola contactada) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
@@ -101,7 +101,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 15-sep-2026 mañana · sin novedades cargadas, mismo foco: pedido a referentes y confirmar DAAD / decidir GRE / prepararse Q&A miércoles
 - 15-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: mandar pedido a referentes y confirmar DAAD esta noche / repasar Q&A a primera hora / decidir GRE mañana
 - 16-sep-2026 mañana · sin novedades cargadas, ítem trabado partido en dos mails chicos (DAAD + un referente) / Q&A Inova hoy 20hs / decidir GRE
 - 16-sep-2026 noche (18:51) · sin novedades cargadas, foco: mail DAAD esta noche si llega / Q&A Inova 20hs / pedido a referente y decidir GRE mañana
@@ -115,3 +114,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 21-sep-2026 mañana · sin novedades cargadas, Fabiola trabada 4ª corrida de mañana seguida pese al mensaje corto, Rotary sin decidir anoche, foco: mandar DAAD hoy lunes / decidir Rotary ya / WhatsApp a Fabiola ya
 - 21-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: WhatsApp a Fabiola y DAAD esta noche / decidir Rotary antes de dormir
 - 22-sep-2026 mañana · sin novedades cargadas, Rotary trabado 4ª corrida de mañana seguida (se parte en mail al distrito) / DAAD 2ª corrida sin salir, hoy es día hábil / Fabiola trabada 5ª corrida seguida, probar llamada en vez de mensaje
+- 22-sep-2026 noche (18:50) · sin novedades cargadas, mismo foco: DAAD esta noche / mail corto al distrito por Rotary esta noche / Fabiola pasa a llamada a primera hora de mañana

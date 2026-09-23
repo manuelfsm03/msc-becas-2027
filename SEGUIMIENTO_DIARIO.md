@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 22-sep-2026, 18:50 · turno noche
+> **Última actualización:** 23-sep-2026, 08:20 · turno mañana
 
 ## ✍️ Novedades
 
@@ -11,30 +11,30 @@
 
 ## 🎯 Foco de hoy
 
-1. **Mandá el mail al DAAD antes de dormir** (`MAILS_pendientes_sep2026.md` #2): sólo falta completar nombre y teléfono, hoy fue día hábil y ya son 2 corridas de mañana seguidas sin salir.
-2. **Si no decidiste Rotary, al menos mandale esta noche el mail corto al distrito de Buenos Aires** preguntando plazos, sin comprometerte a nada: lleva 4 corridas de mañana seguidas sin resolverse y quedan 8 días de septiembre.
-3. **Fabiola**: dejala para primera hora de mañana y llamala en vez de escribirle. Lleva 5 corridas de mañana seguidas sin registrarse, ni con el mensaje corto.
+1. **Mandá el mail al DAAD ahora, apenas veas esto** (`MAILS_pendientes_sep2026.md` #2): lleva 3 corridas de mañana seguidas sin salir pese a que sólo falta nombre y teléfono. No lo dejes para la noche de nuevo — completá los dos datos y mandalo en los próximos 5 minutos, antes de cualquier otra cosa de la lista.
+2. **Llamá a Fabiola a primera hora** en vez de escribirle: el mensaje corto no funcionó y ya lleva 5 corridas de mañana sin registrarse.
+3. **Mandá el mail corto al distrito de Buenos Aires de Rotary** preguntando plazos, sin comprometerte a nada: hoy es día hábil y quedan 8 días de septiembre.
 
-Anotá en Novedades qué de esto hiciste hoy (DAAD mandado, Rotary decidido o mail al distrito mandado, Fabiola contactada) para que la próxima corrida lo tilde.
+Anotá en Novedades qué de esto hiciste hoy (DAAD mandado, Fabiola contactada, mail al distrito mandado) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| **1-oct-2026** ⚠️ | **Abre HSG St. Gallen (MEcon y MiQE/F)** | **9 días** | Aplicar temprano: Best Talents exige estar admitido |
+| **1-oct-2026** ⚠️ | **Abre HSG St. Gallen (MEcon y MiQE/F)** | **8 días** | Aplicar temprano: Best Talents exige estar admitido |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **38 días** | Fecha sin confirmar en el portal |
-| 1 al 30-nov-2026 | ETH ESOP | 40 días | Sólo si entra el track quant-finance |
+| **30-oct-2026** ⚠️ | **DAAD Study Scholarship** | **37 días** | Fecha sin confirmar en el portal |
+| 1 al 30-nov-2026 | ETH ESOP | 39 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~6 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 84 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 115 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 131 días | |
-| **~18-feb-2027** | **Banco de España** | **~149 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~154 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 83 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 114 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 130 días | |
+| **~18-feb-2027** | **Banco de España** | **~148 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~153 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 190 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 220 días | |
+| 31-mar-2027 | HSG MEcon | 189 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 219 días | |
 
 ## 📋 Tareas abiertas
 
@@ -101,7 +101,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 15-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: mandar pedido a referentes y confirmar DAAD esta noche / repasar Q&A a primera hora / decidir GRE mañana
 - 16-sep-2026 mañana · sin novedades cargadas, ítem trabado partido en dos mails chicos (DAAD + un referente) / Q&A Inova hoy 20hs / decidir GRE
 - 16-sep-2026 noche (18:51) · sin novedades cargadas, foco: mail DAAD esta noche si llega / Q&A Inova 20hs / pedido a referente y decidir GRE mañana
 - 17-sep-2026 mañana · sin novedades cargadas, Q&A Inova del 16-sep sin confirmar (pasa a Estado que no conozco), ítem DAAD trabado 4ª corrida seguida: mandarlo ahora / pedido a referente / decidir GRE
@@ -115,3 +114,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 21-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: WhatsApp a Fabiola y DAAD esta noche / decidir Rotary antes de dormir
 - 22-sep-2026 mañana · sin novedades cargadas, Rotary trabado 4ª corrida de mañana seguida (se parte en mail al distrito) / DAAD 2ª corrida sin salir, hoy es día hábil / Fabiola trabada 5ª corrida seguida, probar llamada en vez de mensaje
 - 22-sep-2026 noche (18:50) · sin novedades cargadas, mismo foco: DAAD esta noche / mail corto al distrito por Rotary esta noche / Fabiola pasa a llamada a primera hora de mañana
+- 23-sep-2026 mañana · sin novedades cargadas, DAAD trabado 3ª corrida de mañana seguida (mandarlo ya, sin esperar a la noche) / Fabiola: llamarla primera hora / Rotary: mail al distrito hoy que es día hábil

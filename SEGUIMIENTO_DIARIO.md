@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 24-sep-2026, 08:30 · turno mañana
+> **Última actualización:** 24-sep-2026, 18:51 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,11 +11,11 @@
 
 ## 🎯 Foco de hoy
 
-1. **Mandá el DAAD ya, apenas veas esto** (`MAILS_pendientes_sep2026.md` #2): lleva 4 mañanas seguidas trabado sólo por nombre y teléfono. Completalo con lo que tengas a mano ahora mismo y mandalo — no esperes a tenerlo perfecto.
-2. **Llamá a Fabiola a primera hora, no mensaje**: el mensaje corto ya falló, así que probá la llamada directa.
-3. **Mandá el mail al distrito de Rotary hoy que es día hábil**: es corto y quedan 6 días de septiembre.
+1. **Si no mandaste el DAAD hoy, mandalo antes de dormir** (`MAILS_pendientes_sep2026.md` #2): lleva 4 mañanas seguidas trabado, no lo dejes para otra corrida.
+2. **Mandá el mail al distrito de Rotary esta noche** si no salió hoy: es corto y quedan 6 días de septiembre.
+3. **Mañana a primera hora, llamá a Fabiola** (no mensaje): el mensaje corto ya falló.
 
-Anotá en Novedades qué de esto dejaste hecho hoy (DAAD mandado, Fabiola contactada, mail al distrito mandado) para que la próxima corrida lo tilde.
+Anotá en Novedades qué de esto dejaste hecho hoy (DAAD mandado, mail a Rotary mandado, Fabiola contactada) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
@@ -101,7 +101,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 17-sep-2026 mañana · sin novedades cargadas, Q&A Inova del 16-sep sin confirmar (pasa a Estado que no conozco), ítem DAAD trabado 4ª corrida seguida: mandarlo ahora / pedido a referente / decidir GRE
 - 17-sep-2026 noche (18:50) · sin novedades cargadas, saco de la tabla el Q&A vencido (ya marcado una corrida), mismo foco: DAAD y pedido a referente esta noche / decidir GRE a primera hora de mañana
 - 18-sep-2026 mañana · referentes conseguidos, analítico/título en trámite, corrección Q&A Inova (no había cita), mails armados: DAAD y Fabiola por mandar hoy / GRE a primera hora
 - 19-sep-2026 mañana · sin novedades cargadas, HSG pasa a Esta Semana (abre en 12 días), DAAD armado pero se manda el lunes por ser sábado, foco: turno de GRE en ETS / WhatsApp a Fabiola / decidir Rotary
@@ -115,3 +114,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 23-sep-2026 mañana · sin novedades cargadas, DAAD trabado 3ª corrida de mañana seguida (mandarlo ya, sin esperar a la noche) / Fabiola: llamarla primera hora / Rotary: mail al distrito hoy que es día hábil
 - 23-sep-2026 noche (18:50) · sin novedades cargadas, mismo foco sin confirmar: DAAD y mail al distrito por Rotary esta noche si no salieron / Fabiola pasa a llamada a primera hora de mañana
 - 24-sep-2026 mañana · sin novedades cargadas, DAAD trabado 4ª corrida de mañana seguida (mandarlo ya con lo que haya) / Fabiola: llamada a primera hora / mail al distrito por Rotary hoy, quedan 6 días de septiembre
+- 24-sep-2026 noche (18:51) · sin novedades cargadas, DAAD sigue trabado sin confirmar si salió / mail a Rotary esta noche si no salió / Fabiola pasa a llamada a primera hora de mañana

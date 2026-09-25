@@ -52,13 +52,13 @@ Santiago Montoya-Blandón's teaching and research in applied and Bayesian econom
 
 The Applied Economics cluster would be my home in the programme. I want to leave Glasgow able to ask of any regional policy in Argentina what Trew asks of the Industrial Revolution: what would have happened otherwise, and how we can know.
 
-## Birmingham — MSc Economics NEED · confirmar programa
+## Birmingham — MSc Economics
 
-Ángulo: desarrollo, ambiente y datos regionales. Profes: Strobl ✓ (25 sep) · City-REDI ⚠️. 146 palabras.
+Ángulo: política fiscal: la otra mitad de la macro. Profes: Rossi ✓ · Banerjee ✓ (25 sep). 182 palabras.
 
-Birmingham is the programme closest to the work I have already done. Eric Strobl's research on development and the environment uses natural events, such as hurricanes, as the source of variation, and measures their economic effects with satellite and climate data. It is the causal version of the question my biomass study could only answer structurally: what actually happens to a regional economy when its environment changes. ⚠️ [NEED · si el NDVI/MODIS fue proxy, una frase que lo conecte]
+Most of the debate about whether macroeconomics can be identified is about monetary policy. In Argentina the harder question is usually fiscal: what a tax change or a spending rule actually does to output and prices, as opposed to what the budget speech says it will do. Birmingham is where I would learn to answer it.
 
-City-REDI, the University's institute for regional economic development, adds the policy end. It works with local and regional governments on the evidence behind their decisions, which is the role I want to play for the provinces of the Argentine Mesopotamia and, later, at national level.
+Raffaele Rossi's work sits exactly on that line. His research with Nguyen and Onnis on the macroeconomic effects of income and consumption tax changes separates the effect of the policy from the circumstances that prompted it, and his work on fiscal rules and on monetary and fiscal interaction asks the design questions a Ministry of Economy faces. ⚠️ [NEED · confirmar la estrategia de identificación del paper antes de enviar] Anindya Banerjee's econometrics of non-stationary time series supplies the discipline that makes those estimates trustworthy when the data are as persistent as Argentine inflation.
 
-I would use the MSc to acquire the econometric training that turns regional data into causal evidence, and I would like to learn it from people who apply it where the stakes are concrete.
+I want the MSc to give me the tools to take a fiscal claim apart the way I learned to take apart a trading-floor rule, and Birmingham is the programme where fiscal policy is treated as an empirical question rather than only a theoretical one.
 

@@ -140,3 +140,11 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 - Lechner sigue listado como profesor en la página oficial de HSG (25-sep). No se encontró fecha de retiro; la carta lo nombra junto con Koeniger.
 
 → Tocados: `HSG_MECON_plan_aplicacion.md` (nuevo), `_CONTEXTO.md` (fila nueva y aviso en la fila del DAAD), `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`
+
+## 2026-09-25 (bloque 5)
+
+- **Bloque 5 del SOP escrito para las 6 universidades.** HSG (SEW-HSG: Lechner + Koeniger, especialización Public Policy), Warwick (CAGE Global Economic History + Ricco), Bristol (Centre for Evidence-based Public Services + Han), Southampton (grupo de Econometrics: identificación en series de tiempo como respuesta a Sims), Glasgow (Trew + Montoya-Blandón, sin el cluster de macro) y Birmingham (Strobl + City-REDI; Birmingham no tenía ángulo escrito). Entre 146 y 184 palabras cada una.
+- **Ricco resuelto:** su perfil de Warwick lo lista como Professor of Economics (25-sep), así que se lo nombra. También se re-verificaron Fenske, Gupta, Han, Pitarakis, Magdalinos, Olmo, Trew, Montoya-Blandón y Strobl. Quedan sin re-chequear Zylberberg y City-REDI.
+- El artefacto *Credible Enough to Act* se actualizó con las 6 versiones (v4). Su fuente queda en el repo como `SOP_credible_enough.html`.
+
+→ Tocados: `SOP_bloque5_por_universidad.md` (nuevo), `SOP_credible_enough.html` (nuevo), `_CONTEXTO.md`, `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`

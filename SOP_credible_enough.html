@@ -1,0 +1,301 @@
+<title>Credible Enough to Act</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --paper:#F5F7F4;
+    --panel:#EDF0EB;
+    --ink:#161A18;
+    --ink-soft:#5C6660;
+    --ink-faint:#8A938C;
+    --rule:#D6DCD3;
+    --accent:#2E5C4E;
+    --accent-soft:#E2EBE4;
+    --gap:#9C5320;
+    --gap-soft:#F4E7DA;
+    --over:#8C3B3B;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#121614;
+      --panel:#1A201D;
+      --ink:#E8EDE8;
+      --ink-soft:#9BA69E;
+      --ink-faint:#6C766F;
+      --rule:#2A322D;
+      --accent:#8FC4AE;
+      --accent-soft:#1E2B25;
+      --gap:#D69B65;
+      --gap-soft:#2C2118;
+      --over:#D68B8B;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#121614;
+    --panel:#1A201D;
+    --ink:#E8EDE8;
+    --ink-soft:#9BA69E;
+    --ink-faint:#6C766F;
+    --rule:#2A322D;
+    --accent:#8FC4AE;
+    --accent-soft:#1E2B25;
+    --gap:#D69B65;
+    --gap-soft:#2C2118;
+    --over:#D68B8B;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Spectral",Georgia,"Times New Roman",serif;
+    font-weight:300;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:60rem;margin:0 auto;padding:3.5rem 1.5rem 6rem;}
+
+  /* ---- masthead ---- */
+  header.mast{
+    display:grid;gap:1.1rem;
+    padding-bottom:1.6rem;
+    border-bottom:2px solid var(--ink);
+    margin-bottom:2.75rem;
+  }
+  .eyebrow{
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:.7rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent);
+  }
+  h1{
+    font-family:"Spectral",Georgia,serif;
+    font-weight:600;font-size:clamp(2rem,5.5vw,3.1rem);
+    line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.015em;
+  }
+  .standfirst{
+    font-size:1.03rem;color:var(--ink-soft);max-width:44ch;margin:0;
+    font-style:italic;
+  }
+  .meta{
+    display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.74rem;color:var(--ink-faint);
+    font-variant-numeric:tabular-nums;
+  }
+  .meta b{color:var(--ink-soft);font-weight:500}
+
+  /* ---- blocks ---- */
+  .block{
+    display:grid;
+    grid-template-columns:7.5rem 1fr;
+    gap:0 2.5rem;
+    padding:2.1rem 0;
+    border-bottom:1px solid var(--rule);
+  }
+  .rail{
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    display:flex;flex-direction:column;gap:.3rem;
+    padding-top:.35rem;
+  }
+  .rail .num{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:1.6rem;font-weight:500;color:var(--accent);line-height:1;
+  }
+  .rail .role{
+    font-size:.72rem;font-weight:600;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--ink-soft);
+  }
+  .rail .count{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.7rem;color:var(--ink-faint);
+    font-variant-numeric:tabular-nums;margin-top:.15rem;
+  }
+  .rail .count.over{color:var(--over);font-weight:500}
+  .prose{max-width:64ch}
+  .prose p{margin:0 0 1.05em;font-size:1.12rem}
+  .prose p:last-child{margin-bottom:0}
+
+  /* ---- inline gap markers ---- */
+  .need{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.76rem;font-weight:500;
+    color:var(--gap);background:var(--gap-soft);
+    padding:.1em .45em;border-radius:2px;
+    border-bottom:1.5px dotted var(--gap);
+    white-space:normal;
+  }
+
+  /* ---- the missing block 5 ---- */
+  .pending .prose{
+    border:1.5px dashed var(--rule);
+    padding:1.35rem 1.5rem;
+    color:var(--ink-faint);
+    font-style:italic;font-size:1.02rem;
+  }
+  .pending .rail .num{color:var(--ink-faint)}
+
+  /* ---- closing panel ---- */
+  .open{
+    margin-top:3rem;background:var(--panel);
+    border-left:3px solid var(--accent);
+    padding:1.6rem 1.75rem;
+  }
+  .open h2{
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:.74rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--accent);margin:0 0 1rem;
+  }
+  .open ul{margin:0;padding-left:1.1rem;display:grid;gap:.55rem}
+  .open li{font-size:1rem;color:var(--ink-soft)}
+  .open li b{color:var(--ink);font-weight:600}
+
+  footer{
+    margin-top:2.5rem;font-family:"IBM Plex Mono",monospace;
+    font-size:.72rem;color:var(--ink-faint);line-height:1.7;
+  }
+
+  @media (max-width:640px){
+    .block{grid-template-columns:1fr;gap:.9rem}
+    .rail{flex-direction:row;align-items:baseline;gap:.7rem;padding-top:0}
+    .rail .num{font-size:1.15rem}
+    .prose p{font-size:1.06rem}
+  }
+
+  .b5{border-bottom:1px solid var(--rule);padding-block:2.1rem 0}
+  .b5head{display:grid;gap:.7rem;margin-bottom:.4rem}
+  .b5head p{margin:0;color:var(--ink-soft);font-style:italic;max-width:60ch}
+  .b5nav{display:flex;flex-wrap:wrap;gap:.4rem}
+  .b5nav a{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.78rem;font-weight:500;color:var(--accent);background:var(--accent-soft);padding:.3em .75em;border-radius:2px;text-decoration:none}
+  .b5nav a:hover,.b5nav a:focus-visible{outline:1.5px solid var(--accent)}
+  .variant{border-bottom:1px dashed var(--rule)}
+  .variant:last-child{border-bottom:0}
+  .variant .rail .role{color:var(--ink)}
+  .vhead{display:flex;flex-wrap:wrap;gap:.3rem 1rem;margin-bottom:1rem;font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--ink-faint)}
+  .vhead .prog{color:var(--accent);font-weight:500}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Statement of purpose &middot; track desarrollo / política pública</div>
+    <h1>Credible Enough to Act</h1>
+    <p class="standfirst">Borrador de trabajo. Los bloques van en el orden en que se leen; los huecos marcados son datos que sólo Manuel tiene.</p>
+    <div class="meta">
+      <span><b>853</b> palabras escritas</span>
+      <span>objetivo <b>~1.000</b> con el bloque 5</span>
+      <span><b>6</b> de 6 bloques · bloque 5 en 6 versiones</span>
+      <span>bloque 5: 25 sep 2026</span>
+    </div>
+  </header>
+
+  <article class="block">
+    <div class="rail">
+      <span class="num">1</span>
+      <span class="role">Hook + tesis</span>
+      <span class="count">101 w · presup. 120–150</span>
+    </div>
+    <div class="prose">
+      <p>At seventeen I spent twenty minutes convincing my secondary school that climate change was a fabrication. It was a TED-Ed talk. The charts looked real, the sources did not exist, and halfway through I took the whole thing apart in front of the audience, showing them line by line how each piece of evidence had been manufactured and how quickly they had accepted it.</p>
+      <p>The subject was never the climate. It was how little it costs to make something look true.</p>
+      <p>That question has organised my academic life since. At what point does a claim become credible enough to act on?</p>
+    </div>
+  </article>
+
+  <article class="block">
+    <div class="rail">
+      <span class="num">2</span>
+      <span class="role">La pregunta hecha economía</span>
+      <span class="count">168 w · presup. 150–180</span>
+    </div>
+    <div class="prose">
+      <p>I did not have a discipline for it until a course on the epistemology of economics with Diego Weisman. Philosophy of science is what made economics matter to me. It was there that I saw what an economic claim has to do to earn belief, and there that I first read Duflo, and Angrist and Pischke. A course in development economics with Juan Pablo González kept it going.</p>
+      <p>The most serious answer I found was in applied econometrics, in what Angrist and Pischke called the credibility revolution: the turn towards research designs that make a causal claim answerable instead of assumed. To me it reads as epistemology carried out with data. Identification strategies are how the discipline made itself accountable to the problem of knowing, and development economics is where that has been pushed hardest, because the cost of being wrong is counted in people. Policy built on correlation is policy built on manufactured evidence. It is the same failure I staged at seventeen, with the stakes moved.</p>
+    </div>
+  </article>
+
+  <article class="block">
+    <div class="rail">
+      <span class="num">3</span>
+      <span class="role">Evidencia I · investigación</span>
+      <span class="count over">247 w · presup. 200–230</span>
+    </div>
+    <div class="prose">
+      <p>At the IIEP I joined MESi, the applied modelling group at the University of Buenos Aires, and co-authored a study on biomass energy in the Argentine Mesopotamia, the provinces that hold most of the country's forest-industrial residue and almost none of its renewable-energy policy attention. It was my first time working with economists of that standing, and it raised the bar I hold my own work to. We built a regional input–output model and used it to weigh biomass expansion against the thermoelectric generation it would displace. Biomass came out ahead on every dimension we could measure: output, employment, emissions.</p>
+      <p>What stayed with me was not the result. It was the paragraph where we wrote down what the model could not tell anyone. It could show how a shock travelled through a structure we had specified in advance. It could not show that any intervention had caused anything, because that was settled in the calibration before the model ever ran. A policy reader would not have known the difference unless we said so.</p>
+      <p>So we said so. A model like that one can only hand back the structure you gave it: its coefficients are the assumptions, and the result is their arithmetic. It can be internally wrong, but it cannot be surprised. I want to be trained in the methods that can be, where the variation comes from the world rather than from me, and where a finding is allowed to overturn the belief that prompted it.</p>
+    </div>
+  </article>
+
+  <article class="block">
+    <div class="rail">
+      <span class="num">4</span>
+      <span class="role">Evidencia II · aplicada</span>
+      <span class="count">148 w · presup. 130–160</span>
+    </div>
+    <div class="prose">
+      <p>At Bunge my work sits between the data and the people who trade on it, which mostly means testing what the desk already believes. The most useful thing I have produced there was a negative result. Traders held that the corn–soybean relative price drove the farmer's decision of which crop to sell. It is a good story. It has a mechanism, and everyone on the floor could recite it. I tested it <span class="need">NEED · método</span>. It was not a driver.</p>
+      <p>Telling a trading floor that its working rule is not in the data is a harder conversation than any I have had in a classroom. It is also the one I most want to be equipped for. A market-share series I started calculating on my own now runs as a daily report to the CEO for the Southern Cone, and commercial teams across the region set their decisions by it. <span class="need">NEED · alcance real, y una decisión concreta que haya cambiado</span></p>
+    </div>
+  </article>
+
+  <section class="b5">
+    <div class="b5head"><span class="eyebrow">Bloque 5 · por qué este programa</span><p>Una versión por universidad. Va entre el bloque 4 y el 6. Cada una responde la misma pregunta con un método distinto, para que no se lean como un template.</p><nav class="b5nav"><a href="#b5-hsg">HSG St. Gallen</a><a href="#b5-warwick">Warwick</a><a href="#b5-bristol">Bristol</a><a href="#b5-southampton">Southampton</a><a href="#b5-glasgow">Glasgow</a><a href="#b5-birmingham">Birmingham</a></nav></div>
+    <article class="block variant" id="b5-hsg">
+    <div class="rail"><span class="num">5</span><span class="role">HSG St. Gallen</span><span class="count">184 w · presup. 180–220</span></div>
+    <div class="prose"><div class="vhead"><span class="prog">MEcon · Public Policy</span><span class="ang">método causal y su escala macro, bajo un mismo techo</span><span class="ver">profes verificados: Lechner ✓ · Koeniger ✓ (10 sep)</span></div><p>St. Gallen is the one place I have found where both halves of this question sit in the same building. At SEW-HSG, Michael Lechner's group develops causal machine learning for the evaluation of public programmes, and releases the tools, such as the <i>mcf</i> package, that let the method travel beyond the paper. Winfried Koeniger's work on how monetary and fiscal policy transmit, identified with high-frequency transaction data, takes that discipline to the level of the macroeconomy. That is exactly the step my own work stopped short of.</p><p>The specialisation in Public Policy would let me build the MEcon around that pairing: econometrics first, then policy analysis, with the GSERM course in Causal Inference as the bridge. I am also drawn to a department that treats advising government as part of its work rather than an afterthought, because that is the setting I am training for.</p><p>I would come to St. Gallen with a specific question: which of the policy claims I hear repeated in Buenos Aires would survive a design that could prove them wrong. I would like to leave able to answer it.</p></div>
+  </article><article class="block variant" id="b5-warwick">
+    <div class="rail"><span class="num">5</span><span class="role">Warwick</span><span class="count">173 w · presup. 180–220</span></div>
+    <div class="prose"><div class="vhead"><span class="prog">MSc Economics</span><span class="ang">cliometría: la identificación en el pasado</span><span class="ver">profes verificados: Ricco ✓ · Fenske ✓ · Gupta ✓ (25 sep)</span></div><p>Warwick answers the question with history. The Global Economic History programme at CAGE, where James Fenske and Bishnupriya Gupta work, does for the past what I want to learn to do for the present: it finds the accidents of borders, institutions and colonial rule that let a causal claim be tested rather than asserted. Their recent work on colonial persistence is the same genre as the Mississippi study that convinced me macroeconomic questions can be identified at all.</p><p>The other half is Giovanni Ricco's work on monetary policy shocks. His argument, that the instruments macroeconomists usually rely on mix the true shock with the central bank's information about the economy, is the Sims objection taken seriously and answered with better identification. It is the closest thing I have found to the problem I want to work on at the Central Bank.</p><p>CAGE's Responsive Public Policy programme closes the loop from evidence to decision. Warwick is where I would learn both to find the variation and to be honest about what it can carry.</p></div>
+  </article><article class="block variant" id="b5-bristol">
+    <div class="rail"><span class="num">5</span><span class="role">Bristol</span><span class="count">168 w · presup. 180–220</span></div>
+    <div class="prose"><div class="vhead"><span class="prog">MSc Economics</span><span class="ang">treatment effects y policy learning</span><span class="ver">profes verificados: Han ✓ (25 sep) · Zylberberg ⚠️</span></div><p>Bristol has turned my question into an institution. The Centre for Evidence-based Public Services exists to make public decisions answerable to evidence, and the School's econometrics group lists causal inference, treatment effects and policy learning as a declared area. No other department I considered describes its purpose in those terms.</p><p>Sukjin Han's research is the most direct version of what I want to learn. His work on identifying treatment effects for policy evaluation, and more recently on policy learning that accounts for who gains and who loses, addresses exactly what the model in my biomass study could not: whether an intervention changed anything, and for whom. Yanos Zylberberg's work on spatial and development macroeconomics shows how those designs scale up to questions about regions and growth, which is where the Argentine Mesopotamia sits.</p><p>I want the MSc to give me the formal training to read, and eventually produce, work of that kind. Bristol is the programme where the econometrics and the policy purpose are taught as one subject.</p></div>
+  </article><article class="block variant" id="b5-southampton">
+    <div class="rail"><span class="num">5</span><span class="role">Southampton</span><span class="count">170 w · presup. 180–220</span></div>
+    <div class="prose"><div class="vhead"><span class="prog">MSc Economics</span><span class="ang">series de tiempo: la identificación propia de la macro</span><span class="ver">profes verificados: Pitarakis ✓ · Magdalinos ✓ · Olmo ✓ (25 sep)</span></div><p>Sims's objection was never that macroeconomics cannot identify anything. It was that the toolkit of applied microeconomics does not transfer. Macroeconomics built its own tradition of identification in time series, starting with the vector autoregressions Sims himself introduced, and Southampton is one of the places where that tradition is strongest.</p><p>The econometrics group describes its work as spanning time-series methods, financial econometrics and machine-learning methods applied to problems in causal inference. Anastasios Magdalinos's work on inference in cointegrated and mildly explosive systems, and Jean-Yves Pitarakis's work on predictive regressions, are the kind of training a macroeconomic question actually demands: knowing when a relationship in the data is a finding and when it is an artefact of persistence. José Olmo's work in financial econometrics and monetary economics connects those methods to the central bank I hope to work for.</p><p>The other programmes I am applying to would teach me the micro answer to the credibility problem. Southampton would teach me the macro one, which is the one Argentina's policy questions need.</p></div>
+  </article><article class="block variant" id="b5-glasgow">
+    <div class="rail"><span class="num">5</span><span class="role">Glasgow</span><span class="count">151 w · presup. 180–220</span></div>
+    <div class="prose"><div class="vhead"><span class="prog">MSc Economics</span><span class="ang">historia económica cuantitativa</span><span class="ver">profes verificados: Trew ✓ · Montoya-Blandón ✓ (25 sep)</span></div><p>Glasgow's attraction for me is a department where quantitative history and careful econometrics are practised side by side. Alex Trew's work on infrastructure and the spatial take-off of the Industrial Revolution, and his recent finding that historical air pollution still shapes how neighbourhoods sort today, is identification by long memory: the past as a source of variation the present cannot manufacture.</p><p>Santiago Montoya-Blandón's teaching and research in applied and Bayesian econometrics would give me the other half, the formal discipline to state what a given design can and cannot support. His background in Latin America also makes him a natural reader of the questions I would bring from Argentina.</p><p>The Applied Economics cluster would be my home in the programme. I want to leave Glasgow able to ask of any regional policy in Argentina what Trew asks of the Industrial Revolution: what would have happened otherwise, and how we can know.</p></div>
+  </article><article class="block variant" id="b5-birmingham">
+    <div class="rail"><span class="num">5</span><span class="role">Birmingham</span><span class="count">146 w · presup. 180–220</span></div>
+    <div class="prose"><div class="vhead"><span class="prog">MSc Economics <span class="need">NEED · confirmar programa</span></span><span class="ang">desarrollo, ambiente y datos regionales</span><span class="ver">profes verificados: Strobl ✓ (25 sep) · City-REDI ⚠️</span></div><p>Birmingham is the programme closest to the work I have already done. Eric Strobl's research on development and the environment uses natural events, such as hurricanes, as the source of variation, and measures their economic effects with satellite and climate data. It is the causal version of the question my biomass study could only answer structurally: what actually happens to a regional economy when its environment changes. <span class="need">NEED · si el NDVI/MODIS fue proxy, una frase que lo conecte</span></p><p>City-REDI, the University's institute for regional economic development, adds the policy end. It works with local and regional governments on the evidence behind their decisions, which is the role I want to play for the provinces of the Argentine Mesopotamia and, later, at national level.</p><p>I would use the MSc to acquire the econometric training that turns regional data into causal evidence, and I would like to learn it from people who apply it where the stakes are concrete.</p></div>
+  </article>
+  </section>
+
+  <article class="block">
+    <div class="rail">
+      <span class="num">6</span>
+      <span class="role">Endgame</span>
+      <span class="count">189 w · presup. 150–180</span>
+    </div>
+    <div class="prose">
+      <p>I want to work on macroeconomic policy in Argentina, at the Ministry of Economy or the Central Bank. The objection to that comes from serious people. Replying to Angrist and Pischke in 2010, Christopher Sims held that natural experiments are rhetorical devices rather than experiments, and that what the credibility revolution claims about macroeconomics is mainly nonsense.</p>
+      <p>I take it seriously. I also think the cliometric tradition has been quietly answering it for decades. The Federal Reserve Act split Mississippi between two districts that then ran opposite doctrines through the Depression, and the arbitrary border it left behind gave Richardson and Troost as clean a test of central bank intervention as macroeconomics is likely to get. Banks on the activist side survived at higher rates, and recovery came sooner. <span class="need">NEED · un ejemplo argentino equivalente. Si no aparece uno bueno, se corta la oración</span></p>
+      <p>The part I already know I love is the last step. Teaching at the FCE-UBA is where I learned that an argument is only finished when someone who has to decide something can use it. At seventeen I showed a room how cheaply I could make them believe something. I would like to spend a career on the opposite problem.</p>
+    </div>
+  </article>
+
+  <section class="open">
+    <h2>Lo que falta de tu lado</h2>
+    <ul>
+      <li><b>Birmingham: qué programa.</b> MSc Economics o MSc Development Economics. Cambia el cierre del bloque 5.</li>
+      <li><b>Antes de enviar:</b> re-chequear Zylberberg (Bristol) y City-REDI (Birmingham), que no se verificaron hoy. El resto de los profes se verificó el 25 sep.</li>
+      <li><b>Método del maíz-soja.</b> Qué corriste y sobre qué ventana de datos. Bloque 4.</li>
+      <li><b>Alcance del market share.</b> Desde cuándo corre el reporte y, si hay una, una decisión concreta que haya cambiado. Bloque 4.</li>
+      <li><b>Un experimento natural argentino.</b> Una frontera, un corte administrativo, un cambio de régimen provincial. Si no aparece uno bueno, la oración se corta y no se inventa. Bloque 6.</li>
+      <li><b>Los satelitales NDVI/MODIS.</b> ¿Proxy de algo no observable, o descripción? Si fue proxy, entra en el bloque 3.</li>
+      <li><b>La clase de Weisman.</b> Un dato real si querés un momento de calor explícito: qué te pasó ahí, si volviste sobre esos apuntes.</li>
+      <li><b>El link de la nota del FT</b>, si la querés adentro. No la pude verificar porque ft.com bloquea el crawler.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Fuente: SOP_MAESTRO_desarrollo_policy.md §4 · Projects/MSc<br>
+    El paper de biomasa figura sin mención de venue: está enviado a la AAEP, esperando aceptación.<br>
+    Para el recorte de ≤1 página de Inova, Lucas no entra. HSG usa su propia plantilla de carta; el bloque 5 de HSG va adaptado a ese formato.
+  </footer>
+
+</div>
+

@@ -122,4 +122,8 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 
 - **Analítico + traducción pública encaminados.** Manuel confirma que el analítico oficial de FCE-UBA está en trámite y que ya contactó a una traductora pública, que lo traduce apenas esté. Resuelve el paso "conseguir traductor del CTPCBA" (el mail #4 de `MAILS_pendientes_sep2026.md` ya no hace falta). Abierto: fecha de salida del analítico, plazo y costo de la traducción, y si la traductora hace también el título.
 
+
+- **Rotary descartado** por decisión de Manuel.
+- **GRE: en principio no** (sin tiempo para prepararlo). HSG queda sólo MEcon (MiQE/F exige GRE), se disuelve la propuesta de reparto de cartas entre las dos, y salen Tinbergen y LSE. Oxbridge, CEMFI y PSE/TSE siguen posibles sin GRE, aunque sin ese plus.
+
 → Tocados: `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`

@@ -8,6 +8,8 @@
 
 <!-- Escribí debajo, una línea por novedad. La próxima corrida la procesa y la borra. -->
 - 25-sep: analítico oficial FCE-UBA en trámite (confirmado) y traductora pública ya contactada: traduce el analítico apenas salga. Tildar "conseguir traductor" (mail #4 ya no hace falta); queda pendiente fecha de entrega del analítico y presupuesto/plazo de la traducción.
+- 25-sep: Rotary Global Grant NO va (descartado). Sacar el mail al distrito del foco.
+- 25-sep: GRE en principio NO (no hay tiempo para estudiarlo). Consecuencia: HSG se aplica sólo a MEcon (MiQE/F exige GRE) y se cae la propuesta de reparto de cartas MEcon/MiQE/F; Tinbergen y LSE quedan afuera.
 
 ## 🎯 Foco de hoy
 

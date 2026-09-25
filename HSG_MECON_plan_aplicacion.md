@@ -42,7 +42,7 @@
 ## 4. Condiciones que se cumplen después de la admisión
 
 - **Integration week Economics** (semana 36, principios de septiembre de 2027): obligatoria para títulos "similares a Economía". Tiene exámenes de micro, macro, econometría, mate/estadística y R. [Bibliografía y horario](https://www.unisg.ch/fileadmin/user_upload/HSG_ROOT/_Kernauftritt_HSG/Studium/Zulassung/Merkblaetter_Informationen/ZL_MA_INFO_MEcon_MiQEF_IW_Literature_Schedule_en_2026.pdf).
-- **Contabilidad:** piden conocimientos suficientes. Si el analítico muestra una materia contable del ciclo general de FCE, se reconoce. Si no, hay un examen en HSG. ⚠️ Mirar en el analítico cuando llegue.
+- **Contabilidad:** ✅ Manuel aprobó una materia de contabilidad en FCE-UBA (confirmado el 25-sep-2026). Tiene que aparecer en el analítico para que la reconozcan; si no la reconocen, queda el examen en HSG.
 - **Dos cursos de idioma extranjero** durante el máster (se pueden acreditar con certificados).
 - Copias certificadas del título y del analítico por correo postal **antes de la semana 38 de 2027**, o no se puede empezar.
 

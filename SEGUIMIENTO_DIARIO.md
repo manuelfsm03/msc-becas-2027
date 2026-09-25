@@ -7,7 +7,7 @@
 ## ✍️ Novedades
 
 <!-- Escribí debajo, una línea por novedad. La próxima corrida la procesa y la borra. -->
-- 
+- 25-sep: analítico oficial FCE-UBA en trámite (confirmado) y traductora pública ya contactada: traduce el analítico apenas salga. Tildar "conseguir traductor" (mail #4 ya no hace falta); queda pendiente fecha de entrega del analítico y presupuesto/plazo de la traducción.
 
 ## 🎯 Foco de hoy
 

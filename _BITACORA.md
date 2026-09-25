@@ -117,3 +117,9 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 - Las tareas locales con aviso de Windows quedaron deshabilitadas, no borradas, como respaldo.
 
 → Tocados: `RECORDATORIO_INSTRUCCIONES.md` (nuevo), `.gitignore` (nuevo), `_CONTEXTO.md` (fila del seguimiento y de las instrucciones)
+
+## 2026-09-25
+
+- **Analítico + traducción pública encaminados.** Manuel confirma que el analítico oficial de FCE-UBA está en trámite y que ya contactó a una traductora pública, que lo traduce apenas esté. Resuelve el paso "conseguir traductor del CTPCBA" (el mail #4 de `MAILS_pendientes_sep2026.md` ya no hace falta). Abierto: fecha de salida del analítico, plazo y costo de la traducción, y si la traductora hace también el título.
+
+→ Tocados: `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`

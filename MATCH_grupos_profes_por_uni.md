@@ -5,6 +5,8 @@
 **Verificado:** 8-sep-2026 (bloques UK y continental) · 10-sep-2026 (bloque Suiza / HSG), contra páginas oficiales de cada departamento.
 **Complementa (no reemplaza) a:** `INFORME_SOP_top4_UK.md`, que tiene el mapa completo del top 4 UK pero armado contra el encuadre viejo (T1 monetario / T2 desarrollo).
 
+
+> 🆕 **25-sep-2026:** paneo completo de las 6 universidades en `PANEO_profes_centros_2027.md`. Suma candidatos que no están acá (Tsoukalas, Baskaya y Korobilis en Glasgow; de Groot y Maniadis en Southampton; Weining Wang y De Magalhaes en Bristol; Lanata-Briones y Vukotic en Warwick; Kutz y Mareckova en HSG) y confirma que **Zylberberg sigue en Bristol**.
 ---
 
 ## Regla de oro (heredada del informe de julio, sigue vigente)

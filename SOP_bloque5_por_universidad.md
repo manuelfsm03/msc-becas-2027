@@ -24,7 +24,7 @@ CAGE's Responsive Public Policy programme closes the loop from evidence to decis
 
 ## Bristol — MSc Economics
 
-Ángulo: treatment effects y policy learning. Profes: Han ✓ (25 sep) · Zylberberg ⚠️. 168 palabras.
+Ángulo: treatment effects y policy learning. Profes: Han ✓ · Zylberberg ✓ (25 sep). 168 palabras.
 
 Bristol has turned my question into an institution. The Centre for Evidence-based Public Services exists to make public decisions answerable to evidence, and the School's econometrics group lists causal inference, treatment effects and policy learning as a declared area. No other department I considered describes its purpose in those terms.
 

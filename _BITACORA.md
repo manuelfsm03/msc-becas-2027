@@ -150,3 +150,17 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 → Tocados: `SOP_bloque5_por_universidad.md` (nuevo), `SOP_credible_enough.html` (nuevo), `_CONTEXTO.md`, `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`
 - **Birmingham reescrito (pedido de Manuel):** el ángulo de desarrollo, ambiente y datos satelitales (Strobl + City-REDI) no es lo que quiere hacer. Programa confirmado: MSc Economics. Nuevo ángulo: **política fiscal como pregunta empírica**, con Raffaele Rossi (Professor of Economics; paper con Nguyen y Onnis sobre los efectos macro de cambios en impuestos al ingreso y al consumo, AEJ: Policy; reglas fiscales) y Anindya Banerjee (Professor of Econometrics, series no estacionarias). Görtz se descartó: su paper de shocks monetarios con instrumentos externos encajaba, pero hoy figura como Honorary Research Fellow. ⚠️ Confirmar la estrategia de identificación del paper de Rossi antes de enviar.
 - **Birmingham, tercera versión: experimental (opción B, elegida por Manuel).** El fiscal tampoco lo convenció. Se mapeó el departamento entero contra la página de grupos de investigación (en `MATCH_grupos_profes_por_uni.md`, bloque BIRMINGHAM). La carta nombra a Drouvelis (BEEL, replicaciones, simposio de reproducibilidad), Bhatiya (experimento de campo en India) y Bandyopadhyay (evaluación de impacto). De los cuatro que pidió Manuel entran Bhatiya y Bandyopadhyay; Bailey queda como alternativa por el lado epistemológico y Goenka no encaja (teoría). Hallazgo aparte para el track BCRA: **Talavera** trabaja comunicación de bancos centrales. La versión fiscal quedó guardada en `SOP_bloque5_por_universidad.md`.
+
+## 2026-09-25 (paneo de profes)
+
+- **Paneo de profesores y centros en las 6 universidades**, verificado contra listas de personal, páginas de grupos y perfiles oficiales. Nuevo archivo `PANEO_profes_centros_2027.md`.
+- **Lo que más cambia: Glasgow.** Su macro no es solo política óptima teórica: tiene macro empírica (Tsoukalas, identificación de shocks monetarios con instrumentos externos en una economía abierta chica; Baskaya, ex Banco Central de Turquía, flujos de capital a emergentes con datos micro de crédito; Korobilis, VAR bayesianos). Eso permite reescribir la carta más floja con un ángulo propio. Propuesta, no aplicada.
+- **Otros hallazgos:**
+  - Southampton: **de Groot** (Banco de Inglaterra, BCE, FMI y bancos centrales emergentes) y **Maniadis** (*"When is evidence actionable?"*).
+  - Bristol: **Weining Wang** (*"Causal State-Dependent Local Projections"*) y **De Magalhaes** (*"When can we trust RDD estimates…"*).
+  - Warwick: **Lanata-Briones** (historia de las estadísticas oficiales argentinas: el primer índice de costo de vida y la primera estimación del ingreso nacional) y **Vukotic** (macro-monetaria).
+  - HSG: dos profesoras asistentes nuevas de econometría en el SEW, **Kutz** y **Mareckova** (causal ML); Lechner figura como Managing Director.
+- **Pendiente resuelto:** Zylberberg figura como Professor of Economics en la lista oficial de supervisores de Bristol. Actualizado en la página de la carta (v7).
+- Las cartas no se modificaron: las propuestas de cambio esperan la decisión de Manuel.
+
+→ Tocados: `PANEO_profes_centros_2027.md` (nuevo), `MATCH_grupos_profes_por_uni.md` (puntero), `SOP_credible_enough.html` y `SOP_bloque5_por_universidad.md` (Zylberberg ✓), `_CONTEXTO.md`, `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`

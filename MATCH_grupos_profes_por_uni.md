@@ -319,3 +319,37 @@ Quedan sin matchear, en orden de prioridad según el ranking del Excel:
 4. **Southampton:** el fit está resuelto, lo que falta es el financiamiento. Presidential International re-verificada el 8-sep, sigue sin abrir para 2027 entry; ventana esperada en octubre.
 5. **Re-chequear también el nombre del instituto, no sólo el del profesor.** El 10-sep se encontró el segundo caso del proyecto: el **FGN-HSG pasó a llamarse ERP-HSG**. Un instituto mal nombrado en la carta se lee igual de mal que un profesor que ya se fue.
 6. **HSG antes de enviar:** confirmar que **Lechner** no haya emeritado (está en HSG desde fines de los noventa) y leer en alemán la ficha de **Kai Gehring**, que llegó en agosto de 2026 y todavía no tiene página en inglés.
+
+---
+
+# BIRMINGHAM (25-sep-2026)
+
+Verificado contra la [página de investigación del departamento](https://www.birmingham.ac.uk/about/college-of-social-sciences/department-of-economics/economics-research) y los perfiles individuales el 25-sep-2026. **El MSc Economics tiene tres especializaciones, y ninguna es de macro:** Behavioural and Experimental, Development y Environmental and Natural Resource Economics. Manuel eligió el **MSc Economics** y el **ángulo experimental (B)** para el bloque 5. El ángulo ambiental/satelital (Strobl, City-REDI) se descartó: no es lo que quiere hacer.
+
+## Los cuatro que pidió Manuel
+
+| Profe | Cargo | Qué hace | Fit |
+|---|---|---|---|
+| **Siddhartha Bandyopadhyay** | Professor of Economics; director del Centre for Crime, Justice and Policing | Economía política y política pública. *"Is an expert at quantitative evaluation and has led several evaluations"*: pilot trials para el Youth Endowment Fund, evaluación de impacto de una intervención policial contra la violencia doméstica (2023). Armó un curso de posgrado de **economic evaluation** y capacita a policías y otros practitioners. | ★★★ evaluación de política pública en serio, y enseña a los que la encargan. **Va en la carta.** |
+| **Apurav Yash Bhatiya** | Associate Professor | Economía aplicada: economía política, desarrollo, laboral. **Experimento en India con Imbert y Rathelot** sobre cómo la información sobre empleos cambia la inscripción a formación vocacional (2024 y 2026); elecciones sincronizadas y saliencia partidaria. Miembro del grupo experimental (BEEG) y del de desarrollo (TEDE). | ★★★ experimentos de campo aplicados a política. **Va en la carta.** |
+| **Ralph Bailey** | Associate Professor | *"Economic theory; quantitative methods; philosophy of research and enquiry."* "Human economists and abstract methodology" (2012), econometría de near-integration (2007), ARMA (Econometric Theory 2007). Hoy figura sobre todo en el grupo de investigación pedagógica (ERiE). | ★★ conecta con el bloque 2 (epistemología, Weisman), pero investiga poco hoy. **Alternativa si se quiere reforzar el lado filosófico.** |
+| **Aditya Goenka** | Chair in Economics; co-líder del grupo de Economic Theory; co-director de PhD | Equilibrio general dinámico, fluctuaciones, crecimiento, **economía epidemiológica** (lockdowns óptimos, SIR), contaminación, microfinanzas. | ★ teoría pura, lejos de la identificación. No va. |
+
+## El que va en la carta y no estaba en la lista
+
+- **Michalis Drouvelis**, Professor of Behavioural Economics y co-director del grupo experimental (BEEG/BEEL). Experimentos de cooperación y preferencias sociales. **Hace replicaciones** (Proto-Rustichini-Sofianos, EER 2025; *"Reciprocity and the tragedies of the commons: a replication"*, Economic Inquiry 2025) y **co-editó con Brodeur el simposio sobre reproducibilidad y replicabilidad en economía** (Economic Inquiry 2025). Es el hook del hook de la carta: "cuánto cuesta hacer que algo parezca verdad". ★★★
+
+## Otros que sirven para los tracks
+
+- **Oleksandr (Sasha) Talavera**, macro y finanzas: *"online prices, social media, online vacancies, **central bank communication**"*. El mejor puente al endgame BCRA en todo Birmingham. Además hace big data, como el trabajo de Bunge.
+- **Kaushik Mitra**, líder del grupo de Macroeconomics and Finance: adaptive learning, *"Price level targeting with evolving credibility"*, forward guidance. Fue la opción A (credibilidad y expectativas).
+- **Roger Backhouse**: *"History of empirical macroeconomics"*. Es la historia intelectual del debate Sims vs. Angrist-Pischke que la carta usa en el bloque 6.
+- **Eric Melander**: historia económica cuantitativa (el ángulo cliométrico de Warwick y Glasgow).
+- **James Rockey**: economía política y desigualdad. **Livia Menezes**: crimen, educación, salud, laboral (micro aplicada).
+- **Econometría (GREADS):** Anindya Banerjee (modelos de factores, **SVAR con parámetros cambiantes en el tiempo**), Marco Barassi (series no estacionarias, cambio estructural), Yongli Wang (pronóstico con quiebres).
+- **Raffaele Rossi**: macro, finanzas públicas, efectos macro de cambios impositivos. Fue la opción fiscal.
+
+## Descartados para la carta
+
+- **Christoph Görtz**: shocks monetarios con instrumentos externos en el Reino Unido, un fit excelente, pero hoy figura como **Honorary Research Fellow**.
+- **Strobl / City-REDI**: descartados por Manuel (no es su línea).

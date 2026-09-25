@@ -52,13 +52,24 @@ Santiago Montoya-Blandón's teaching and research in applied and Bayesian econom
 
 The Applied Economics cluster would be my home in the programme. I want to leave Glasgow able to ask of any regional policy in Argentina what Trew asks of the Industrial Revolution: what would have happened otherwise, and how we can know.
 
-## Birmingham — MSc Economics
+## Birmingham — MSc Economics · Behavioural and Experimental
 
-Ángulo: política fiscal: la otra mitad de la macro. Profes: Rossi ✓ · Banerjee ✓ (25 sep). 182 palabras.
+Ángulo: experimentos: el diseño que no deja nada librado a la calibración. Profes: Drouvelis ✓ · Bhatiya ✓ · Bandyopadhyay ✓ (25 sep). 186 palabras.
+
+The cleanest answer to my question is the one where the researcher controls the variation. Birmingham is the programme where I could learn to build that kind of evidence from the ground up, through the Behavioural and Experimental specialism and the work of the Birmingham Experimental Economics Laboratory.
+
+What draws me most is that the group asks the question twice. Michalis Drouvelis designs experiments on cooperation and social preferences, and he has also replicated other researchers' results and co-edited a symposium on reproducibility in economics. A finding that holds once is a claim. A finding that holds when someone else tries to break it is evidence, which is the distinction my whole application rests on.
+
+Apurav Bhatiya takes the method into the field, with experimental evidence on how information about jobs changes young people's take-up of vocational training in India. Siddhartha Bandyopadhyay runs impact evaluations of public programmes and teaches economic evaluation to the practitioners who commission them. Between them, they cover the whole path I want to learn: from a controlled design, to a result that survives replication, to a decision someone can act on.
+
+## Birmingham — versiones descartadas (guardadas por si se vuelve atrás)
+
+**Fiscal (Rossi + Banerjee), 25-sep, descartada por Manuel.**
 
 Most of the debate about whether macroeconomics can be identified is about monetary policy. In Argentina the harder question is usually fiscal: what a tax change or a spending rule actually does to output and prices, as opposed to what the budget speech says it will do. Birmingham is where I would learn to answer it.
 
-Raffaele Rossi's work sits exactly on that line. His research with Nguyen and Onnis on the macroeconomic effects of income and consumption tax changes separates the effect of the policy from the circumstances that prompted it, and his work on fiscal rules and on monetary and fiscal interaction asks the design questions a Ministry of Economy faces. ⚠️ [NEED · confirmar la estrategia de identificación del paper antes de enviar] Anindya Banerjee's econometrics of non-stationary time series supplies the discipline that makes those estimates trustworthy when the data are as persistent as Argentine inflation.
+Raffaele Rossi's work sits exactly on that line. His research with Nguyen and Onnis on the macroeconomic effects of income and consumption tax changes separates the effect of the policy from the circumstances that prompted it, and his work on fiscal rules and on monetary and fiscal interaction asks the design questions a Ministry of Economy faces. ⚠️ [confirmar la estrategia de identificación] Anindya Banerjee's econometrics of non-stationary time series supplies the discipline that makes those estimates trustworthy when the data are as persistent as Argentine inflation.
 
 I want the MSc to give me the tools to take a fiscal claim apart the way I learned to take apart a trading-floor rule, and Birmingham is the programme where fiscal policy is treated as an empirical question rather than only a theoretical one.
 
+**Ambiental y satelital (Strobl + City-REDI), 25-sep, descartada por Manuel:** no es lo que quiere hacer.

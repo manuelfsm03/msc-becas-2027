@@ -131,3 +131,11 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 - **Nuevo orden de prioridades** tras perder el DAAD: HSG MEcon (abre 1-oct) → Inova/UK → cartas de referencia (ahora las apuran HSG e Inova, no el DAAD) → IELTS → Banco de España (~feb).
 
 → Tocados: `SEGUIMIENTO_DIARIO.md` (Novedades), `DAAD_STUDY_SCHOLARSHIP_dossier.md` (aviso de corrección), `NODO_MAESTRO_MSC_2027.md` (línea del DAAD y radar 2028), `_BITACORA.md`
+
+## 2026-09-25 (cont.)
+
+- **HSG MEcon pasa a ser el foco total.** Leída la página oficial de admisión completa y el Fact Sheet de traducciones. Nuevo archivo `HSG_MECON_plan_aplicacion.md`. Lo que cambia respecto de lo que suponía el proyecto: (1) sin GRE el promedio pesa 50%; (2) **no piden cartas de recomendación ni certificado de inglés**, así que las cartas dejan de ser urgentes para HSG y siguen siéndolo solo para Inova; (3) el 30% de la evaluación son extracurriculares **con comprobantes**; (4) piden también el **título secundario** traducido, que no estaba en el radar; (5) las traducciones hechas fuera de Suiza necesitan autenticación por la universidad de origen, por el consulado o con apostilla. Con pasaporte español se sigue pasando por la selección de extranjeros, pero ese pasaporte es el que habilita Best Talents.
+- **Objetivo: 1ª ronda** (1-oct al 30-nov, decisión antes del 31-dic-2026). El camino crítico son el analítico y el título de FCE-UBA con traducción.
+- Lechner sigue listado como profesor en la página oficial de HSG (25-sep). No se encontró fecha de retiro; la carta lo nombra junto con Koeniger.
+
+→ Tocados: `HSG_MECON_plan_aplicacion.md` (nuevo), `_CONTEXTO.md` (fila nueva y aviso en la fila del DAAD), `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`

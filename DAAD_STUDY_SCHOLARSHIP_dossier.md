@@ -1,5 +1,8 @@
 # DAAD Study Scholarship (másters, todas las disciplinas) + mapa de MSc Economics en Alemania — dossier
 
+> ⛔ **CORRECCIÓN 25-sep-2026: este dossier se equivocó en lo central.** La ficha oficial (https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026200, leída 25-sep-2026) tiene una lista cerrada de países de residencia desde donde se puede aplicar y **Argentina no está**. El "país" es el de residencia, no el pasaporte, así que la ciudadanía española tampoco abre la puerta. **Study Scholarship ❌ para Manuel.** Las alternativas con Argentina en la lista (Helmut Schmidt/PPGG y EPOS) no sirven para 2027: Helmut Schmidt cerró el 31-jul-2026 y EPOS exige ≥2 años de experiencia post-título. El mapa de programas alemanes (§2) sigue valiendo si se financia por otra vía.
+
+
 > Verificado el 25-ago-2026 contra fuentes oficiales: `daad.de`, `www2.daad.de` (base de datos de becas, entrada oficial del programa), `daad-argentina.org`. Responde dos preguntas: (1) si el pasaporte español bloquea o condiciona la aplicación — como pasó con la Caixa, GREAT España, Ireland Fellows y Stipendium Hungaricum — y (2) qué programas de MSc Economics/afines en Alemania (más allá de Bonn/Mannheim/Goethe MMF, ya evaluados) tienen mejor fit con el perfil.
 > Estado anterior en el nodo maestro: **✅ ⭐ (deadline ~31-oct-2026, sin verificar el punto de nacionalidad UE)**. Estado después de esta barrida: **✅ CONFIRMADA sin restricción de nacionalidad — es la única beca "para países en desarrollo/todo el mundo" del proyecto donde el pasaporte español NO genera conflicto.**
 

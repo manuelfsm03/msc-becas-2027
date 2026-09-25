@@ -125,5 +125,6 @@ Append-only, lo más nuevo abajo. Sirve para responder "¿cuándo cambió esto y
 
 - **Rotary descartado** por decisión de Manuel.
 - **GRE: en principio no** (sin tiempo para prepararlo). HSG queda sólo MEcon (MiQE/F exige GRE), se disuelve la propuesta de reparto de cartas entre las dos, y salen Tinbergen y LSE. Oxbridge, CEMFI y PSE/TSE siguen posibles sin GRE, aunque sin ese plus.
+- **DAAD Study Scholarship ❌, error del dossier del 25-ago.** Manuel detectó que Argentina no está en la lista de países de la ficha oficial; releída el 25-sep y confirmado: la lista es de país de residencia (incluye España, pero no cuenta el pasaporte). El dossier había tomado el ejemplo de doble nacionalidad como prueba de elegibilidad sin mirar la lista de la ficha. Revisadas las alternativas que propuso Manuel: **Helmut Schmidt/PPGG** incluye Argentina y tiene Development Studies y Governance and Public Policy en Passau, pero la convocatoria 2027 cerró el 31-jul-2026 (fecha tomada de agregadores y coherente con la selección de oct/nov-2026 que publica la convocatoria oficial) → queda para 2028. **EPOS** también incluye Argentina (Göttingen MSc Development Economics), pero exige ≥2 años de experiencia post-título (§2 bis del nodo). El mail al DAAD ya no se manda.
 
-→ Tocados: `SEGUIMIENTO_DIARIO.md` (Novedades), `_BITACORA.md`
+→ Tocados: `SEGUIMIENTO_DIARIO.md` (Novedades), `DAAD_STUDY_SCHOLARSHIP_dossier.md` (aviso de corrección), `NODO_MAESTRO_MSC_2027.md` (línea del DAAD), `_BITACORA.md`

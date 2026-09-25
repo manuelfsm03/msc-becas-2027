@@ -10,6 +10,7 @@
 - 25-sep: analítico oficial FCE-UBA en trámite (confirmado) y traductora pública ya contactada: traduce el analítico apenas salga. Tildar "conseguir traductor" (mail #4 ya no hace falta); queda pendiente fecha de entrega del analítico y presupuesto/plazo de la traducción.
 - 25-sep: Rotary Global Grant NO va (descartado). Sacar el mail al distrito del foco.
 - 25-sep: GRE en principio NO (no hay tiempo para estudiarlo). Consecuencia: HSG se aplica sólo a MEcon (MiQE/F exige GRE) y se cae la propuesta de reparto de cartas MEcon/MiQE/F; Tinbergen y LSE quedan afuera.
+- 25-sep: DAAD Study Scholarship DESCARTADA: Argentina no está en la lista de países de la ficha oficial (el dossier del 25-ago estaba mal). No mandar el mail al DAAD; sacar el DAAD y sus tareas (plan de estudios, carta, CV formato DAAD) de la lista y el cierre del 30-oct. Helmut Schmidt (sí incluye Argentina) cerró el 31-jul-2026; EPOS pide 2 años de experiencia post-título.
 
 ## 🎯 Foco de hoy
 

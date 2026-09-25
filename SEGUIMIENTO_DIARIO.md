@@ -11,6 +11,7 @@
 - 25-sep: Rotary Global Grant NO va (descartado). Sacar el mail al distrito del foco.
 - 25-sep: GRE en principio NO (no hay tiempo para estudiarlo). Consecuencia: HSG se aplica sólo a MEcon (MiQE/F exige GRE) y se cae la propuesta de reparto de cartas MEcon/MiQE/F; Tinbergen y LSE quedan afuera.
 - 25-sep: DAAD Study Scholarship DESCARTADA: Argentina no está en la lista de países de la ficha oficial (el dossier del 25-ago estaba mal). No mandar el mail al DAAD; sacar el DAAD y sus tareas (plan de estudios, carta, CV formato DAAD) de la lista y el cierre del 30-oct. Helmut Schmidt (sí incluye Argentina) cerró el 31-jul-2026; EPOS pide 2 años de experiencia post-título.
+- 25-sep: EPOS ❌ también para 2028 (egreso dic-2025: los 2 años se cuentan al postular, ~ago-oct 2027 daría ~1a 8-10m; no se pide excepción). Plan B 2028: DAAD Helmut Schmidt (postulación ~31-jul-2027; experiencia práctica relevante, mínimo 1 año en Erfurt/Duisburg, Passau sin confirmar). Agregar al radar. Nuevo orden de foco: HSG MEcon → Inova/UK → cartas de referencia → IELTS → Banco de España.
 
 ## 🎯 Foco de hoy
 

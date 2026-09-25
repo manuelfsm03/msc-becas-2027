@@ -154,6 +154,7 @@ Informe: **`BECAS_nordicos_y_reevaluaciones.md`**. Síntesis:
 
 - **Nórdicos:** ninguna beca clásica aplica (todas financian a non-EU fee-payers; Manuel ya paga 0 de matrícula). El mecanismo real es el estatus de **estudiante-trabajador EU**: en **Dinamarca, SU ~DKK 7.000+/mes con trabajo formal de 10-12 h/sem** (sostenido 10 semanas antes y durante) → **Aarhus autofinanciable**. Ranking del bloque: Dinamarca > Finlandia (vida barata) > Suecia/SSE (prestigio, caro) > Noruega. Islandia fuera.
 - **DAAD Study Scholarship confirmada: deadline 30-oct-2026**, funding oct-2027, título ≤6 años → la pieza que vuelve full el plan Alemania.
+- ⛔ **25-sep-2026: EPOS ❌ para 2027 y 2028** (egreso dic-2025; los 2 años se cuentan al postular). **Plan B 2028: DAAD Helmut Schmidt/PPGG** (Argentina elegible; Passau Development Studies / Governance and Public Policy, Erfurt Public Policy; postulación ~31-jul-2027; experiencia práctica relevante, mín. 1 año en Erfurt/Duisburg).
 - **EPOS con alerta:** exige ≥2 años de experiencia POST-título (verificar contra fecha de egreso); curso estrella T2: HTW Berlin MIDE, **deadline 31-ago-2026**; máx. 3 cursos por ciclo.
 - **ESKAS ❌ definitivo para máster** (solo research/PhD desde 2027-28; guardar para el PhD). SISGP y ARES ratificadas ❌ para el ciclo nuevo.
 - **Stipendium Hungaricum sube a ⚠️:** Argentina confirmada como sending partner (bilateral + SEGIB), deadline 15-ene-2027, pero requiere **nominación del Ministerio de Educación argentino** — averiguar proceso local.

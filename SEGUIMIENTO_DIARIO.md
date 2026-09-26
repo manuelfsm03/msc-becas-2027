@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 25-sep-2026, 18:50 · turno noche
+> **Última actualización:** 26-sep-2026, 08:25 · turno mañana
 
 ## ✍️ Novedades
 
@@ -11,29 +11,29 @@
 
 ## 🎯 Foco de hoy
 
-1. **Antes de dormir, escribile a la traductora**: plazo y presupuesto para sumar el secundario a la traducción del analítico y el título, y si hace falta apostilla o autenticación. Es sólo mandar el mensaje.
-2. **Mañana a primera hora, preguntá en FCE-UBA la fecha de salida del analítico**: es el camino crítico de HSG y de Inova.
-3. **Mañana a primera hora, llamá a Fabiola**: viene de muchas corridas sin confirmarse. Si no atiende, dejale un audio de WhatsApp pidiendo 5 minutos de llamada, no reintentes la llamada sola otra vez.
+1. **Llamá a Fabiola a primera hora**: lleva 4 mañanas seguidas en este Foco sin confirmarse. Si no atiende, mandale ya el audio de WhatsApp pidiendo 5 minutos de llamada — no la sigas reintentando sola, si tampoco responde el audio en un par de días hay que pensar otro canal (alguien más de Inova).
+2. **Escribile a la traductora**: no consta que se haya mandado el mensaje de anoche. Plazo y presupuesto para sumar el secundario a la traducción del analítico y el título, y si hace falta apostilla o autenticación. Se puede mandar hoy sábado, es un mensaje.
+3. **Juntá las constancias de las actividades extracurriculares**: pesan 30% de la evaluación de HSG y piden comprobante; es trabajo de escritorio que se hace desde casa el fin de semana.
 
-Anotá en Novedades qué de esto dejaste hecho hoy (traductora, fecha del analítico, Fabiola) para que la próxima corrida lo tilde.
+La pregunta a FCE-UBA por la fecha del analítico queda para el lunes, día hábil. Anotá en Novedades qué de esto dejaste hecho (Fabiola, traductora, constancias) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
 | Fecha | Qué | Faltan | Nota |
 |---|---|---|---|
-| **1-oct-2026** ⚠️ | **Abre HSG St. Gallen (MEcon)** | **6 días** | Aplicar temprano: Best Talents exige estar admitido. Objetivo: 1ª ronda (postular antes del 30-nov, decisión antes del 31-dic) |
+| **1-oct-2026** ⚠️ | **Abre HSG St. Gallen (MEcon)** | **5 días** | Aplicar temprano: Best Talents exige estar admitido. Objetivo: 1ª ronda (postular antes del 30-nov, decisión antes del 31-dic) |
 | oct-2026 | Chequeo de Southampton Presidential | ~3-6 semanas | Define los slots 4 y 5 de Inova |
-| 1 al 30-nov-2026 | ETH ESOP | 37 días | Sólo si entra el track quant-finance |
+| 1 al 30-nov-2026 | ETH ESOP | 36 días | Sólo si entra el track quant-finance |
 | nov-2026 | Reabre el portal de HSG Best Talents | ~6 semanas | Adjudicación rolling: aplicar temprano |
 | ~mediados dic-2026 | Salen las bases 2027-28 del Banco de España | ~3 meses | Ahí va el mail con las 3 preguntas (pendiente 9 del nodo) |
-| 15-dic-2026 | EPFL Excellence, 1ª ronda | 81 días | Fit parcial, sin MSc Econ |
-| 15-ene-2027 | Stipendium Hungaricum | 112 días | Prioridad baja |
-| 31-ene-2027 | CEMFI, funding propio | 128 días | |
-| **~18-feb-2027** | **Banco de España** | **~146 días** | La mejor beca del mapa |
-| ~23-feb-2027 | Rafael del Pino | ~151 días | |
+| 15-dic-2026 | EPFL Excellence, 1ª ronda | 80 días | Fit parcial, sin MSc Econ |
+| 15-ene-2027 | Stipendium Hungaricum | 111 días | Prioridad baja |
+| 31-ene-2027 | CEMFI, funding propio | 127 días | |
+| **~18-feb-2027** | **Banco de España** | **~145 días** | La mejor beca del mapa |
+| ~23-feb-2027 | Rafael del Pino | ~150 días | |
 | feb-2027 | Ramón Areces · Carolina | ~5 meses | |
-| 31-mar-2027 | HSG MEcon | 187 días | GRE opcional |
-| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 217 días | |
+| 31-mar-2027 | HSG MEcon | 186 días | GRE opcional |
+| 30-abr-2027 | UNIL · HSG MiQE/F · MIME Basilea | 216 días | |
 
 ## 📋 Tareas abiertas
 
@@ -102,8 +102,6 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 
 ## Registro de corridas
 
-- 19-sep-2026 mañana · sin novedades cargadas, HSG pasa a Esta Semana (abre en 12 días), DAAD armado pero se manda el lunes por ser sábado, foco: turno de GRE en ETS / WhatsApp a Fabiola / decidir Rotary
-- 19-sep-2026 noche (18:51) · sin novedades cargadas, mismo foco: WhatsApp a Fabiola y chequear turno de GRE esta noche / decidir Rotary / DAAD sigue para el lunes
 - 20-sep-2026 mañana · sin novedades cargadas, Fabiola trabada 3ª corrida de mañana seguida (se propone mensaje corto) / turno de GRE en ETS / decidir Rotary hoy, distrito mañana / DAAD sigue para el lunes
 - 20-sep-2026 noche (18:50) · sin novedades cargadas, mismo foco: mensaje corto a Fabiola y turno de GRE esta noche / decidir Rotary antes de dormir / DAAD sigue para el lunes
 - 21-sep-2026 mañana · sin novedades cargadas, Fabiola trabada 4ª corrida de mañana seguida pese al mensaje corto, Rotary sin decidir anoche, foco: mandar DAAD hoy lunes / decidir Rotary ya / WhatsApp a Fabiola ya
@@ -116,3 +114,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 24-sep-2026 noche (18:51) · sin novedades cargadas, DAAD sigue trabado sin confirmar si salió / mail a Rotary esta noche si no salió / Fabiola pasa a llamada a primera hora de mañana
 - 25-sep-2026 mañana · sin novedades cargadas, DAAD trabado 5ª corrida de mañana seguida (partido en tarea de 2 min: completar y enviar ya) / mail al distrito por Rotary hoy, quedan 5 días de septiembre / Fabiola: llamarla hoy, 3ª mañana seguida sin confirmar
 - 25-sep-2026 noche (18:50) · DAAD y Rotary descartados, GRE decidido que no: foco pasa entero a HSG MEcon. Traductora (secundario + plazo) esta noche / fecha del analítico en FCE mañana / Fabiola llamada mañana (sigue trabada)
+- 26-sep-2026 mañana (sábado) · sin novedades cargadas, Fabiola trabada 4ª mañana seguida (llamada + audio de WhatsApp, si tampoco funciona pensar otro canal) / traductora sigue sin confirmarse, mandar el mensaje hoy / constancias de extracurriculares hoy desde casa / FCE-UBA por el analítico pasa al lunes

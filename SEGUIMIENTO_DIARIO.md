@@ -2,7 +2,7 @@
 
 > El recordatorio automático reescribe esta lista todos los días a las 8:30 y a las 19:00. Para eso lee este archivo, el `NODO_MAESTRO` y la bitácora. Vos la podés tocar cuando quieras: tildá `[x]` lo que hiciste, o anotá una línea en **Novedades** ("mandé el mail al DAAD", "el analítico sale el 25") y la próxima corrida lo incorpora.
 >
-> **Última actualización:** 26-sep-2026, 08:25 · turno mañana
+> **Última actualización:** 26-sep-2026, 18:51 · turno noche
 
 ## ✍️ Novedades
 
@@ -11,11 +11,11 @@
 
 ## 🎯 Foco de hoy
 
-1. **Llamá a Fabiola a primera hora**: lleva 4 mañanas seguidas en este Foco sin confirmarse. Si no atiende, mandale ya el audio de WhatsApp pidiendo 5 minutos de llamada — no la sigas reintentando sola, si tampoco responde el audio en un par de días hay que pensar otro canal (alguien más de Inova).
-2. **Escribile a la traductora**: no consta que se haya mandado el mensaje de anoche. Plazo y presupuesto para sumar el secundario a la traducción del analítico y el título, y si hace falta apostilla o autenticación. Se puede mandar hoy sábado, es un mensaje.
-3. **Juntá las constancias de las actividades extracurriculares**: pesan 30% de la evaluación de HSG y piden comprobante; es trabajo de escritorio que se hace desde casa el fin de semana.
+1. **Escribile ya a la traductora**: plazo y presupuesto para sumar el secundario a la traducción del analítico y el título, y si hace falta apostilla o autenticación — es un mensaje corto, mandalo antes de dormir.
+2. **Mandale el audio de WhatsApp a Fabiola esta noche**: lleva 4 mañanas seguidas sin confirmarse, no esperes más a que atienda la llamada — pedile 5 minutos de charla.
+3. **Mañana a primera hora, juntá las constancias de las actividades extracurriculares**: pesan 30% de la evaluación de HSG y piden comprobante, es trabajo de escritorio que se hace desde casa.
 
-La pregunta a FCE-UBA por la fecha del analítico queda para el lunes, día hábil. Anotá en Novedades qué de esto dejaste hecho (Fabiola, traductora, constancias) para que la próxima corrida lo tilde.
+La pregunta a FCE-UBA por la fecha del analítico sigue para el lunes, día hábil. Anotá en Novedades qué de esto dejaste hecho (traductora, Fabiola, constancias) para que la próxima corrida lo tilde.
 
 ## ⏳ Próximos cierres
 
@@ -115,3 +115,4 @@ Estas cosas estaban agendadas para agosto y el proyecto no registra si se hicier
 - 25-sep-2026 mañana · sin novedades cargadas, DAAD trabado 5ª corrida de mañana seguida (partido en tarea de 2 min: completar y enviar ya) / mail al distrito por Rotary hoy, quedan 5 días de septiembre / Fabiola: llamarla hoy, 3ª mañana seguida sin confirmar
 - 25-sep-2026 noche (18:50) · DAAD y Rotary descartados, GRE decidido que no: foco pasa entero a HSG MEcon. Traductora (secundario + plazo) esta noche / fecha del analítico en FCE mañana / Fabiola llamada mañana (sigue trabada)
 - 26-sep-2026 mañana (sábado) · sin novedades cargadas, Fabiola trabada 4ª mañana seguida (llamada + audio de WhatsApp, si tampoco funciona pensar otro canal) / traductora sigue sin confirmarse, mandar el mensaje hoy / constancias de extracurriculares hoy desde casa / FCE-UBA por el analítico pasa al lunes
+- 26-sep-2026 noche (18:51) · sin novedades cargadas, ningún ítem de la mañana se confirmó hecho: traductora y audio a Fabiola esta noche antes de dormir / constancias mañana a primera hora / FCE-UBA sigue para el lunes
